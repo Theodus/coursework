@@ -1,24 +1,60 @@
 digraph Classes {
 
-  { node [color=green]
-    "CIVC 101"
-    "UNIV 101"
-    "ENGL 101" "ENGL 102"
-    "ENGR 100"
-    "CHEM 101" "CHEM 102"
-    "ENGR 101" "ENGR 102"
-    "ENGR 121" "ENGR 122"
-    "MATH 121" "MATH 122"
-    "PHYS 101"
+  { node [shape=plaintext]
+    "freshman 1" ->
+    "freshman 2" ->
+    "freshman 3" ->
+    "sophomore 1" ->
+    "future"
   }
 
+  { node [color=green]
+    { rank=same "freshman 1"
+      "UNIV 101"
+      "ENGL 101"
+      "ENGR 100"
+      "CHEM 101"
+      "ENGR 101"
+      "ENGR 121"
+      "MATH 121"
+    }
+    { rank=same "freshman 2"
+      "CIVC 101"
+      "ENGL 102"
+      "CHEM 102"
+      "ENGR 102"
+      "ENGR 122"
+      "MATH 122"
+      "PHYS 101"
+    }
+  }
   { node [color=orange]
-    "ENGL 103"
-    "ENGR 103"
-    "BIO 141"
-    "COOP 101"
-    "PHYS 102"
-    "MATH 200"
+    { rank=same "freshman 3"
+      "ENGL 103"
+      "ENGR 103"
+      "BIO 141"
+      "COOP 101"
+      "PHYS 102"
+      "MATH 200"
+    }
+  }
+  { rank=same "sophomore 1"
+    "ENGR 231"
+    "PHYS 201"
+    "ENGR 220"
+    "ECE 200"
+    "ENGR 201"
+  }
+  { rank=same "future"
+    "ECE 203"
+    "ECE 201"
+
+    "INFO 101"
+    "CT 210"
+    "CT 412"
+    "CT 395"
+    "CT 393"
+    "CT 415"
   }
 
   // General Education/Liberal Studies
@@ -34,7 +70,7 @@ digraph Classes {
   "CHEM 101" -> "CHEM 102"
   "PHYS 101" -> "PHYS 102" -> "PHYS 201"
   "PHYS 102" -> "ECE 201"
-  "MATH 121" -> "MATH 122" -> "MATH 200" -> "ENGR231"
+  "MATH 121" -> "MATH 122" -> "MATH 200" -> "ENGR 231"
   "ENGR 101" -> "ENGR 102" -> "ENGR 103" -> "ECE 200" -> "MATH 221"
   "ECE 203"
   {"MATH 122" "PHYS 101" "ENGR 103"} -> "ENGR 201" -> "ENGR 202"
@@ -54,4 +90,18 @@ digraph Classes {
   "ECE 203" -> "ECEC 357"
   {"ENGR 103" "ECE 200" "ECE 201"} -> "ECEL 301" -> "ECEL 302" -> "ECEL 303"
   {"ENGR 232" "ECE 201"} -> "ECES 301"
+
+  // Minor in Security Technology
+
+  node [shape=box]
+  "INFO 101" -> "CT 140"
+  "CT 210"
+  "CT 412"
+  "CT 395" -> "CT 420" -> "CT 312"
+
+  { node [shape=box, color=red]
+    "CT 420" -> "CT 362"
+    "CT 393"
+    "CT 415"
+  }
 }
