@@ -6,9 +6,10 @@ orange = currently taking
 black = not taken
 
 shape:
-ellipse = fixed degree requirement
+ellipse = fixed major degree requirement
 diamond = free elective
 hexagon = general education elective
+box = minor degree requirement
 
 */
 
@@ -20,8 +21,8 @@ digraph Classes {
     "freshman 3 (17.5)" ->
     "sophomore 1 (20)" ->
     "sophomore 2 (18)" ->
-    "pre-junior 1 ()" ->
-    "pre-junior 2 ()" ->
+    "pre-junior 1 (20)" ->
+    "pre-junior 2 (19)" ->
     "junior 1 ()" ->
     "junior 2 ()" ->
     "senior 1 ()" ->
@@ -81,22 +82,24 @@ digraph Classes {
     "ECEC 301"
     "INFO 101" [shape=box]
   }
-  { rank=same "pre-junior 1 ()"
+  { rank=same "pre-junior 1 (20)"
     "ECES 301"
     "ECEC 302"
     "ECEL 301"
+    "ECEC 357"
+    "CT 140" [shape=box]
     "PHIL 111" [shape=hexagon]
   }
-  { rank=same "pre-junior 2 ()"
+  { rank=same "pre-junior 2 (19)"
     "ECEC 304"
     "ECEC 355"
     "ECEL 302"
     "PHIL 315"
+    "CS 265"
+    "PHIL 207" [shape=hexagon]
   }
   { rank=same "junior 1 ()"
     "ECEC 356"
-    "ECEC 357"
-    "CS 265"
     "ECEL 303"
     "ECE 361"
   }
@@ -114,14 +117,12 @@ digraph Classes {
   }
   { rank=same "senior 2 ()"
     "ECE 492"
-    "PHIL 207" [shape=hexagon]
   }
   { rank=same "senior 3 ()"
     "ECE 493"
     "PHIL 395" [shape=hexagon]
   }
   { rank=same "unknown"
-    "CT 140" [shape=box]
     "CT 210" [shape=box]
     "CT 412" [shape=box]
     "CT 395" [shape=box]
