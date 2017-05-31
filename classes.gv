@@ -1,15 +1,37 @@
+/* Key:
+
+color:
+green = already taken
+orange = currently taking
+black = not taken
+
+shape:
+ellipse = fixed degree requirement
+diamond = free elective
+hexagon = general education elective
+
+*/
+
 digraph Classes {
 
   { node [shape=plaintext]
-    "freshman 1" ->
-    "freshman 2" ->
-    "freshman 3" ->
-    "sophomore 1" ->
-    "future"
+    "freshman 1 (16.5)" ->
+    "freshman 2 (19.5)" ->
+    "freshman 3 (17.5)" ->
+    "sophomore 1 (20)" ->
+    "sophomore 2 (18)" ->
+    "pre-junior 1 ()" ->
+    "pre-junior 2 ()" ->
+    "junior 1 ()" ->
+    "junior 2 ()" ->
+    "senior 1 ()" ->
+    "senior 2 ()" ->
+    "senior 3 ()" ->
+    "unknown"
   }
 
   { node [color=green]
-    { rank=same "freshman 1"
+    { rank=same "freshman 1 (16.5)"
       "UNIV 101"
       "ENGL 101"
       "ENGR 100"
@@ -17,8 +39,13 @@ digraph Classes {
       "ENGR 101"
       "ENGR 121"
       "MATH 121"
+
+      // AP Credit
+      "CS 190" [shape=diamond]
+      "TGFE 099" [shape=diamond]
+      "SPAN 101" [shape=hexagon]
     }
-    { rank=same "freshman 2"
+    { rank=same "freshman 2 (19.5)"
       "CIVC 101"
       "ENGL 102"
       "CHEM 102"
@@ -29,7 +56,7 @@ digraph Classes {
     }
   }
   { node [color=orange]
-    { rank=same "freshman 3"
+    { rank=same "freshman 3 (17.5)"
       "ENGL 103"
       "ENGR 103"
       "BIO 141"
@@ -38,23 +65,71 @@ digraph Classes {
       "MATH 200"
     }
   }
-  { rank=same "sophomore 1"
+  { rank=same "sophomore 1 (20)"
     "ENGR 231"
     "PHYS 201"
     "ENGR 220"
     "ECE 200"
     "ENGR 201"
-  }
-  { rank=same "future"
     "ECE 203"
+  }
+  { rank=same "sophomore 2 (18)"
+    "ENGR 232"
+    "MATH 221"
     "ECE 201"
-
-    "INFO 101"
-    "CT 210"
-    "CT 412"
-    "CT 395"
-    "CT 393"
-    "CT 415"
+    "ENGR 202"
+    "ECEC 301"
+    "INFO 101" [shape=box]
+  }
+  { rank=same "pre-junior 1 ()"
+    "ECES 301"
+    "ECEC 302"
+    "ECEL 301"
+    "PHIL 111" [shape=hexagon]
+  }
+  { rank=same "pre-junior 2 ()"
+    "ECEC 304"
+    "ECEC 355"
+    "ECEL 302"
+    "PHIL 315"
+  }
+  { rank=same "junior 1 ()"
+    "ECEC 356"
+    "ECEC 357"
+    "CS 265"
+    "ECEL 303"
+    "ECE 361"
+  }
+  { rank=same "junior 2 ()"
+    "ECEC 353"
+    "CS 260"
+    "ECEL 304"
+    "ECE 391"
+    "ECON 548" [shape=hexagon]
+  }
+  { rank=same "senior 1 ()"
+    "ECE 491"
+    "ECON 610" [shape=hexagon]
+    "Independent Study" [shape=diamond]
+  }
+  { rank=same "senior 2 ()"
+    "ECE 492"
+    "PHIL 207" [shape=hexagon]
+  }
+  { rank=same "senior 3 ()"
+    "ECE 493"
+    "PHIL 395" [shape=hexagon]
+  }
+  { rank=same "unknown"
+    "CT 140" [shape=box]
+    "CT 210" [shape=box]
+    "CT 412" [shape=box]
+    "CT 395" [shape=box]
+    "CT 393" [shape=box]
+    "CT 415" [shape=box]
+    "CT 420" [shape=box]
+    "CT 312" [shape=box]
+    "CT 362" [shape=box]
   }
 
   // General Education/Liberal Studies
@@ -63,6 +138,9 @@ digraph Classes {
   "ENGL 101" -> "ENGL 102" -> "ENGL 103"
   "PHIL 315"
   "UNIV 101"
+
+  "PHIL 111" -> "PHIL 207" -> "PHIL 395"
+  "ECON 548" -> "ECON 610"
 
   // Foundation Requirements
 
@@ -84,24 +162,21 @@ digraph Classes {
   {"ENGR 202" "ENGR 231"} -> "ECE 361"
   {"ECE 391" "ECE 361"} -> "ECE 491" -> "ECE 492" -> "ECE 493"
   {"ECE 203" "ECE 200"} -> "ECEC 302"
-  {"ECE 200" "ECE 203"} -> "ECEC 304"
+  {"ECE 200" "ECE 203"} -> "ECEC 304" -> "ECEC 356"
   "CS 265" -> "ECEC 353"
   {"ECE 200" "ECEC 302"} -> "ECEC 355"
   "ECE 203" -> "ECEC 357"
-  {"ENGR 103" "ECE 200" "ECE 201"} -> "ECEL 301" -> "ECEL 302" -> "ECEL 303"
+  {"ENGR 103" "ECE 200" "ECE 201"} -> 
+    "ECEL 301" -> "ECEL 302" -> "ECEL 303" -> "ECEL 304"
   {"ENGR 232" "ECE 201"} -> "ECES 301"
 
   // Minor in Security Technology
 
-  node [shape=box]
   "INFO 101" -> "CT 140"
   "CT 210"
   "CT 412"
   "CT 395" -> "CT 420" -> "CT 312"
-
-  { node [shape=box, color=red]
-    "CT 420" -> "CT 362"
-    "CT 393"
-    "CT 415"
-  }
+  "CT 420" -> "CT 362"
+  "CT 393"
+  "CT 415"
 }
