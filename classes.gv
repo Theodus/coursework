@@ -19,9 +19,9 @@ digraph Classes {
     "freshman 1 (16.5)" ->
     "freshman 2 (19.5)" ->
     "freshman 3 (17.5)" ->
-    "sophomore 1 (20)" ->
+    "sophomore 1 (19)" ->
     "sophomore 2 (18)" ->
-    "pre-junior 1 (17)" ->
+    "pre-junior 1 (20)" ->
     "pre-junior 2 (19)" ->
     "junior 1 (12)" ->
     "junior 2 ()" ->
@@ -66,23 +66,23 @@ digraph Classes {
       "MATH 200"
     }
   }
-  { rank=same "sophomore 1 (20)"
+  { rank=same "sophomore 1 (19)"
     "ENGR 231"
     "PHYS 201"
     "ENGR 220"
     "ECE 200"
     "ENGR 201"
-    "ECE 203"
   }
   { rank=same "sophomore 2 (18)"
     "ENGR 232"
     "MATH 221"
     "ECE 201"
+    "ECE 203"
     "ENGR 202"
-    "ECEC 301"
     "PHIL 111" [shape=hexagon]
   }
-  { rank=same "pre-junior 1 (17)"
+  { rank=same "pre-junior 1 (20)"
+    "ECEC 301"
     "ECES 301"
     "ECEC 302"
     "ECEL 301"
