@@ -21,9 +21,9 @@ digraph Classes {
     "freshman 3 (17.5)" ->
     "sophomore 1 (20)" ->
     "sophomore 2 (18)" ->
-    "pre-junior 1 (20)" ->
+    "pre-junior 1 (17)" ->
     "pre-junior 2 (19)" ->
-    "junior 1 ()" ->
+    "junior 1 (12)" ->
     "junior 2 ()" ->
     "senior 1 ()" ->
     "senior 2 ()" ->
@@ -80,15 +80,14 @@ digraph Classes {
     "ECE 201"
     "ENGR 202"
     "ECEC 301"
-    "INFO 101" [shape=box]
+    "PHIL 111" [shape=hexagon]
   }
-  { rank=same "pre-junior 1 (20)"
+  { rank=same "pre-junior 1 (17)"
     "ECES 301"
     "ECEC 302"
     "ECEL 301"
     "ECEC 357"
-    "CT 140" [shape=box]
-    "PHIL 111" [shape=hexagon]
+    "PHIL 207" [shape=hexagon]
   }
   { rank=same "pre-junior 2 (19)"
     "ECEC 304"
@@ -96,16 +95,15 @@ digraph Classes {
     "ECEL 302"
     "PHIL 315"
     "CS 265"
-    "PHIL 207" [shape=hexagon]
+    "PHIL 395" [shape=hexagon]
   }
-  { rank=same "junior 1 ()"
-    "ECEC 356"
+  { rank=same "junior 1 (12)"
     "ECEL 303"
     "ECE 361"
-  }
-  { rank=same "junior 2 ()"
     "ECEC 353"
     "CS 260"
+  }
+  { rank=same "junior 2 ()"
     "ECEL 304"
     "ECE 391"
     "ECON 548" [shape=hexagon]
@@ -120,9 +118,10 @@ digraph Classes {
   }
   { rank=same "senior 3 ()"
     "ECE 493"
-    "PHIL 395" [shape=hexagon]
   }
   { rank=same "unknown"
+    "INFO 101" [shape=box]
+    "CT 140" [shape=box]
     "CT 210" [shape=box]
     "CT 412" [shape=box]
     "CT 395" [shape=box]
@@ -163,7 +162,7 @@ digraph Classes {
   {"ENGR 202" "ENGR 231"} -> "ECE 361"
   {"ECE 391" "ECE 361"} -> "ECE 491" -> "ECE 492" -> "ECE 493"
   {"ECE 203" "ECE 200"} -> "ECEC 302"
-  {"ECE 200" "ECE 203"} -> "ECEC 304" -> "ECEC 356"
+  {"ECE 200" "ECE 203"} -> "ECEC 304"
   "CS 265" -> "ECEC 353"
   {"ECE 200" "ECEC 302"} -> "ECEC 355"
   "ECE 203" -> "ECEC 357"
