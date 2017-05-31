@@ -19,15 +19,15 @@ digraph Classes {
     "freshman 1 (16.5)" ->
     "freshman 2 (19.5)" ->
     "freshman 3 (17.5)" ->
-    "sophomore 1 (19)" ->
-    "sophomore 2 (18)" ->
+    "sophomore 1 (18)" ->
+    "sophomore 2 (19)" ->
     "pre-junior 1 (20)" ->
-    "pre-junior 2 (19)" ->
-    "junior 1 (12)" ->
-    "junior 2 ()" ->
-    "senior 1 ()" ->
-    "senior 2 ()" ->
-    "senior 3 ()" ->
+    "pre-junior 2 (16)" ->
+    "junior 1 (15)" ->
+    "junior 2 (4)" ->
+    "senior 1 (11)" ->
+    "senior 2 (2)" ->
+    "senior 3 (4)" ->
     "unknown"
   }
 
@@ -66,30 +66,29 @@ digraph Classes {
       "MATH 200"
     }
   }
-  { rank=same "sophomore 1 (19)"
+  { rank=same "sophomore 1 (18)"
     "ENGR 231"
     "PHYS 201"
     "ENGR 220"
     "ECE 200"
     "ENGR 201"
   }
-  { rank=same "sophomore 2 (18)"
-    "ENGR 232"
-    "MATH 221"
+  { rank=same "sophomore 2 (19)"
     "ECE 201"
     "ECE 203"
     "ENGR 202"
+    "ENGR 232"
+    "MATH 221"
     "PHIL 111" [shape=hexagon]
   }
   { rank=same "pre-junior 1 (20)"
     "ECEC 301"
-    "ECES 301"
     "ECEC 302"
     "ECEL 301"
-    "ECEC 357"
+    "ECES 301"
     "PHIL 207" [shape=hexagon]
   }
-  { rank=same "pre-junior 2 (19)"
+  { rank=same "pre-junior 2 (16)"
     "ECEC 304"
     "ECEC 355"
     "ECEL 302"
@@ -97,26 +96,25 @@ digraph Classes {
     "CS 265"
     "PHIL 395" [shape=hexagon]
   }
-  { rank=same "junior 1 (12)"
+  { rank=same "junior 1 (15)"
+    "ECEC 357"
     "ECEL 303"
-    "ECE 361"
-    "ECEC 353"
     "CS 260"
-  }
-  { rank=same "junior 2 ()"
-    "ECEL 304"
-    "ECE 391"
+    "ECEC 353"
     "ECON 548" [shape=hexagon]
   }
-  { rank=same "senior 1 ()"
-    "ECE 491"
+  { rank=same "junior 2 (4)"
+    "ECE 391"
     "ECON 610" [shape=hexagon]
+  }
+  { rank=same "senior 1 (11)"
+    "ECE 491"
     "Independent Study" [shape=diamond]
   }
-  { rank=same "senior 2 ()"
+  { rank=same "senior 2 (2)"
     "ECE 492"
   }
-  { rank=same "senior 3 ()"
+  { rank=same "senior 3 (4)"
     "ECE 493"
   }
   { rank=same "unknown"
@@ -167,7 +165,7 @@ digraph Classes {
   {"ECE 200" "ECEC 302"} -> "ECEC 355"
   "ECE 203" -> "ECEC 357"
   {"ENGR 103" "ECE 200" "ECE 201"} -> 
-    "ECEL 301" -> "ECEL 302" -> "ECEL 303" -> "ECEL 304"
+    "ECEL 301" -> "ECEL 302" -> "ECEL 303"
   {"ENGR 232" "ECE 201"} -> "ECES 301"
 
   // Minor in Security Technology
