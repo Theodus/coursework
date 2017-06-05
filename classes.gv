@@ -19,16 +19,15 @@ digraph Classes {
     "freshman 1 (16.5)" ->
     "freshman 2 (19.5)" ->
     "freshman 3 (17.5)" ->
-    "sophomore 1 (18)" ->
-    "sophomore 2 (19)" ->
-    "pre-junior 1 (20)" ->
-    "pre-junior 2 (16)" ->
-    "junior 1 (15)" ->
-    "junior 2 (4)" ->
-    "senior 1 (11)" ->
-    "senior 2 (2)" ->
-    "senior 3 (4)" ->
-    "unknown"
+    "sophomore 1" ->
+    "sophomore 2" ->
+    "pre-junior 1" ->
+    "pre-junior 2" ->
+    "junior 1" ->
+    "junior 2" ->
+    "senior 1" ->
+    "senior 2" ->
+    "senior 3"
   }
 
   { node [color=green]
@@ -66,68 +65,59 @@ digraph Classes {
       "MATH 200"
     }
   }
-  { rank=same "sophomore 1 (18)"
-    "ENGR 231"
-    "PHYS 201"
-    "ENGR 220"
-    "ECE 200"
+  { rank=same "sophomore 1"
     "ENGR 201"
-  }
-  { rank=same "sophomore 2 (19)"
-    "ECE 201"
+    "ENGR 220"
+    "ENGR 231"
     "ECE 203"
+    "ECE 200"
+    "PHIL 111" [shape=hexagon]
+  }
+  { rank=same "sophomore 2"
+    "ECE 201"
+    "ECEC 301"
     "ENGR 202"
     "ENGR 232"
     "MATH 221"
-    "PHIL 111" [shape=hexagon]
-  }
-  { rank=same "pre-junior 1 (20)"
-    "ECEC 301"
-    "ECEC 302"
-    "ECEL 301"
-    "ECES 301"
     "PHIL 207" [shape=hexagon]
   }
-  { rank=same "pre-junior 2 (16)"
-    "ECEC 304"
-    "ECEC 355"
-    "ECEL 302"
-    "PHIL 315"
+  { rank=same "pre-junior 1"
+    "ECEC 302"
+    "ECEL 301"
+    "ECE 361"
     "CS 265"
     "PHIL 395" [shape=hexagon]
   }
-  { rank=same "junior 1 (15)"
-    "ECEC 357"
-    "ECEL 303"
+  { rank=same "pre-junior 2"
+    "ECEC 304"
+    "ECEC 355"
+    "ECEL 302"
+    "ECES 301"
     "CS 260"
     "ECEC 353"
+  }
+  { rank=same "junior 1"
+    "ECEC 357"
+    "ECEL 303"
+    "PHYS 201"
+    "PHIL 315"
+    "ECEC 413"
     "ECON 548" [shape=hexagon]
   }
-  { rank=same "junior 2 (4)"
+  { rank=same "junior 2"
     "ECE 391"
+    "ECEC 457"
     "ECON 610" [shape=hexagon]
   }
-  { rank=same "senior 1 (11)"
+  { rank=same "senior 1"
     "ECE 491"
-    "Independent Study" [shape=diamond]
+    "ECEC 432"
   }
-  { rank=same "senior 2 (2)"
+  { rank=same "senior 2"
     "ECE 492"
   }
-  { rank=same "senior 3 (4)"
+  { rank=same "senior 3"
     "ECE 493"
-  }
-  { rank=same "unknown"
-    "INFO 101" [shape=box]
-    "CT 140" [shape=box]
-    "CT 210" [shape=box]
-    "CT 412" [shape=box]
-    "CT 395" [shape=box]
-    "CT 393" [shape=box]
-    "CT 415" [shape=box]
-    "CT 420" [shape=box]
-    "CT 312" [shape=box]
-    "CT 362" [shape=box]
   }
 
   // General Education/Liberal Studies
@@ -162,19 +152,8 @@ digraph Classes {
   {"ECE 203" "ECE 200"} -> "ECEC 302"
   {"ECE 200" "ECE 203"} -> "ECEC 304"
   "CS 265" -> "ECEC 353"
-  {"ECE 200" "ECEC 302"} -> "ECEC 355"
+  {"ECE 200" "ECEC 302"} -> "ECEC 355" -> {"ECEC 413" "ECEC 457" "ECEC 432"}
   "ECE 203" -> "ECEC 357"
-  {"ENGR 103" "ECE 200" "ECE 201"} -> 
-    "ECEL 301" -> "ECEL 302" -> "ECEL 303"
+  {"ENGR 103" "ECE 200" "ECE 201"} -> "ECEL 301" -> "ECEL 302" -> "ECEL 303"
   {"ENGR 232" "ECE 201"} -> "ECES 301"
-
-  // Minor in Security Technology
-
-  "INFO 101" -> "CT 140"
-  "CT 210"
-  "CT 412"
-  "CT 395" -> "CT 420" -> "CT 312"
-  "CT 420" -> "CT 362"
-  "CT 393"
-  "CT 415"
 }
