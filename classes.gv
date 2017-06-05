@@ -7,10 +7,9 @@ black = not taken
 
 shape:
 ellipse = fixed major degree requirement
+box = major degree elective
 diamond = free elective
 hexagon = general education elective
-box = minor degree requirement
-
 */
 
 digraph Classes {
@@ -101,17 +100,18 @@ digraph Classes {
     "ECEL 303"
     "PHYS 201"
     "PHIL 315"
-    "ECEC 413"
+    "ECEC 413" [shape=box]
     "ECON 548" [shape=hexagon]
   }
   { rank=same "junior 2"
     "ECE 391"
-    "ECEC 457"
+    "CS 361" [shape=box]
+    "ECEC 457" [shape=box]
     "ECON 610" [shape=hexagon]
   }
   { rank=same "senior 1"
     "ECE 491"
-    "ECEC 432"
+    "ECEC 432" [shape=box]
   }
   { rank=same "senior 2"
     "ECE 492"
@@ -146,7 +146,7 @@ digraph Classes {
 
   // Professional Requirements
 
-  "ECE 203" -> "ECEC 301" -> "CS 265" -> "CS 260"
+  "ECE 203" -> "ECEC 301" -> "CS 265" -> "CS 260" -> "CS 361"
   {"ENGR 202" "ENGR 231"} -> "ECE 361"
   {"ECE 391" "ECE 361"} -> "ECE 491" -> "ECE 492" -> "ECE 493"
   {"ECE 203" "ECE 200"} -> "ECEC 302"
