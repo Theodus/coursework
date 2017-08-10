@@ -18,12 +18,18 @@ digraph Classes {
     "freshman 1 (16.5)" ->
     "freshman 2 (19.5)" ->
     "freshman 3 (17.5)" ->
-    "sophomore 1" ->
+    "sophomore 1 (20)" ->
     "sophomore 2" ->
+    "COOP 1" ->
+    "COOP 2" ->
     "pre-junior 1" ->
     "pre-junior 2" ->
+    "COOP 3" ->
+    "COOP 4" ->
     "junior 1" ->
     "junior 2" ->
+    "COOP 5" ->
+    "COOP 6" ->
     "senior 1" ->
     "senior 2" ->
     "senior 3"
@@ -54,7 +60,7 @@ digraph Classes {
       "PHYS 101"
     }
   }
-  { node [color=orange]
+  { node [color=green]
     { rank=same "freshman 3 (17.5)"
       "ENGL 103"
       "ENGR 103"
@@ -64,13 +70,15 @@ digraph Classes {
       "MATH 200"
     }
   }
-  { rank=same "sophomore 1"
-    "ENGR 201"
-    "ENGR 220"
-    "ENGR 231"
-    "ECE 203"
-    "ECE 200"
-    "PHIL 111" [shape=hexagon]
+  { node [color=orange]
+    { rank=same "sophomore 1 (20)"
+      "ENGR 201"
+      "ENGR 220"
+      "ENGR 231"
+      "ECE 203"
+      "ECE 200"
+      "PHIL 111" [shape=hexagon]
+    }
   }
   { rank=same "sophomore 2"
     "ECE 201"
