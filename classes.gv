@@ -19,7 +19,7 @@ digraph Classes {
     "freshman 2 (19.5)" ->
     "freshman 3 (17.5)" ->
     "sophomore 1 (20)" ->
-    "sophomore 2" ->
+    "sophomore 2 (20)" ->
     "COOP 1" ->
     "COOP 2" ->
     "pre-junior 1" ->
@@ -80,12 +80,15 @@ digraph Classes {
       "PHIL 111" [shape=hexagon]
     }
   }
-  { rank=same "sophomore 2"
+  { rank=same "sophomore 2 (20)"
     "ECE 201"
     "ECEC 301"
     "ENGR 202"
     "ENGR 232"
     "MATH 221"
+    "ECEC 357"
+  }
+  { rank=same "COOP 1"
     "PHIL 207" [shape=hexagon]
   }
   { rank=same "pre-junior 1"
@@ -93,7 +96,7 @@ digraph Classes {
     "ECEL 301"
     "ECE 361"
     "CS 265"
-    "PHIL 395" [shape=hexagon]
+    "PHYS 201"
   }
   { rank=same "pre-junior 2"
     "ECEC 304"
@@ -104,18 +107,14 @@ digraph Classes {
     "ECEC 353"
   }
   { rank=same "junior 1"
-    "ECEC 357"
     "ECEL 303"
-    "PHYS 201"
     "PHIL 315"
     "ECEC 413" [shape=box]
-    "ECON 548" [shape=hexagon]
   }
   { rank=same "junior 2"
     "ECE 391"
     "CS 361" [shape=box]
     "ECEC 457" [shape=box]
-    "ECON 610" [shape=hexagon]
   }
   { rank=same "senior 1"
     "ECE 491"
@@ -135,8 +134,7 @@ digraph Classes {
   "PHIL 315"
   "UNIV 101"
 
-  "PHIL 111" -> "PHIL 207" -> "PHIL 395"
-  "ECON 548" -> "ECON 610"
+  "PHIL 111" -> "PHIL 207"
 
   // Foundation Requirements
 
