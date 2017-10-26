@@ -85,8 +85,8 @@ digraph Classes {
     "ECEC 301"
     "ENGR 202"
     "ENGR 232"
+    "PHYS 201"
     "MATH 221"
-    "ECEC 357"
   }
   { rank=same "COOP 1"
     "PHIL 207" [shape=hexagon]
@@ -96,7 +96,7 @@ digraph Classes {
     "ECEL 301"
     "ECE 361"
     "CS 265"
-    "PHYS 201"
+    "ECEC 357"
   }
   { rank=same "pre-junior 2"
     "ECEC 304"
