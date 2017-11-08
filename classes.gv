@@ -105,16 +105,20 @@ digraph Classes {
     "ECES 301"
   }
   { rank=same "junior 1"
+    "CS 283" [shape=diamond]
     "CS 260"
+    "CS 281" [shape=diamond]
     "ECEC 353"
     "ECEL 303"
     "PHIL 315"
     "ECEC 413" [shape=box]
   }
   { rank=same "junior 2"
+    "CS 377" [shape=box]
     "ECE 391"
     "CS 361" [shape=box]
     "ECEC 457" [shape=box]
+    "ECEC 414" [shape=box]
   }
   { rank=same "senior 1"
     "ECE 491"
@@ -152,14 +156,19 @@ digraph Classes {
 
   // Professional Requirements
 
-  "ECE 203" -> "ECEC 301" -> "CS 265" -> "CS 260" -> "CS 361"
+  "ECE 203" -> "ECEC 301" -> "CS 265" -> "CS 260"
   {"ENGR 202" "ENGR 231"} -> "ECE 361"
   {"ECE 391" "ECE 361"} -> "ECE 491" -> "ECE 492" -> "ECE 493"
   {"ECE 203" "ECE 200"} -> "ECEC 302"
   {"ECE 200" "ECE 203"} -> "ECEC 304"
   "CS 265" -> "ECEC 353"
-  {"ECE 200" "ECEC 302"} -> "ECEC 355" -> {"ECEC 413" "ECEC 457" "ECEC 432"}
+  {"ECE 200" "ECEC 302"} -> "ECEC 355" -> {"ECEC 413" "ECEC 414" "ECEC 457" "ECEC 432"}
   "ECE 203" -> "ECEC 357"
   {"ENGR 103" "ECE 200" "ECE 201"} -> "ECEL 301" -> "ECEL 302" -> "ECEL 303"
   {"ENGR 232" "ECE 201"} -> "ECES 301"
+
+  // Extra CS cources (Free and ECE/COE/BMES 300+ electives)
+
+  "CS 265" -> "CS 283" -> "CS 377"
+  {"CS 260" "CS 281"} -> "CS 361"
 }
