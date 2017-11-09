@@ -19,11 +19,11 @@ digraph Classes {
     "freshman 2 (19.5)" ->
     "freshman 3 (17.5)" ->
     "sophomore 1 (20)" ->
-    "sophomore 2 (17)" ->
+    "sophomore 2 (20)" ->
     "COOP 1" ->
     "COOP 2" ->
-    "pre-junior 1" ->
-    "pre-junior 2" ->
+    "pre-junior 1 (17)" ->
+    "pre-junior 2 (20)" ->
     "COOP 3" ->
     "COOP 4" ->
     "junior 1" ->
@@ -80,49 +80,49 @@ digraph Classes {
       "PHIL 111" [shape=hexagon]
     }
   }
-  { rank=same "sophomore 2 (17)"
+  { rank=same "sophomore 2 (20)"
     "ECE 201"
     "ENGR 202"
     "ENGR 232"
     "MATH 221"
     "PHYS 201"
+    "ECEC 301"
   }
   { rank=same "COOP 1"
     "PHIL 207" [shape=hexagon]
   }
-  { rank=same "pre-junior 1"
-    "ECEC 301"
+  { rank=same "pre-junior 1 (17)"
+    "CS 265"
     "ECEC 302"
     "ECEL 301"
     "ECE 361"
     "ECEC 357"
   }
-  { rank=same "pre-junior 2"
-    "CS 265"
+  { rank=same "pre-junior 2 (20)"
+    "CS 260"
     "ECEC 304"
     "ECEC 355"
     "ECEL 302"
     "ECES 301"
+    "ECEC 432" [shape=box]
+  }
+  { rank=same "COOP 3"
+    "PHIL 315"
   }
   { rank=same "junior 1"
-    "CS 283" [shape=diamond]
-    "CS 260"
-    "CS 281" [shape=diamond]
     "ECEC 353"
     "ECEL 303"
-    "PHIL 315"
     "ECEC 413" [shape=box]
+    "CS 361" [shape=box]
   }
   { rank=same "junior 2"
     "CS 377" [shape=box]
     "ECE 391"
-    "CS 361" [shape=box]
-    "ECEC 457" [shape=box]
     "ECEC 414" [shape=box]
   }
   { rank=same "senior 1"
     "ECE 491"
-    "ECEC 432" [shape=box]
+    "ECEC 457" [shape=box]
   }
   { rank=same "senior 2"
     "ECE 492"
@@ -162,13 +162,13 @@ digraph Classes {
   {"ECE 203" "ECE 200"} -> "ECEC 302"
   {"ECE 200" "ECE 203"} -> "ECEC 304"
   "CS 265" -> "ECEC 353"
-  {"ECE 200" "ECEC 302"} -> "ECEC 355" -> {"ECEC 413" "ECEC 414" "ECEC 457" "ECEC 432"}
-  "ECE 203" -> "ECEC 357"
+  {"ECE 200" "ECEC 302"} -> "ECEC 355" -> {"ECEC 413" "ECEC 414" "ECEC 457" }
+  "ECE 203" -> "ECEC 357" -> "ECEC 432"
   {"ENGR 103" "ECE 200" "ECE 201"} -> "ECEL 301" -> "ECEL 302" -> "ECEL 303"
   {"ENGR 232" "ECE 201"} -> "ECES 301"
 
   // Extra CS cources (Free and ECE/COE/BMES 300+ electives)
 
-  "CS 265" -> "CS 283" -> "CS 377"
-  {"CS 260" "CS 281"} -> "CS 361"
+  "ECEC 353" -> "CS 377"
+  {"CS 260" "ECEC 355"} -> "CS 361"
 }
