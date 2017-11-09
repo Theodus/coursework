@@ -114,11 +114,13 @@ digraph Classes {
     "ECEL 303"
     "ECEC 413" [shape=box]
     "CS 361" [shape=box]
+    "CS 270" [shape=diamond]
   }
   { rank=same "junior 2"
     "CS 377" [shape=box]
     "ECE 391"
     "ECEC 414" [shape=box]
+    "CS 457" [shape=box]
   }
   { rank=same "senior 1"
     "ECE 491"
@@ -167,8 +169,10 @@ digraph Classes {
   {"ENGR 103" "ECE 200" "ECE 201"} -> "ECEL 301" -> "ECEL 302" -> "ECEL 303"
   {"ENGR 232" "ECE 201"} -> "ECES 301"
 
-  // Extra CS cources (Free and ECE/COE/BMES 300+ electives)
+  // Free and ECE/COE/BMES 300+ electives
 
   "ECEC 353" -> "CS 377"
   {"CS 260" "ECEC 355"} -> "CS 361"
+  "ECEC 301" -> "CS 270"
+  {"CS 260" "CS 270" "MATH 221"} -> "CS 457"
 }
