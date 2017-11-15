@@ -79,13 +79,13 @@ digraph Classes {
       "ECE 200\nDigital Logic Design"
       "PHIL 111\nSymbolic Logic" [shape=hexagon]
     }
-  }
-  { rank=same "sophomore 2 (16)"
-    "ECE 201\nFoundations of Electric Circuits"
-    "ENGR 202\nEvaluation & Presentation of Experimental Data II"
-    "ENGR 232\ndynamic engineering systems"
-    "MATH 221\nDiscrete Mathematics"
-    "ECEC 301\nadvanced programming for engineers"
+    { rank=same "sophomore 2 (16)"
+      "ECE 201\nFoundations of Electric Circuits"
+      "ENGR 202\nEvaluation & Presentation of Experimental Data II"
+      "ENGR 232\ndynamic engineering systems"
+      "MATH 221\nDiscrete Mathematics"
+      "ECEC 301\nadvanced programming for engineers"
+    }
   }
   { rank=same "COOP 1"
     "PHIL 207\nSymbolic Logic II" [shape=hexagon]
@@ -120,7 +120,7 @@ digraph Classes {
     "ECE 391\nIntroduction to Engineering Design Methods"
     "ECEC 414\nHigh Performance Computing" [shape=box]
     "CS 457\nData Structures and Algorithms I" [shape=box]
-    "PHYS 201\nFundamentals of Physics III"
+    "PHYS 201\nFundamentals of Physics III" [color=orange]
   }
   { rank=same "senior 1"
     "ECE 491\nSenior Design Project I"
@@ -195,7 +195,7 @@ digraph Classes {
   -> "ECEC 353\nSystems Programming"
   {"ECE 200\nDigital Logic Design" "ECEC 302\nDigital Systems Projects"}
   -> "ECEC 355\nComputer Organization & Architecture"
-  -> {"ECEC 413\nIntroduction to Parallel Computer Architecture" "ECEC 414\nHigh Performance Computing" "ECEC 457\nSecurity in Computing" }
+  -> {"ECEC 413\nIntroduction to Parallel Computer Architecture" "ECEC 414\nHigh Performance Computing" "ECEC 457\nSecurity in Computing"}
   "ECE 203\nprogramming to engineers"
   -> "ECEC 357\nIntroduction to Computer Networks"
   -> "ECEC 432\nInternet Architecture and Protocols"

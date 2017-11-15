@@ -298,7 +298,7 @@
 <!-- ENGR 232\ndynamic engineering systems -->
 <g id="node50" class="node">
 <title>ENGR 232\ndynamic engineering systems</title>
-<ellipse fill="none" stroke="#000000" cx="2026" cy="-1153.1046" rx="162.7692" ry="26.7407"/>
+<ellipse fill="none" stroke="#ffa500" cx="2026" cy="-1153.1046" rx="162.7692" ry="26.7407"/>
 <text text-anchor="middle" x="2026" y="-1156.9046" font-family="Times,serif" font-size="14.00" fill="#000000">ENGR 232</text>
 <text text-anchor="middle" x="2026" y="-1141.9046" font-family="Times,serif" font-size="14.00" fill="#000000">dynamic engineering systems</text>
 </g>
@@ -520,7 +520,7 @@
 <!-- ECE 201\nFoundations of Electric Circuits -->
 <g id="node48" class="node">
 <title>ECE 201\nFoundations of Electric Circuits</title>
-<ellipse fill="none" stroke="#000000" cx="2381" cy="-1153.1046" rx="173.8966" ry="26.7407"/>
+<ellipse fill="none" stroke="#ffa500" cx="2381" cy="-1153.1046" rx="173.8966" ry="26.7407"/>
 <text text-anchor="middle" x="2381" y="-1156.9046" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 201</text>
 <text text-anchor="middle" x="2381" y="-1141.9046" font-family="Times,serif" font-size="14.00" fill="#000000">Foundations of Electric Circuits</text>
 </g>
@@ -533,7 +533,7 @@
 <!-- PHYS 201\nFundamentals of Physics III -->
 <g id="node75" class="node">
 <title>PHYS 201\nFundamentals of Physics III</title>
-<ellipse fill="none" stroke="#000000" cx="1835" cy="-440.0904" rx="154.2987" ry="26.7407"/>
+<ellipse fill="none" stroke="#ffa500" cx="1835" cy="-440.0904" rx="154.2987" ry="26.7407"/>
 <text text-anchor="middle" x="1835" y="-443.8904" font-family="Times,serif" font-size="14.00" fill="#000000">PHYS 201</text>
 <text text-anchor="middle" x="1835" y="-428.8904" font-family="Times,serif" font-size="14.00" fill="#000000">Fundamentals of Physics III</text>
 </g>
@@ -552,7 +552,7 @@
 <!-- ENGR 202\nEvaluation &amp; Presentation of Experimental Data II -->
 <g id="node49" class="node">
 <title>ENGR 202\nEvaluation &amp; Presentation of Experimental Data II</title>
-<ellipse fill="none" stroke="#000000" cx="2842" cy="-1153.1046" rx="268.9013" ry="26.7407"/>
+<ellipse fill="none" stroke="#ffa500" cx="2842" cy="-1153.1046" rx="268.9013" ry="26.7407"/>
 <text text-anchor="middle" x="2842" y="-1156.9046" font-family="Times,serif" font-size="14.00" fill="#000000">ENGR 202</text>
 <text text-anchor="middle" x="2842" y="-1141.9046" font-family="Times,serif" font-size="14.00" fill="#000000">Evaluation &amp; Presentation of Experimental Data II</text>
 </g>
@@ -591,7 +591,7 @@
 <!-- ECEC 301\nadvanced programming for engineers -->
 <g id="node52" class="node">
 <title>ECEC 301\nadvanced programming for engineers</title>
-<ellipse fill="none" stroke="#000000" cx="4361" cy="-1153.1046" rx="202.8793" ry="26.7407"/>
+<ellipse fill="none" stroke="#ffa500" cx="4361" cy="-1153.1046" rx="202.8793" ry="26.7407"/>
 <text text-anchor="middle" x="4361" y="-1156.9046" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 301</text>
 <text text-anchor="middle" x="4361" y="-1141.9046" font-family="Times,serif" font-size="14.00" fill="#000000">advanced programming for engineers</text>
 </g>
@@ -643,7 +643,7 @@
 <!-- MATH 221\nDiscrete Mathematics -->
 <g id="node51" class="node">
 <title>MATH 221\nDiscrete Mathematics</title>
-<ellipse fill="none" stroke="#000000" cx="3657" cy="-1153.1046" rx="124.4016" ry="26.7407"/>
+<ellipse fill="none" stroke="#ffa500" cx="3657" cy="-1153.1046" rx="124.4016" ry="26.7407"/>
 <text text-anchor="middle" x="3657" y="-1156.9046" font-family="Times,serif" font-size="14.00" fill="#000000">MATH 221</text>
 <text text-anchor="middle" x="3657" y="-1141.9046" font-family="Times,serif" font-size="14.00" fill="#000000">Discrete Mathematics</text>
 </g>
