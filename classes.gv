@@ -19,7 +19,7 @@ digraph Classes {
     "freshman 2 (19.5)" ->
     "freshman 3 (17.5)" ->
     "sophomore 1 (20)" ->
-    "sophomore 2 (20)" ->
+    "sophomore 2 (16)" ->
     "COOP 1" ->
     "COOP 2" ->
     "pre-junior 1 (17)" ->
@@ -37,142 +37,183 @@ digraph Classes {
 
   { node [color=green]
     { rank=same "freshman 1 (16.5)"
-      "UNIV 101"
-      "ENGL 101"
-      "ENGR 100"
-      "CHEM 101"
-      "ENGR 101"
-      "ENGR 121"
-      "MATH 121"
+      "UNIV 101\nThe Drexel Experience"
+      "ENGL 101\nComposition and Rhetoric I: Inquiry and Exploratory Research"
+      "ENGR 100\nBeginning Computer Aided Drafting for Design"
+      "CHEM 101\nGeneral Chemistry I"
+      "ENGR 101\nEngineering Design Laboratory I"
+      "ENGR 121\nComputation Lab I"
+      "MATH 121\nCalculus I"
 
       // AP Credit
-      "CS 190" [shape=diamond]
+      "CS 190\nSelected Computer Language" [shape=diamond]
       "TGFE 099" [shape=diamond]
-      "SPAN 101" [shape=hexagon]
+      "SPAN 101\nSpanish I" [shape=hexagon]
     }
     { rank=same "freshman 2 (19.5)"
-      "CIVC 101"
-      "ENGL 102"
-      "CHEM 102"
-      "ENGR 102"
-      "ENGR 122"
-      "MATH 122"
-      "PHYS 101"
+      "CIVC 101\nIntroduction to Civic Engagement"
+      "ENGL 102\nComposition and Rhetoric II: Advanced Research and Evidence-Based Writing"
+      "CHEM 102\nGeneral Chemistry II"
+      "ENGR 102\nEngineering Design Laboratory II"
+      "ENGR 122\nComputation Lab II"
+      "MATH 122\nCalculus II"
+      "PHYS 101\nFundamentals of Physics I"
     }
   }
   { node [color=green]
     { rank=same "freshman 3 (17.5)"
-      "ENGL 103"
-      "ENGR 103"
-      "BIO 141"
-      "COOP 101"
-      "PHYS 102"
-      "MATH 200"
+      "ENGL 103\nComposition and Rhetoric III: Themes and Genres"
+      "ENGR 103\nEngineering Design Laboratory III"
+      "BIO 141\nEssential Biology"
+      "COOP 101\nCareer Management and Professional Development"
+      "PHYS 102\nFundamentals of Physics II"
+      "MATH 200\nMultivariate Calculus"
     }
   }
   { node [color=orange]
     { rank=same "sophomore 1 (20)"
-      "ENGR 201"
-      "ENGR 220"
-      "ENGR 231"
-      "ECE 203"
-      "ECE 200"
-      "PHIL 111" [shape=hexagon]
+      "ENGR 201\nEvaluation & Presentation of Experimental Data I"
+      "ENGR 220\nFundamentals of Materials"
+      "ENGR 231\nlinear engineering systems"
+      "ECE 203\nprogramming to engineers"
+      "ECE 200\nDigital Logic Design"
+      "PHIL 111\nSymbolic Logic" [shape=hexagon]
     }
   }
-  { rank=same "sophomore 2 (20)"
-    "ECE 201"
-    "ENGR 202"
-    "ENGR 232"
-    "MATH 221"
-    "PHYS 201"
-    "ECEC 301"
+  { rank=same "sophomore 2 (16)"
+    "ECE 201\nFoundations of Electric Circuits"
+    "ENGR 202\nEvaluation & Presentation of Experimental Data II"
+    "ENGR 232\ndynamic engineering systems"
+    "MATH 221\nDiscrete Mathematics"
+    "ECEC 301\nadvanced programming for engineers"
   }
   { rank=same "COOP 1"
-    "PHIL 207" [shape=hexagon]
+    "PHIL 207\nSymbolic Logic II" [shape=hexagon]
   }
   { rank=same "pre-junior 1 (17)"
-    "CS 265"
-    "ECEC 302"
-    "ECEL 301"
-    "ECE 361"
-    "ECEC 357"
+    "CS 265\ndata structures"
+    "ECEC 302\nDigital Systems Projects"
+    "ECEL 301\nElectrical Engineering Laboratory"
+    "ECE 361\nprobability for engineers"
+    "ECEC 357\nIntroduction to Computer Networks"
   }
   { rank=same "pre-junior 2 (20)"
-    "CS 260"
-    "ECEC 304"
-    "ECEC 355"
-    "ECEL 302"
-    "ECES 301"
-    "ECEC 432" [shape=box]
+    "CS 260\nadvanced programming tools and techniques"
+    "ECEC 304\nDesign with Microcontrollers"
+    "ECEC 355\nComputer Organization & Architecture"
+    "ECEL 302\nECE Laboratory II"
+    "ECES 301\nSignals and Systems I"
+    "ECEC 432\nInternet Architecture and Protocols" [shape=box]
   }
   { rank=same "COOP 3"
-    "PHIL 315"
+    "PHIL 315\nEngineering Ethics"
   }
   { rank=same "junior 1"
-    "ECEC 353"
-    "ECEL 303"
-    "ECEC 413" [shape=box]
-    "CS 361" [shape=box]
-    "CS 270" [shape=diamond]
+    "ECEC 353\nSystems Programming"
+    "ECEL 303\nECE Laboratory III"
+    "ECEC 413\nIntroduction to Parallel Computer Architecture" [shape=box]
+    "CS 361\nConcurrent Programming" [shape=box]
+    "CS 270\nMathematical Foundations of Computer Science" [shape=diamond]
   }
   { rank=same "junior 2"
-    "CS 377" [shape=box]
-    "ECE 391"
-    "ECEC 414" [shape=box]
-    "CS 457" [shape=box]
+    "CS 377\nSoftware Security" [shape=box]
+    "ECE 391\nIntroduction to Engineering Design Methods"
+    "ECEC 414\nHigh Performance Computing" [shape=box]
+    "CS 457\nData Structures and Algorithms I" [shape=box]
+    "PHYS 201\nFundamentals of Physics III"
   }
   { rank=same "senior 1"
-    "ECE 491"
-    "ECEC 457" [shape=box]
+    "ECE 491\nSenior Design Project I"
+    "ECEC 457\nSecurity in Computing" [shape=box]
   }
   { rank=same "senior 2"
-    "ECE 492"
+    "ECE 492\nSenior Design Project II"
   }
   { rank=same "senior 3"
-    "ECE 493"
+    "ECE 493\nSenior Design Project III"
   }
 
   // General Education/Liberal Studies
 
-  "CIVC 101"
-  "ENGL 101" -> "ENGL 102" -> "ENGL 103"
-  "PHIL 315"
-  "UNIV 101"
+  "CIVC 101\nIntroduction to Civic Engagement"
+  "ENGL 101\nComposition and Rhetoric I: Inquiry and Exploratory Research"
+  -> "ENGL 102\nComposition and Rhetoric II: Advanced Research and Evidence-Based Writing"
+  -> "ENGL 103\nComposition and Rhetoric III: Themes and Genres"
+  "PHIL 315\nEngineering Ethics"
+  "UNIV 101\nThe Drexel Experience"
 
-  "PHIL 111" -> "PHIL 207"
+  "PHIL 111\nSymbolic Logic"
+  -> "PHIL 207\nSymbolic Logic II"
 
   // Foundation Requirements
 
-  "BIO 141"
-  "CHEM 101" -> "CHEM 102"
-  "PHYS 101" -> "PHYS 102" -> "PHYS 201"
-  "PHYS 102" -> "ECE 201"
-  "MATH 121" -> "MATH 122" -> "MATH 200" -> "ENGR 231"
-  "ENGR 101" -> "ENGR 102" -> "ENGR 103" -> "ECE 200" -> "MATH 221"
-  "ECE 203"
-  {"MATH 122" "PHYS 101" "ENGR 103"} -> "ENGR 201" -> "ENGR 202"
-  {"CHEM 102" "MATH 122" "PHYS 101"} -> "ENGR 220"
-  {"MATH 122" "ENGR 121"} -> "ENGR 231"
-  {"ENGR 231" "ENGR 121"} -> "ENGR 232"
+  "BIO 141\nEssential Biology"
+  "CHEM 101\nGeneral Chemistry I"
+  -> "CHEM 102\nGeneral Chemistry II"
+  "PHYS 101\nFundamentals of Physics I"
+  -> "PHYS 102\nFundamentals of Physics II"
+  -> "PHYS 201\nFundamentals of Physics III"
+  "PHYS 102\nFundamentals of Physics II"
+  -> "ECE 201\nFoundations of Electric Circuits"
+  "MATH 121\nCalculus I"
+  -> "MATH 122\nCalculus II"
+  -> "MATH 200\nMultivariate Calculus"
+  -> "ENGR 231\nlinear engineering systems"
+  "ENGR 101\nEngineering Design Laboratory I"
+  -> "ENGR 102\nEngineering Design Laboratory II"
+  -> "ENGR 103\nEngineering Design Laboratory III"
+  -> "ECE 200\nDigital Logic Design"
+  -> "MATH 221\nDiscrete Mathematics"
+  "ECE 203\nprogramming to engineers"
+  {"MATH 122\nCalculus II" "PHYS 101\nFundamentals of Physics I" "ENGR 103\nEngineering Design Laboratory III"}
+  -> "ENGR 201\nEvaluation & Presentation of Experimental Data I"
+  -> "ENGR 202\nEvaluation & Presentation of Experimental Data II"
+  {"CHEM 102\nGeneral Chemistry II" "MATH 122\nCalculus II" "PHYS 101\nFundamentals of Physics I"}
+  -> "ENGR 220\nFundamentals of Materials"
+  {"MATH 122\nCalculus II" "ENGR 121\nComputation Lab I"}
+  -> "ENGR 231\nlinear engineering systems"
+  {"ENGR 231\nlinear engineering systems" "ENGR 121\nComputation Lab I"}
+  -> "ENGR 232\ndynamic engineering systems"
 
   // Professional Requirements
 
-  "ECE 203" -> "ECEC 301" -> "CS 265" -> "CS 260"
-  {"ENGR 202" "ENGR 231"} -> "ECE 361"
-  {"ECE 391" "ECE 361"} -> "ECE 491" -> "ECE 492" -> "ECE 493"
-  {"ECE 203" "ECE 200"} -> "ECEC 302"
-  {"ECE 200" "ECE 203"} -> "ECEC 304"
-  "CS 265" -> "ECEC 353"
-  {"ECE 200" "ECEC 302"} -> "ECEC 355" -> {"ECEC 413" "ECEC 414" "ECEC 457" }
-  "ECE 203" -> "ECEC 357" -> "ECEC 432"
-  {"ENGR 103" "ECE 200" "ECE 201"} -> "ECEL 301" -> "ECEL 302" -> "ECEL 303"
-  {"ENGR 232" "ECE 201"} -> "ECES 301"
+  "ECE 203\nprogramming to engineers"
+  -> "ECEC 301\nadvanced programming for engineers"
+  -> "CS 265\ndata structures"
+  -> "CS 260\nadvanced programming tools and techniques"
+  {"ENGR 202\nEvaluation & Presentation of Experimental Data II" "ENGR 231\nlinear engineering systems"}
+  -> "ECE 361\nprobability for engineers"
+  {"ECE 391\nIntroduction to Engineering Design Methods" "ECE 361\nprobability for engineers"}
+  -> "ECE 491\nSenior Design Project I"
+  -> "ECE 492\nSenior Design Project II"
+  -> "ECE 493\nSenior Design Project III"
+  {"ECE 203\nprogramming to engineers" "ECE 200\nDigital Logic Design"}
+  -> "ECEC 302\nDigital Systems Projects"
+  {"ECE 200\nDigital Logic Design" "ECE 203\nprogramming to engineers"}
+  -> "ECEC 304\nDesign with Microcontrollers"
+  "CS 265\ndata structures"
+  -> "ECEC 353\nSystems Programming"
+  {"ECE 200\nDigital Logic Design" "ECEC 302\nDigital Systems Projects"}
+  -> "ECEC 355\nComputer Organization & Architecture"
+  -> {"ECEC 413\nIntroduction to Parallel Computer Architecture" "ECEC 414\nHigh Performance Computing" "ECEC 457\nSecurity in Computing" }
+  "ECE 203\nprogramming to engineers"
+  -> "ECEC 357\nIntroduction to Computer Networks"
+  -> "ECEC 432\nInternet Architecture and Protocols"
+  {"ENGR 103\nEngineering Design Laboratory III" "ECE 200\nDigital Logic Design" "ECE 201\nFoundations of Electric Circuits"}
+  -> "ECEL 301\nElectrical Engineering Laboratory"
+  -> "ECEL 302\nECE Laboratory II"
+  -> "ECEL 303\nECE Laboratory III"
+  {"ENGR 232\ndynamic engineering systems" "ECE 201\nFoundations of Electric Circuits"}
+  -> "ECES 301\nSignals and Systems I"
 
   // Free and ECE/COE/BMES 300+ electives
 
-  "ECEC 353" -> "CS 377"
-  {"CS 260" "ECEC 355"} -> "CS 361"
-  "ECEC 301" -> "CS 270"
-  {"CS 260" "CS 270" "MATH 221"} -> "CS 457"
+  "ECEC 353\nSystems Programming"
+  -> "CS 377\nSoftware Security"
+  {"CS 260\nadvanced programming tools and techniques" "ECEC 355\nComputer Organization & Architecture"}
+  -> "CS 361\nConcurrent Programming"
+  "ECEC 301\nadvanced programming for engineers"
+  -> "CS 270\nMathematical Foundations of Computer Science"
+  {"CS 260\nadvanced programming tools and techniques" "CS 270\nMathematical Foundations of Computer Science" "MATH 221\nDiscrete Mathematics"}
+  -> "CS 457\nData Structures and Algorithms I"
 }
