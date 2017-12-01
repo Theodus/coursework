@@ -104,7 +104,7 @@ digraph Classes {
     "ECEC 304 (4)\nDesign with Microcontrollers"
     "ECEC 355 (4)\nComputer Organization & Architecture"
     "ECEL 302 (2)\nECE Laboratory II"
-    "ECES 301 (4)\nSignals and Systems I"
+    "ECES 301 (4)\nTransform Methods and Filtering"
     "ECEC 432 (3)\nInternet Architecture and Protocols" [shape=box]
   }
   { rank=same "COOP 3"
@@ -205,7 +205,7 @@ digraph Classes {
   -> "ECEL 302 (2)\nECE Laboratory II"
   -> "ECEL 303 (2)\nECE Laboratory III"
   {"ENGR 232 (3)\nDynamic Engineering Systems" "ECE 201 (4)\nFoundations of Electric Circuits"}
-  -> "ECES 301 (4)\nSignals and Systems I"
+  -> "ECES 301 (4)\nTransform Methods and Filtering"
 
   // Free and ECE/COE/BMES 300+ electives
 
