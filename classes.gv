@@ -20,15 +20,15 @@ digraph Classes {
     "freshman 2 (19.5)" ->
     "freshman 3 (17.5)" ->
     "sophomore 1 (20)" ->
-    "sophomore 2 (20)" ->
+    "sophomore 2 (16)" ->
     "COOP 1" ->
     "COOP 2" ->
     "pre-junior 1 (17)" ->
-    "pre-junior 2 (20)" ->
+    "pre-junior 2 (16)" ->
     "COOP 3" ->
     "COOP 4" ->
-    "junior 1" ->
-    "junior 2" ->
+    "junior 1 (18)" ->
+    "junior 2 (14)" ->
     "COOP 5" ->
     "COOP 6" ->
     "senior 1" ->
@@ -80,13 +80,12 @@ digraph Classes {
       "ECE 200 (4)\nDigital Logic Design"
       "PHIL 111 (3)\nSymbolic Logic" [shape=hexagon]
     }
-    { rank=same "sophomore 2 (20)"
+    { rank=same "sophomore 2 (16)"
       "ECE 201 (4)\nFoundations of Electric Circuits"
       "ENGR 202 (3)\nEvaluation & Presentation of Experimental Data II"
       "ENGR 232 (3)\nDynamic Engineering Systems"
       "MATH 221 (3)\nDiscrete Mathematics"
       "ECEC 301 (3)\nAdvanced Programming for Engineers"
-      "PHYS 201 (4)\nFundamentals of Physics III" [color=orange]
     }
   }
   { rank=same "COOP 1"
@@ -99,29 +98,30 @@ digraph Classes {
     "ECE 361 (4)\nProbability for Engineers"
     "ECEC 357 (4)\nIntroduction to Computer Networks"
   }
-  { rank=same "pre-junior 2 (20)"
+  { rank=same "pre-junior 2 (16)"
     "CS 260 (3)\nAdvanced Programming Tools and Techniques"
     "ECEC 304 (4)\nDesign with Microcontrollers"
     "ECEC 355 (4)\nComputer Organization & Architecture"
     "ECEL 302 (2)\nECE Laboratory II"
-    "ECES 301 (4)\nTransform Methods and Filtering"
     "ECEC 432 (3)\nInternet Architecture and Protocols" [shape=box]
   }
   { rank=same "COOP 3"
     "PHIL 315 (3)\nEngineering Ethics"
   }
-  { rank=same "junior 1"
+  { rank=same "junior 1 (18)"
     "ECEC 353 (3)\nSystems Programming"
     "ECEL 303 (2)\nECE Laboratory III"
     "ECEC 413 (3)\nIntroduction to Parallel Computer Architecture" [shape=box]
     "CS 361 (3)\nConcurrent Programming" [shape=box]
     "CS 270 (3)\nMathematical Foundations of Computer Science" [shape=diamond]
+    "PHYS 201 (4)\nFundamentals of Physics III"
   }
-  { rank=same "junior 2"
+  { rank=same "junior 2 (14)"
     "CS 377 (3)\nSoftware Security" [shape=box]
     "ECE 391 (1)\nIntroduction to Engineering Design Methods"
     "ECEC 414 (3)\nHigh Performance Computing" [shape=box]
     "CS 457 (3)\nData Structures and Algorithms I" [shape=box]
+    "ECES 301 (4)\nTransform Methods and Filtering"
   }
   { rank=same "senior 1"
     "ECE 491 (2)\nSenior Design Project I"
