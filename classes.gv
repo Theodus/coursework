@@ -70,8 +70,6 @@ digraph Classes {
       "PHYS 102 (4)\nFundamentals of Physics II"
       "MATH 200 (4)\nMultivariate Calculus"
     }
-  }
-  { node [color=orange]
     { rank=same "sophomore 1 (20)"
       "ENGR 201 (3)\nEvaluation & Presentation of Experimental Data I"
       "ENGR 220 (4)\nFundamentals of Materials"
@@ -80,6 +78,8 @@ digraph Classes {
       "ECE 200 (4)\nDigital Logic Design"
       "PHIL 111 (3)\nSymbolic Logic" [shape=hexagon]
     }
+  }
+  { node [color=orange]
     { rank=same "sophomore 2 (16)"
       "ECE 201 (4)\nFoundations of Electric Circuits"
       "ENGR 202 (3)\nEvaluation & Presentation of Experimental Data II"
