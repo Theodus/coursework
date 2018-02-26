@@ -88,7 +88,7 @@ digraph Classes {
       "ECEC 301 (3)\nAdvanced Programming for Engineers"
     }
   }
-  { rank=same "COOP 1"
+  { rank=same "COOP 2"
     "PHIL 207 (3)\nSymbolic Logic II" [shape=hexagon]
   }
   { rank=same "pre-junior 1 (17)"
