@@ -60,8 +60,6 @@ digraph Classes {
       "MATH 122 (4)\nCalculus II"
       "PHYS 101 (4)\nFundamentals of Physics I"
     }
-  }
-  { node [color=green]
     { rank=same "freshman 3 (17.5)"
       "ENGL 103 (3)\nComposition and Rhetoric III: Themes and Genres"
       "ENGR 103 (2)\nEngineering Design Laboratory III"
@@ -78,8 +76,6 @@ digraph Classes {
       "ECE 200 (4)\nDigital Logic Design"
       "PHIL 111 (3)\nSymbolic Logic" [shape=hexagon]
     }
-  }
-  { node [color=orange]
     { rank=same "sophomore 2 (16)"
       "ECE 201 (4)\nFoundations of Electric Circuits"
       "ENGR 202 (3)\nEvaluation & Presentation of Experimental Data II"
