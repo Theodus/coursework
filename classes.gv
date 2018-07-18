@@ -28,7 +28,7 @@ digraph Classes {
     "COOP 3" ->
     "COOP 4" ->
     "junior 1 (18)" ->
-    "junior 2 (14)" ->
+    "junior 2 (12)" ->
     "COOP 5" ->
     "COOP 6" ->
     "senior 1" ->
@@ -84,40 +84,42 @@ digraph Classes {
       "ECEC 301 (3)\nAdvanced Programming for Engineers"
     }
   }
-  { rank=same "COOP 2"
-    "PHIL 207 (3)\nSymbolic Logic II" [shape=hexagon]
-  }
-  { rank=same "pre-junior 1 (17)"
-    "CS 265 (3)\nData Structures"
-    "ECEC 302 (4)\nDigital Systems Projects"
-    "ECEL 301 (2)\nElectrical Engineering Laboratory"
-    "ECE 361 (4)\nProbability for Engineers"
-    "ECEC 357 (4)\nIntroduction to Computer Networks"
+  { node [color=orange]
+    { rank=same "pre-junior 1 (17)"
+      "CS 265 (3)\nAdvanced Programming Tools and Techniques"
+      "ECE 361 (4)\nProbability for Engineers"
+      "ECEC 302 (3)\nDigital Systems Projects"
+      "ECEC 357 (3)\nIntroduction to Computer Networks"
+      "ECES 301 (4)\nTransform Methods and Filtering"
+    }
   }
   { rank=same "pre-junior 2 (16)"
-    "CS 260 (3)\nAdvanced Programming Tools and Techniques"
+    "CS 260 (3)\nData Structures"
     "ECEC 304 (4)\nDesign with Microcontrollers"
     "ECEC 355 (4)\nComputer Organization & Architecture"
-    "ECEL 302 (2)\nECE Laboratory II"
     "ECEC 432 (3)\nInternet Architecture and Protocols" [shape=box]
+    "ECEL 301 (2)\nECE Laboratory"
   }
   { rank=same "COOP 3"
+    "PHIL 207 (3)\nSymbolic Logic II" [shape=hexagon]
+  }
+  { rank=same "COOP 4"
     "PHIL 315 (3)\nEngineering Ethics"
   }
   { rank=same "junior 1 (18)"
-    "ECEC 353 (3)\nSystems Programming"
-    "ECEL 303 (2)\nECE Laboratory III"
-    "ECEC 413 (3)\nIntroduction to Parallel Computer Architecture" [shape=box]
     "CS 361 (3)\nConcurrent Programming" [shape=box]
     "CS 270 (3)\nMathematical Foundations of Computer Science" [shape=diamond]
+    "ECEC 353 (3)\nSystems Programming"
+    "ECEC 413 (3)\nIntroduction to Parallel Computer Architecture" [shape=box]
+    "ECEL 302 (2)\nECE Laboratory II"
     "PHYS 201 (4)\nFundamentals of Physics III"
   }
-  { rank=same "junior 2 (14)"
+  { rank=same "junior 2 (12)"
     "CS 377 (3)\nSoftware Security" [shape=box]
+    "CS 457 (3)\nData Structures and Algorithms I" [shape=box]
     "ECE 391 (1)\nIntroduction to Engineering Design Methods"
     "ECEC 414 (3)\nHigh Performance Computing" [shape=box]
-    "CS 457 (3)\nData Structures and Algorithms I" [shape=box]
-    "ECES 301 (4)\nTransform Methods and Filtering"
+    "ECEL 303 (2)\nECE Laboratory III"
   }
   { rank=same "senior 1"
     "ECE 491 (2)\nSenior Design Project I"
@@ -176,8 +178,8 @@ digraph Classes {
 
   "ECE 203 (3)\nProgramming for Engineers"
   -> "ECEC 301 (3)\nAdvanced Programming for Engineers"
-  -> "CS 265 (3)\nData Structures"
-  -> "CS 260 (3)\nAdvanced Programming Tools and Techniques"
+  -> "CS 265 (3)\nAdvanced Programming Tools and Techniques"
+  -> "CS 260 (3)\nData Structures"
   {"ENGR 202 (3)\nEvaluation & Presentation of Experimental Data II" "ENGR 231 (3)\nLinear Engineering Systems"}
   -> "ECE 361 (4)\nProbability for Engineers"
   {"ECE 391 (1)\nIntroduction to Engineering Design Methods" "ECE 361 (4)\nProbability for Engineers"}
@@ -185,19 +187,19 @@ digraph Classes {
   -> "ECE 492 (2)\nSenior Design Project II"
   -> "ECE 493 (4)\nSenior Design Project III"
   {"ECE 203 (3)\nProgramming for Engineers" "ECE 200 (4)\nDigital Logic Design"}
-  -> "ECEC 302 (4)\nDigital Systems Projects"
+  -> "ECEC 302 (3)\nDigital Systems Projects"
   {"ECE 200 (4)\nDigital Logic Design" "ECE 203 (3)\nProgramming for Engineers"}
   -> "ECEC 304 (4)\nDesign with Microcontrollers"
-  "CS 265 (3)\nData Structures"
+  "CS 265 (3)\nAdvanced Programming Tools and Techniques"
   -> "ECEC 353 (3)\nSystems Programming"
-  {"ECE 200 (4)\nDigital Logic Design" "ECEC 302 (4)\nDigital Systems Projects"}
+  {"ECE 200 (4)\nDigital Logic Design" "ECEC 302 (3)\nDigital Systems Projects"}
   -> "ECEC 355 (4)\nComputer Organization & Architecture"
   -> {"ECEC 413 (3)\nIntroduction to Parallel Computer Architecture" "ECEC 414 (3)\nHigh Performance Computing" "ECEC 457 (3)\nSecurity in Computing"}
   "ECE 203 (3)\nProgramming for Engineers"
-  -> "ECEC 357 (4)\nIntroduction to Computer Networks"
+  -> "ECEC 357 (3)\nIntroduction to Computer Networks"
   -> "ECEC 432 (3)\nInternet Architecture and Protocols"
   {"ENGR 103 (2)\nEngineering Design Laboratory III" "ECE 200 (4)\nDigital Logic Design" "ECE 201 (4)\nFoundations of Electric Circuits"}
-  -> "ECEL 301 (2)\nElectrical Engineering Laboratory"
+  -> "ECEL 301 (2)\nECE Laboratory"
   -> "ECEL 302 (2)\nECE Laboratory II"
   -> "ECEL 303 (2)\nECE Laboratory III"
   {"ENGR 232 (3)\nDynamic Engineering Systems" "ECE 201 (4)\nFoundations of Electric Circuits"}
@@ -207,10 +209,10 @@ digraph Classes {
 
   "ECEC 353 (3)\nSystems Programming"
   -> "CS 377 (3)\nSoftware Security"
-  {"CS 260 (3)\nAdvanced Programming Tools and Techniques" "ECEC 355 (4)\nComputer Organization & Architecture"}
+  {"CS 260 (3)\nData Structures" "ECEC 355 (4)\nComputer Organization & Architecture"}
   -> "CS 361 (3)\nConcurrent Programming"
   "ECEC 301 (3)\nAdvanced Programming for Engineers"
   -> "CS 270 (3)\nMathematical Foundations of Computer Science"
-  {"CS 260 (3)\nAdvanced Programming Tools and Techniques" "CS 270 (3)\nMathematical Foundations of Computer Science" "MATH 221 (3)\nDiscrete Mathematics"}
+  {"CS 260 (3)\nData Structures" "CS 270 (3)\nMathematical Foundations of Computer Science" "MATH 221 (3)\nDiscrete Mathematics"}
   -> "CS 457 (3)\nData Structures and Algorithms I"
 }
