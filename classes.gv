@@ -38,50 +38,50 @@ digraph Classes {
 
   { node [color=green]
     { rank=same "freshman 1 (16.5)"
-      "UNIV 101 (1)\nThe Drexel Experience"
+      "CHEM 101 (3.5)\nGeneral Chemistry I"
       "ENGL 101 (3)\nComposition and Rhetoric I: Inquiry and Exploratory Research"
       "ENGR 100 (1)\nBeginning Computer Aided Drafting for Design"
-      "CHEM 101 (3.5)\nGeneral Chemistry I"
       "ENGR 101 (2)\nEngineering Design Laboratory I"
       "ENGR 121 (2)\nComputation Lab I"
       "MATH 121 (4)\nCalculus I"
+      "UNIV 101 (1)\nThe Drexel Experience"
 
       // AP Credit
       "CS 190 (3)\nSelected Computer Language" [shape=diamond]
-      "TGFE 099 (3)" [shape=diamond]
       "SPAN 101 (4)\nSpanish I" [shape=hexagon]
+      "TGFE 099 (3)" [shape=diamond]
     }
     { rank=same "freshman 2 (19.5)"
       "CIVC 101 (1)\nIntroduction to Civic Engagement"
-      "ENGL 102 (3)\nComposition and Rhetoric II: Advanced Research and Evidence-Based Writing"
       "CHEM 102 (4.5)\nGeneral Chemistry II"
+      "ENGL 102 (3)\nComposition and Rhetoric II: Advanced Research and Evidence-Based Writing"
       "ENGR 102 (2)\nEngineering Design Laboratory II"
       "ENGR 122 (1)\nComputation Lab II"
       "MATH 122 (4)\nCalculus II"
       "PHYS 101 (4)\nFundamentals of Physics I"
     }
     { rank=same "freshman 3 (17.5)"
-      "ENGL 103 (3)\nComposition and Rhetoric III: Themes and Genres"
-      "ENGR 103 (2)\nEngineering Design Laboratory III"
       "BIO 141 (4.5)\nEssential Biology"
       "COOP 101 (0)\nCareer Management and Professional Development"
-      "PHYS 102 (4)\nFundamentals of Physics II"
+      "ENGL 103 (3)\nComposition and Rhetoric III: Themes and Genres"
+      "ENGR 103 (2)\nEngineering Design Laboratory III"
       "MATH 200 (4)\nMultivariate Calculus"
+      "PHYS 102 (4)\nFundamentals of Physics II"
     }
     { rank=same "sophomore 1 (20)"
+      "ECE 200 (4)\nDigital Logic Design"
+      "ECE 203 (3)\nProgramming for Engineers"
       "ENGR 201 (3)\nEvaluation & Presentation of Experimental Data I"
       "ENGR 220 (4)\nFundamentals of Materials"
       "ENGR 231 (3)\nLinear Engineering Systems"
-      "ECE 203 (3)\nProgramming for Engineers"
-      "ECE 200 (4)\nDigital Logic Design"
       "PHIL 111 (3)\nSymbolic Logic" [shape=hexagon]
     }
     { rank=same "sophomore 2 (16)"
       "ECE 201 (4)\nFoundations of Electric Circuits"
+      "ECEC 301 (3)\nAdvanced Programming for Engineers"
       "ENGR 202 (3)\nEvaluation & Presentation of Experimental Data II"
       "ENGR 232 (3)\nDynamic Engineering Systems"
       "MATH 221 (3)\nDiscrete Mathematics"
-      "ECEC 301 (3)\nAdvanced Programming for Engineers"
     }
   }
   { node [color=orange]
