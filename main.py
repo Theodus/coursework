@@ -45,27 +45,26 @@ classes = [
   Class("PHIL 111", "Symbolic Logic I", 3.0, 2.1, []),
   # Sophomore 2
   Class("ECE 201", "Foundations of Electric Circuits", 4.0, 2.2, ["PHYS 102"]),
-  Class("ECEC 301", "Adv Programming for Engineers", 3.0, 2.2, ["ECE 203"]),
+  Class("ECEC 201", "Adv Programming for Engineers", 3.0, 2.2, ["ECE 203"]),
   Class("ENGR 202", "	Eval & Pres of Exper Data II", 3.0, 2.2, ["ENGR 201"]),
   Class("ENGR 232", "Dynamic Engineering Systems", 3.0, 2.2, ["ENGR 231"]),
   Class("MATH 221", "Discrete Mathematics", 3.0, 2.2, ["ECE 200"]),
   # Pre-Junior 1
-  Class("CS 265", "Advanced Programming Tools and Techniques", 3.0, 3.1, ["ECEC 301"]),
+  Class("CS 265", "Advanced Programming Tools and Techniques", 3.0, 3.1, ["ECEC 201"]),
   Class("ECE 361", "Probability for Engineers", 4.0, 3.1, []),
   Class("ECEC 302", "Digital Systems Projects", 3.0, 3.1, ["ECE 203", "ECE 200"]),
   Class("ECEC 357", "Introduction to Computer Networks", 3.0, 3.1, ["ECE 203"]),
   Class("ECES 301", "Signals and Systems I", 4.0, 3.1, ["ECE 200", "ECE 201", "ENGR 103"]),
   # Pre-Junior 2
   Class("CS 260", "Data Structures", 3.0, 3.2, ["CS 265"]),
-  Class("ECE 301", "Foundations of Electric Circuits II", 4.0, 3.2, ["ECE 201", "ENGR 232"]),
-  Class("ECEC 204", "Design with Microcontrollers", 3.0, 3.2, ["ECE 200", "ECEC 301"]),
+  Class("ECE 303", "ECE Laboratory", 3.0, 3.2, ["ECE 201", "ENGR 103"]),
+  Class("ECEC 204", "Design with Microcontrollers", 3.0, 3.2, ["ECE 200", "ECEC 201"]),
   Class("ECEC 355", "Computer Architecture", 3.0, 3.2, ["ECEC 302"]),
+  Class("PHIL 315", "Engineering Ethics", 3.0, 3.2, []),
   Class("PHYS 201", "Fundamentals of Physics III", 4.0, 3.2, ["PHYS 102", "MATH 122"]),
   # Junior 1
   Class("ECE 391", "Intro to Engr Design Methods", 1.0, 4.1, []),
-  Class("ECE 303", "ECE Laboratory", 3.0, 4.1, ["ECE 201", "ENGR 103"]),
-  Class("MATH 281", "Linear Algebra with ECE Appl.", 3.0, 4.1, ["MATH 122", "ENGR 231"]),
-  Class("PHIL 315", "Engineering Ethics", 3.0, 4.1, []),
+  Class("PHIL 207", "Symbolic Logic II", 3.0, 4.1, ["PHIL 111"]),
   # Junior 2
   # Senior 1
   Class("ECE 491", "Senior Design Project I", 2.0, 5.1, ["ECE 391", "ECE 361"]),
@@ -74,10 +73,11 @@ classes = [
   # Senior 3
   Class("ECE 493", "Senior Design Project III", 4.0, 5.3, ["ECE 492"]),
   # Incomplete
-  Class("TEMP COM", "Communications Elective", 3.0, -1.0, []),
   Class("TEMP GenEd", "General Education Electives", 8.0, -1.0, []),
   Class("TEMP ECEC 400", "ECEC 400 Level Electives", 9.0, -1.0, []),
-  Class("TEMP COE", "ECE/COE/BMES Electives", 18.0, -1.0, []),
+  Class("TEMP COE", "ECE/COE/BMES Electives", 12.0, -1.0, []),
+  Class("ECEC 353", "Systems Programming", 3.0, -1.0, ["ECEC 201"]),
+  Class("CS 377", "Software Security", 3.0, -1.0, ["ECEC 353"]),
 ]
 
 g = Digraph(name="Classes")
@@ -99,13 +99,12 @@ for i, t in enumerate(terms):
   mk_label = lambda a, b: "{} ({})".format(a, b)
   credit_total = reduce(lambda c, t: t + c, [c.credits for c in cs], 0.0)
 
-  if t >= 0.0:
-    g.node(str(t), mk_label(t, credit_total), shape="plaintext")
-    if i > 0:
-      g.edge(str(terms[i-1]), str(t), style="invis")
+  g.node(str(t), mk_label(t, credit_total), shape="plaintext")
+  if i > 0:
+    g.edge(str(terms[i-1]), str(t), style="invis")
 
-    same_rank = " ".join(['"{}"'.format(c.code) for c in cs])
-    insert_ranks += '\t{{rank=same; "{}" {}}}\n'.format(t, same_rank)
+  same_rank = " ".join(['"{}"'.format(c.code) for c in cs])
+  insert_ranks += '\t{{rank=same; "{}" {}}}\n'.format(t, same_rank)
 
   for c in cs:
     node_label = "{} ({})".format(c.code, c.credits)
