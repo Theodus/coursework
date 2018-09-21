@@ -93,13 +93,26 @@ digraph Classes {
 	"PHYS 201" [label="PHYS 201 (4.0)" color=orange]
 	"PHYS 102" -> "PHYS 201"
 	"MATH 122" -> "PHYS 201"
-	4.1 [label="4.1 (4.0)" shape=plaintext]
+	4.1 [label="4.1 (13.0)" shape=plaintext]
 	3.2 -> 4.1 [style=invis]
+	"CS 361" [label="CS 361 (3.0)" color=orange]
+	"CS 260" -> "CS 361"
+	"ECEC 355" -> "CS 361"
 	"ECE 391" [label="ECE 391 (1.0)" color=orange]
+	"ECEC 353" [label="ECEC 353 (3.0)" color=orange]
+	"ECEC 201" -> "ECEC 353"
+	"ECEC 413" [label="ECEC 413 (3.0)" color=orange]
+	"ECEC 355" -> "ECEC 413"
 	"PHIL 207" [label="PHIL 207 (3.0)" color=orange]
 	"PHIL 111" -> "PHIL 207"
-	4.2 [label="4.2 (0.0)" shape=plaintext]
+	4.2 [label="4.2 (9.0)" shape=plaintext]
 	4.1 -> 4.2 [style=invis]
+	"CS 370" [label="CS 370 (3.0)" color=orange]
+	"ECEC 353" -> "CS 370"
+	"CS 377" [label="CS 377 (3.0)" color=orange]
+	"ECEC 353" -> "CS 377"
+	"ECEC 414" [label="ECEC 414 (3.0)" color=orange]
+	"ECEC 355" -> "ECEC 414"
 	5.1 [label="5.1 (2.0)" shape=plaintext]
 	4.2 -> 5.1 [style=invis]
 	"ECE 491" [label="ECE 491 (2.0)" color=orange]
@@ -113,15 +126,11 @@ digraph Classes {
 	5.2 -> 5.3 [style=invis]
 	"ECE 493" [label="ECE 493 (4.0)" color=orange]
 	"ECE 492" -> "ECE 493"
-	-1.0 [label="-1.0 (35.0)" shape=plaintext]
+	-1.0 [label="-1.0 (17.0)" shape=plaintext]
 	5.3 -> -1.0 [style=invis]
 	"TEMP GenEd" [label="TEMP GenEd (8.0)" color=red]
-	"TEMP ECEC 400" [label="TEMP ECEC 400 (9.0)" color=red]
-	"TEMP COE" [label="TEMP COE (12.0)" color=red]
-	"ECEC 353" [label="ECEC 353 (3.0)" color=red]
-	"ECEC 201" -> "ECEC 353"
-	"CS 377" [label="CS 377 (3.0)" color=red]
-	"ECEC 353" -> "CS 377"
+	"TEMP ECEC 400" [label="TEMP ECEC 400 (3.0)" color=red]
+	"TEMP COE" [label="TEMP COE (6.0)" color=red]
 	{rank=same; "0.0" "CS 190" "SPAN 101" "TGFE 099"}
 	{rank=same; "1.1" "CHEM 101" "ENGL 101" "ENGR 100" "ENGR 101" "ENGR 121" "MATH 121" "UNIV 101"}
 	{rank=same; "1.2" "CHEM 102" "CIVC 101" "ENGL 102" "ENGR 102" "ENGR 122" "MATH 122" "PHYS 101"}
@@ -130,10 +139,10 @@ digraph Classes {
 	{rank=same; "2.2" "ECE 201" "ECEC 201" "ENGR 202" "ENGR 232" "MATH 221"}
 	{rank=same; "3.1" "CS 265" "ECE 361" "ECEC 302" "ECEC 357" "ECES 301"}
 	{rank=same; "3.2" "CS 260" "ECE 303" "ECEC 204" "ECEC 355" "PHIL 315" "PHYS 201"}
-	{rank=same; "4.1" "ECE 391" "PHIL 207"}
-	{rank=same; "4.2" }
+	{rank=same; "4.1" "CS 361" "ECE 391" "ECEC 353" "ECEC 413" "PHIL 207"}
+	{rank=same; "4.2" "CS 370" "CS 377" "ECEC 414"}
 	{rank=same; "5.1" "ECE 491"}
 	{rank=same; "5.2" "ECE 492"}
 	{rank=same; "5.3" "ECE 493"}
-	{rank=same; "-1.0" "TEMP GenEd" "TEMP ECEC 400" "TEMP COE" "ECEC 353" "CS 377"}
+	{rank=same; "-1.0" "TEMP GenEd" "TEMP ECEC 400" "TEMP COE"}
 }
