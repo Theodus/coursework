@@ -8,8 +8,6 @@ class Class:
     self.term = term
     self.prereqs = prereqs
 
-# Class("", "", 0, 0.0, [])
-
 classes = [
   # Transfer (AP)
   Class("CS 190", "Selected Computer Language", 3.0, 0.0, []),
@@ -45,34 +43,75 @@ classes = [
   Class("ENGR 220", "Fundamentals of Materials", 4.0, 2.1, ["CHEM 101", "MATH 122", "PHYS 101"]),
   Class("ENGR 231", "Linear Engineering Systems", 3.0, 2.1, ["ENGR 121"]),
   Class("PHIL 111", "Symbolic Logic I", 3.0, 2.1, []),
+  # Sophomore 2
+  Class("ECE 201", "Foundations of Electric Circuits", 4.0, 2.2, ["PHYS 102"]),
+  Class("ECEC 301", "Adv Programming for Engineers", 3.0, 2.2, ["ECE 203"]),
+  Class("ENGR 202", "	Eval & Pres of Exper Data II", 3.0, 2.2, ["ENGR 201"]),
+  Class("ENGR 232", "Dynamic Engineering Systems", 3.0, 2.2, ["ENGR 231"]),
+  Class("MATH 221", "Discrete Mathematics", 3.0, 2.2, ["ECE 200"]),
+  # Pre-Junior 1
+  Class("CS 265", "Advanced Programming Tools and Techniques", 3.0, 3.1, ["ECEC 301"]),
+  Class("ECE 361", "Probability for Engineers", 4.0, 3.1, []),
+  Class("ECEC 302", "Digital Systems Projects", 3.0, 3.1, ["ECE 203", "ECE 200"]),
+  Class("ECEC 357", "Introduction to Computer Networks", 3.0, 3.1, ["ECE 203"]),
+  Class("ECES 301", "Signals and Systems I", 4.0, 3.1, ["ECE 200", "ECE 201", "ENGR 103"]),
+  # Pre-Junior 2
+  Class("CS 260", "Data Structures", 3.0, 3.2, ["CS 265"]),
+  Class("ECE 301", "Foundations of Electric Circuits II", 4.0, 3.2, ["ECE 201", "ENGR 232"]),
+  Class("ECEC 204", "Design with Microcontrollers", 3.0, 3.2, ["ECE 200", "ECEC 301"]),
+  Class("ECEC 355", "Computer Architecture", 3.0, 3.2, ["ECEC 302"]),
+  Class("PHYS 201", "Fundamentals of Physics III", 4.0, 3.2, ["PHYS 102", "MATH 122"]),
+  # Junior 1
+  Class("ECE 391", "Intro to Engr Design Methods", 1.0, 4.1, []),
+  Class("ECE 303", "ECE Laboratory", 3.0, 4.1, ["ECE 201", "ENGR 103"]),
+  Class("MATH 281", "Linear Algebra with ECE Appl.", 3.0, 4.1, ["MATH 122", "ENGR 231"]),
+  Class("PHIL 315", "Engineering Ethics", 3.0, 4.1, []),
+  # Junior 2
+  # Senior 1
+  Class("ECE 491", "Senior Design Project I", 2.0, 5.1, ["ECE 391", "ECE 361"]),
+  # Senior 2
+  Class("ECE 492", "Senior Design Project II", 2.0, 5.2, ["ECE 491"]),
+  # Senior 3
+  Class("ECE 493", "Senior Design Project III", 4.0, 5.3, ["ECE 492"]),
+  # Incomplete
+  Class("TEMP COM", "Communications Elective", 3.0, -1.0, []),
+  Class("TEMP GenEd", "General Education Electives", 8.0, -1.0, []),
+  Class("TEMP ECEC 400", "ECEC 400 Level Electives", 9.0, -1.0, []),
+  Class("TEMP COE", "ECE/COE/BMES Electives", 18.0, -1.0, []),
 ]
 
 g = Digraph(name="Classes")
+g.attr(newrank="true")
 
-terms = [-1.0, 0.0, 1.1, 1.2, 1.3, 2.1, 2.2]
+terms = [0.0, 1.1, 1.2, 1.3, 2.1, 2.2, 3.1, 3.2, 4.1, 4.2, 5.1, 5.2, 5.3, -1.0]
 current_term = 3.1
 
 insert_ranks = ""
 
 for i, t in enumerate(terms):
-  node_color = "black"
+  node_color = "orange"
   if t == -1.0: node_color = "red"
   elif t < current_term: node_color = "darkgreen"
-  elif t == current_term: node_color = "orange"
-
-  g.node(str(t), shape="plaintext")
-  if i > 0:
-    g.edge(str(terms[i-1]), str(t), style="invis")
+  elif t == current_term: node_color = "blue"
 
   cs = filter(lambda c: c.term == t, classes)
 
-  same_rank = " ".join(['"{}"'.format(c.code) for c in cs])
-  insert_ranks += '\t{{rank=same; "{}" {}}}\n'.format(t, same_rank)
+  mk_label = lambda a, b: "{} ({})".format(a, b)
+  credit_total = reduce(lambda c, t: t + c, [c.credits for c in cs], 0.0)
+
+  if t >= 0.0:
+    g.node(str(t), mk_label(t, credit_total), shape="plaintext")
+    if i > 0:
+      g.edge(str(terms[i-1]), str(t), style="invis")
+
+    same_rank = " ".join(['"{}"'.format(c.code) for c in cs])
+    insert_ranks += '\t{{rank=same; "{}" {}}}\n'.format(t, same_rank)
 
   for c in cs:
-    g.node(c.code, c.code + " (" + str(c.credits) + ")", color=node_color)
+    node_label = "{} ({})".format(c.code, c.credits)
+    g.node(c.code, node_label, color=node_color)
     for p in c.prereqs:
       g.edge(p, c.code)
 
 src = g.source
-print src[:-1] + insert_ranks + src[-1:]
+print(src[:-1] + insert_ranks + src[-1:])

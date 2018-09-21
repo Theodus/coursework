@@ -1,218 +1,137 @@
-/* Key:
-
-color:
-green = already taken
-orange = currently taking
-black = not taken
-
-shape:
-ellipse = fixed major degree requirement
-box = major degree elective
-diamond = free elective
-hexagon = general education elective
-
-*/
-
 digraph Classes {
-
-  { node [shape=plaintext]
-    "freshman 1 (16.5)" ->
-    "freshman 2 (19.5)" ->
-    "freshman 3 (17.5)" ->
-    "sophomore 1 (20)" ->
-    "sophomore 2 (16)" ->
-    "COOP 1" ->
-    "COOP 2" ->
-    "pre-junior 1 (17)" ->
-    "pre-junior 2 (16)" ->
-    "COOP 3" ->
-    "COOP 4" ->
-    "junior 1 (18)" ->
-    "junior 2 (12)" ->
-    "COOP 5" ->
-    "COOP 6" ->
-    "senior 1" ->
-    "senior 2" ->
-    "senior 3"
-  }
-
-  { node [color=green]
-    { rank=same "freshman 1 (16.5)"
-      "CHEM 101 (3.5)\nGeneral Chemistry I"
-      "ENGL 101 (3)\nComposition and Rhetoric I: Inquiry and Exploratory Research"
-      "ENGR 100 (1)\nBeginning Computer Aided Drafting for Design"
-      "ENGR 101 (2)\nEngineering Design Laboratory I"
-      "ENGR 121 (2)\nComputation Lab I"
-      "MATH 121 (4)\nCalculus I"
-      "UNIV 101 (1)\nThe Drexel Experience"
-
-      // AP Credit
-      "CS 190 (3)\nSelected Computer Language" [shape=diamond]
-      "SPAN 101 (4)\nSpanish I" [shape=hexagon]
-      "TGFE 099 (3)" [shape=diamond]
-    }
-    { rank=same "freshman 2 (19.5)"
-      "CIVC 101 (1)\nIntroduction to Civic Engagement"
-      "CHEM 102 (4.5)\nGeneral Chemistry II"
-      "ENGL 102 (3)\nComposition and Rhetoric II: Advanced Research and Evidence-Based Writing"
-      "ENGR 102 (2)\nEngineering Design Laboratory II"
-      "ENGR 122 (1)\nComputation Lab II"
-      "MATH 122 (4)\nCalculus II"
-      "PHYS 101 (4)\nFundamentals of Physics I"
-    }
-    { rank=same "freshman 3 (17.5)"
-      "BIO 141 (4.5)\nEssential Biology"
-      "COOP 101 (0)\nCareer Management and Professional Development"
-      "ENGL 103 (3)\nComposition and Rhetoric III: Themes and Genres"
-      "ENGR 103 (2)\nEngineering Design Laboratory III"
-      "MATH 200 (4)\nMultivariate Calculus"
-      "PHYS 102 (4)\nFundamentals of Physics II"
-    }
-    { rank=same "sophomore 1 (20)"
-      "ECE 200 (4)\nDigital Logic Design"
-      "ECE 203 (3)\nProgramming for Engineers"
-      "ENGR 201 (3)\nEvaluation & Presentation of Experimental Data I"
-      "ENGR 220 (4)\nFundamentals of Materials"
-      "ENGR 231 (3)\nLinear Engineering Systems"
-      "PHIL 111 (3)\nSymbolic Logic" [shape=hexagon]
-    }
-    { rank=same "sophomore 2 (16)"
-      "ECE 201 (4)\nFoundations of Electric Circuits"
-      "ECEC 301 (3)\nAdvanced Programming for Engineers"
-      "ENGR 202 (3)\nEvaluation & Presentation of Experimental Data II"
-      "ENGR 232 (3)\nDynamic Engineering Systems"
-      "MATH 221 (3)\nDiscrete Mathematics"
-    }
-  }
-  { node [color=orange]
-    { rank=same "pre-junior 1 (17)"
-      "CS 265 (3)\nAdvanced Programming Tools and Techniques"
-      "ECE 361 (4)\nProbability for Engineers"
-      "ECEC 302 (3)\nDigital Systems Projects"
-      "ECEC 357 (3)\nIntroduction to Computer Networks"
-      "ECES 301 (4)\nTransform Methods and Filtering"
-    }
-  }
-  { rank=same "pre-junior 2 (16)"
-    "CS 260 (3)\nData Structures"
-    "ECEC 304 (4)\nDesign with Microcontrollers"
-    "ECEC 355 (4)\nComputer Organization & Architecture"
-    "ECEC 432 (3)\nInternet Architecture and Protocols" [shape=box]
-    "ECEL 301 (2)\nECE Laboratory"
-  }
-  { rank=same "COOP 3"
-    "PHIL 207 (3)\nSymbolic Logic II" [shape=hexagon]
-  }
-  { rank=same "COOP 4"
-    "PHIL 315 (3)\nEngineering Ethics"
-  }
-  { rank=same "junior 1 (18)"
-    "CS 361 (3)\nConcurrent Programming" [shape=box]
-    "CS 270 (3)\nMathematical Foundations of Computer Science" [shape=diamond]
-    "ECEC 353 (3)\nSystems Programming"
-    "ECEC 413 (3)\nIntroduction to Parallel Computer Architecture" [shape=box]
-    "ECEL 302 (2)\nECE Laboratory II"
-    "PHYS 201 (4)\nFundamentals of Physics III"
-  }
-  { rank=same "junior 2 (12)"
-    "CS 377 (3)\nSoftware Security" [shape=box]
-    "CS 457 (3)\nData Structures and Algorithms I" [shape=box]
-    "ECE 391 (1)\nIntroduction to Engineering Design Methods"
-    "ECEC 414 (3)\nHigh Performance Computing" [shape=box]
-    "ECEL 303 (2)\nECE Laboratory III"
-  }
-  { rank=same "senior 1"
-    "ECE 491 (2)\nSenior Design Project I"
-    "ECEC 457 (3)\nSecurity in Computing" [shape=box]
-  }
-  { rank=same "senior 2"
-    "ECE 492 (2)\nSenior Design Project II"
-  }
-  { rank=same "senior 3"
-    "ECE 493 (4)\nSenior Design Project III"
-  }
-
-  // General Education/Liberal Studies
-
-  "CIVC 101 (1)\nIntroduction to Civic Engagement"
-  "ENGL 101 (3)\nComposition and Rhetoric I: Inquiry and Exploratory Research"
-  -> "ENGL 102 (3)\nComposition and Rhetoric II: Advanced Research and Evidence-Based Writing"
-  -> "ENGL 103 (3)\nComposition and Rhetoric III: Themes and Genres"
-  "PHIL 315 (3)\nEngineering Ethics"
-  "UNIV 101 (1)\nThe Drexel Experience"
-
-  "PHIL 111 (3)\nSymbolic Logic"
-  -> "PHIL 207 (3)\nSymbolic Logic II"
-
-  // Foundation Requirements
-
-  "BIO 141 (4.5)\nEssential Biology"
-  "CHEM 101 (3.5)\nGeneral Chemistry I"
-  -> "CHEM 102 (4.5)\nGeneral Chemistry II"
-  "PHYS 101 (4)\nFundamentals of Physics I"
-  -> "PHYS 102 (4)\nFundamentals of Physics II"
-  -> "PHYS 201 (4)\nFundamentals of Physics III"
-  "PHYS 102 (4)\nFundamentals of Physics II"
-  -> "ECE 201 (4)\nFoundations of Electric Circuits"
-  "MATH 121 (4)\nCalculus I"
-  -> "MATH 122 (4)\nCalculus II"
-  -> "MATH 200 (4)\nMultivariate Calculus"
-  -> "ENGR 231 (3)\nLinear Engineering Systems"
-  "ENGR 101 (2)\nEngineering Design Laboratory I"
-  -> "ENGR 102 (2)\nEngineering Design Laboratory II"
-  -> "ENGR 103 (2)\nEngineering Design Laboratory III"
-  -> "ECE 200 (4)\nDigital Logic Design"
-  -> "MATH 221 (3)\nDiscrete Mathematics"
-  "ECE 203 (3)\nProgramming for Engineers"
-  {"MATH 122 (4)\nCalculus II" "PHYS 101 (4)\nFundamentals of Physics I" "ENGR 103 (2)\nEngineering Design Laboratory III"}
-  -> "ENGR 201 (3)\nEvaluation & Presentation of Experimental Data I"
-  -> "ENGR 202 (3)\nEvaluation & Presentation of Experimental Data II"
-  {"CHEM 102 (4.5)\nGeneral Chemistry II" "MATH 122 (4)\nCalculus II" "PHYS 101 (4)\nFundamentals of Physics I"}
-  -> "ENGR 220 (4)\nFundamentals of Materials"
-  {"MATH 122 (4)\nCalculus II" "ENGR 121 (2)\nComputation Lab I"}
-  -> "ENGR 231 (3)\nLinear Engineering Systems"
-  {"ENGR 231 (3)\nLinear Engineering Systems" "ENGR 121 (2)\nComputation Lab I"}
-  -> "ENGR 232 (3)\nDynamic Engineering Systems"
-
-  // Professional Requirements
-
-  "ECE 203 (3)\nProgramming for Engineers"
-  -> "ECEC 301 (3)\nAdvanced Programming for Engineers"
-  -> "CS 265 (3)\nAdvanced Programming Tools and Techniques"
-  -> "CS 260 (3)\nData Structures"
-  {"ENGR 202 (3)\nEvaluation & Presentation of Experimental Data II" "ENGR 231 (3)\nLinear Engineering Systems"}
-  -> "ECE 361 (4)\nProbability for Engineers"
-  {"ECE 391 (1)\nIntroduction to Engineering Design Methods" "ECE 361 (4)\nProbability for Engineers"}
-  -> "ECE 491 (2)\nSenior Design Project I"
-  -> "ECE 492 (2)\nSenior Design Project II"
-  -> "ECE 493 (4)\nSenior Design Project III"
-  {"ECE 203 (3)\nProgramming for Engineers" "ECE 200 (4)\nDigital Logic Design"}
-  -> "ECEC 302 (3)\nDigital Systems Projects"
-  {"ECE 200 (4)\nDigital Logic Design" "ECE 203 (3)\nProgramming for Engineers"}
-  -> "ECEC 304 (4)\nDesign with Microcontrollers"
-  "CS 265 (3)\nAdvanced Programming Tools and Techniques"
-  -> "ECEC 353 (3)\nSystems Programming"
-  {"ECE 200 (4)\nDigital Logic Design" "ECEC 302 (3)\nDigital Systems Projects"}
-  -> "ECEC 355 (4)\nComputer Organization & Architecture"
-  -> {"ECEC 413 (3)\nIntroduction to Parallel Computer Architecture" "ECEC 414 (3)\nHigh Performance Computing" "ECEC 457 (3)\nSecurity in Computing"}
-  "ECE 203 (3)\nProgramming for Engineers"
-  -> "ECEC 357 (3)\nIntroduction to Computer Networks"
-  -> "ECEC 432 (3)\nInternet Architecture and Protocols"
-  {"ENGR 103 (2)\nEngineering Design Laboratory III" "ECE 200 (4)\nDigital Logic Design" "ECE 201 (4)\nFoundations of Electric Circuits"}
-  -> "ECEL 301 (2)\nECE Laboratory"
-  -> "ECEL 302 (2)\nECE Laboratory II"
-  -> "ECEL 303 (2)\nECE Laboratory III"
-  {"ENGR 232 (3)\nDynamic Engineering Systems" "ECE 201 (4)\nFoundations of Electric Circuits"}
-  -> "ECES 301 (4)\nTransform Methods and Filtering"
-
-  // Free and ECE/COE/BMES 300+ electives
-
-  "ECEC 353 (3)\nSystems Programming"
-  -> "CS 377 (3)\nSoftware Security"
-  {"CS 260 (3)\nData Structures" "ECEC 355 (4)\nComputer Organization & Architecture"}
-  -> "CS 361 (3)\nConcurrent Programming"
-  "ECEC 301 (3)\nAdvanced Programming for Engineers"
-  -> "CS 270 (3)\nMathematical Foundations of Computer Science"
-  {"CS 260 (3)\nData Structures" "CS 270 (3)\nMathematical Foundations of Computer Science" "MATH 221 (3)\nDiscrete Mathematics"}
-  -> "CS 457 (3)\nData Structures and Algorithms I"
+	newrank=true
+	0.0 [label="0.0 (11.0)" shape=plaintext]
+	"CS 190" [label="CS 190 (3.0)" color=darkgreen]
+	"SPAN 101" [label="SPAN 101 (4.0)" color=darkgreen]
+	"TGFE 099" [label="TGFE 099 (4.0)" color=darkgreen]
+	1.1 [label="1.1 (16.5)" shape=plaintext]
+	0.0 -> 1.1 [style=invis]
+	"CHEM 101" [label="CHEM 101 (3.5)" color=darkgreen]
+	"ENGL 101" [label="ENGL 101 (3.0)" color=darkgreen]
+	"ENGR 100" [label="ENGR 100 (1.0)" color=darkgreen]
+	"ENGR 101" [label="ENGR 101 (2.0)" color=darkgreen]
+	"ENGR 121" [label="ENGR 121 (2.0)" color=darkgreen]
+	"MATH 121" [label="MATH 121 (4.0)" color=darkgreen]
+	"UNIV 101" [label="UNIV 101 (1.0)" color=darkgreen]
+	1.2 [label="1.2 (19.5)" shape=plaintext]
+	1.1 -> 1.2 [style=invis]
+	"CHEM 102" [label="CHEM 102 (4.5)" color=darkgreen]
+	"CHEM 101" -> "CHEM 102"
+	"CIVC 101" [label="CIVC 101 (1.0)" color=darkgreen]
+	"ENGL 102" [label="ENGL 102 (3.0)" color=darkgreen]
+	"ENGL 101" -> "ENGL 102"
+	"ENGR 102" [label="ENGR 102 (2.0)" color=darkgreen]
+	"ENGR 101" -> "ENGR 102"
+	"ENGR 122" [label="ENGR 122 (1.0)" color=darkgreen]
+	"MATH 122" [label="MATH 122 (4.0)" color=darkgreen]
+	"MATH 121" -> "MATH 122"
+	"PHYS 101" [label="PHYS 101 (4.0)" color=darkgreen]
+	1.3 [label="1.3 (17.5)" shape=plaintext]
+	1.2 -> 1.3 [style=invis]
+	"BIO 141" [label="BIO 141 (4.5)" color=darkgreen]
+	"CHEM 101" -> "BIO 141"
+	"COOP 101" [label="COOP 101 (0)" color=darkgreen]
+	"ENGL 103" [label="ENGL 103 (3.0)" color=darkgreen]
+	"ENGL 102" -> "ENGL 103"
+	"ENGR 103" [label="ENGR 103 (2.0)" color=darkgreen]
+	"ENGR 102" -> "ENGR 103"
+	"MATH 200" [label="MATH 200 (4.0)" color=darkgreen]
+	"MATH 122" -> "MATH 200"
+	"PHYS 102" [label="PHYS 102 (4.0)" color=darkgreen]
+	"PHYS 101" -> "PHYS 102"
+	2.1 [label="2.1 (20.0)" shape=plaintext]
+	1.3 -> 2.1 [style=invis]
+	"ECE 200" [label="ECE 200 (4.0)" color=darkgreen]
+	"ECE 203" [label="ECE 203 (3.0)" color=darkgreen]
+	"ENGR 201" [label="ENGR 201 (3.0)" color=darkgreen]
+	"ENGR 220" [label="ENGR 220 (4.0)" color=darkgreen]
+	"CHEM 101" -> "ENGR 220"
+	"MATH 122" -> "ENGR 220"
+	"PHYS 101" -> "ENGR 220"
+	"ENGR 231" [label="ENGR 231 (3.0)" color=darkgreen]
+	"ENGR 121" -> "ENGR 231"
+	"PHIL 111" [label="PHIL 111 (3.0)" color=darkgreen]
+	2.2 [label="2.2 (16.0)" shape=plaintext]
+	2.1 -> 2.2 [style=invis]
+	"ECE 201" [label="ECE 201 (4.0)" color=darkgreen]
+	"PHYS 102" -> "ECE 201"
+	"ECEC 301" [label="ECEC 301 (3.0)" color=darkgreen]
+	"ECE 203" -> "ECEC 301"
+	"ENGR 202" [label="ENGR 202 (3.0)" color=darkgreen]
+	"ENGR 201" -> "ENGR 202"
+	"ENGR 232" [label="ENGR 232 (3.0)" color=darkgreen]
+	"ENGR 231" -> "ENGR 232"
+	"MATH 221" [label="MATH 221 (3.0)" color=darkgreen]
+	"ECE 200" -> "MATH 221"
+	3.1 [label="3.1 (17.0)" shape=plaintext]
+	2.2 -> 3.1 [style=invis]
+	"CS 265" [label="CS 265 (3.0)" color=blue]
+	"ECEC 301" -> "CS 265"
+	"ECE 361" [label="ECE 361 (4.0)" color=blue]
+	"ECEC 302" [label="ECEC 302 (3.0)" color=blue]
+	"ECE 203" -> "ECEC 302"
+	"ECE 200" -> "ECEC 302"
+	"ECEC 357" [label="ECEC 357 (3.0)" color=blue]
+	"ECE 203" -> "ECEC 357"
+	"ECES 301" [label="ECES 301 (4.0)" color=blue]
+	"ECE 200" -> "ECES 301"
+	"ECE 201" -> "ECES 301"
+	"ENGR 103" -> "ECES 301"
+	3.2 [label="3.2 (17.0)" shape=plaintext]
+	3.1 -> 3.2 [style=invis]
+	"CS 260" [label="CS 260 (3.0)" color=orange]
+	"CS 265" -> "CS 260"
+	"ECE 301" [label="ECE 301 (4.0)" color=orange]
+	"ECE 201" -> "ECE 301"
+	"ENGR 232" -> "ECE 301"
+	"ECEC 204" [label="ECEC 204 (3.0)" color=orange]
+	"ECE 200" -> "ECEC 204"
+	"ECEC 301" -> "ECEC 204"
+	"ECEC 355" [label="ECEC 355 (3.0)" color=orange]
+	"ECEC 302" -> "ECEC 355"
+	"PHYS 201" [label="PHYS 201 (4.0)" color=orange]
+	"PHYS 102" -> "PHYS 201"
+	"MATH 122" -> "PHYS 201"
+	4.1 [label="4.1 (10.0)" shape=plaintext]
+	3.2 -> 4.1 [style=invis]
+	"ECE 391" [label="ECE 391 (1.0)" color=orange]
+	"ECE 303" [label="ECE 303 (3.0)" color=orange]
+	"ECE 201" -> "ECE 303"
+	"ENGR 103" -> "ECE 303"
+	"MATH 281" [label="MATH 281 (3.0)" color=orange]
+	"MATH 122" -> "MATH 281"
+	"ENGR 231" -> "MATH 281"
+	"PHIL 315" [label="PHIL 315 (3.0)" color=orange]
+	4.2 [label="4.2 (0.0)" shape=plaintext]
+	4.1 -> 4.2 [style=invis]
+	5.1 [label="5.1 (2.0)" shape=plaintext]
+	4.2 -> 5.1 [style=invis]
+	"ECE 491" [label="ECE 491 (2.0)" color=orange]
+	"ECE 391" -> "ECE 491"
+	"ECE 361" -> "ECE 491"
+	5.2 [label="5.2 (2.0)" shape=plaintext]
+	5.1 -> 5.2 [style=invis]
+	"ECE 492" [label="ECE 492 (2.0)" color=orange]
+	"ECE 491" -> "ECE 492"
+	5.3 [label="5.3 (4.0)" shape=plaintext]
+	5.2 -> 5.3 [style=invis]
+	"ECE 493" [label="ECE 493 (4.0)" color=orange]
+	"ECE 492" -> "ECE 493"
+	"TEMP COM" [label="TEMP COM (3.0)" color=red]
+	"TEMP GenEd" [label="TEMP GenEd (8.0)" color=red]
+	"TEMP ECEC 400" [label="TEMP ECEC 400 (9.0)" color=red]
+	"TEMP COE" [label="TEMP COE (18.0)" color=red]
+	{rank=same; "0.0" "CS 190" "SPAN 101" "TGFE 099"}
+	{rank=same; "1.1" "CHEM 101" "ENGL 101" "ENGR 100" "ENGR 101" "ENGR 121" "MATH 121" "UNIV 101"}
+	{rank=same; "1.2" "CHEM 102" "CIVC 101" "ENGL 102" "ENGR 102" "ENGR 122" "MATH 122" "PHYS 101"}
+	{rank=same; "1.3" "BIO 141" "COOP 101" "ENGL 103" "ENGR 103" "MATH 200" "PHYS 102"}
+	{rank=same; "2.1" "ECE 200" "ECE 203" "ENGR 201" "ENGR 220" "ENGR 231" "PHIL 111"}
+	{rank=same; "2.2" "ECE 201" "ECEC 301" "ENGR 202" "ENGR 232" "MATH 221"}
+	{rank=same; "3.1" "CS 265" "ECE 361" "ECEC 302" "ECEC 357" "ECES 301"}
+	{rank=same; "3.2" "CS 260" "ECE 301" "ECEC 204" "ECEC 355" "PHYS 201"}
+	{rank=same; "4.1" "ECE 391" "ECE 303" "MATH 281" "PHIL 315"}
+	{rank=same; "4.2" }
+	{rank=same; "5.1" "ECE 491"}
+	{rank=same; "5.2" "ECE 492"}
+	{rank=same; "5.3" "ECE 493"}
 }
