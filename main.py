@@ -82,6 +82,10 @@ classes = [
   Class("TEMP GenEd", "General Education Electives", 8.0, -1.0, []),
   Class("TEMP ECEC 400", "ECEC 400 Level Electives", 3.0, -1.0, []),
   Class("TEMP COE", "ECE/COE/BMES Electives", 6.0, -1.0, []),
+  # Class("FIN 150", "Financial Literacy", 4.0, -1.0, []),
+  # Class("BLAW 360", "Intellectual Property and Cyber Law", 4.0, -1.0, []),
+  # Class("ECON 201", "Principles of Microeconomics", 4.0, -1.0, []),
+  # Class("ECON 202", "Principles of Macroeconomics", 4.0, -1.0, ["ECON 201"]),
 ]
 
 g = Digraph(name="Classes")
