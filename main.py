@@ -105,8 +105,7 @@ for i, t in enumerate(terms):
   cs = filter(lambda c: c.term == t, classes)
 
   mk_label = lambda a, b: "{} ({})".format(a, b)
-  credit_total = reduce(lambda c, t: t + c, [c.credits for c in cs], 0.0)
-
+  credit_total = sum([c.credits for c in cs])
   g.node(str(t), mk_label(t, credit_total), shape="plaintext")
   if i > 0:
     g.edge(str(terms[i-1]), str(t), style="invis")
