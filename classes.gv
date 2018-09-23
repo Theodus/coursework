@@ -1,136 +1,136 @@
 digraph Classes {
 	newrank=true
 	0.0 [label="0.0 (11.0)" shape=plaintext]
-	"CS 190" [label="CS 190 (3.0)" color=darkgreen]
-	"SPAN 101" [label="SPAN 101 (4.0)" color=darkgreen]
-	"TGFE 099" [label="TGFE 099 (4.0)" color=darkgreen]
+	"CS 190" [label=<CS 190 (3.0)<BR /><FONT POINT-SIZE="10">Selected Computer Language</FONT>> color=darkgreen]
+	"SPAN 101" [label=<SPAN 101 (4.0)<BR /><FONT POINT-SIZE="10">Spanish I</FONT>> color=darkgreen]
+	"TGFE 099" [label=<TGFE 099 (4.0)<BR /><FONT POINT-SIZE="10">Transfer General Free Elective</FONT>> color=darkgreen]
 	1.1 [label="1.1 (16.5)" shape=plaintext]
 	0.0 -> 1.1 [style=invis]
-	"CHEM 101" [label="CHEM 101 (3.5)" color=darkgreen]
-	"ENGL 101" [label="ENGL 101 (3.0)" color=darkgreen]
-	"ENGR 100" [label="ENGR 100 (1.0)" color=darkgreen]
-	"ENGR 101" [label="ENGR 101 (2.0)" color=darkgreen]
-	"ENGR 121" [label="ENGR 121 (2.0)" color=darkgreen]
-	"MATH 121" [label="MATH 121 (4.0)" color=darkgreen]
-	"UNIV 101" [label="UNIV 101 (1.0)" color=darkgreen]
+	"CHEM 101" [label=<CHEM 101 (3.5)<BR /><FONT POINT-SIZE="10">General Chemistry I</FONT>> color=darkgreen]
+	"ENGL 101" [label=<ENGL 101 (3.0)<BR /><FONT POINT-SIZE="10">Composition and Rhetoric I</FONT>> color=darkgreen]
+	"ENGR 100" [label=<ENGR 100 (1.0)<BR /><FONT POINT-SIZE="10">Beginning CAD for Design</FONT>> color=darkgreen]
+	"ENGR 101" [label=<ENGR 101 (2.0)<BR /><FONT POINT-SIZE="10">Engineering Design Lab I</FONT>> color=darkgreen]
+	"ENGR 121" [label=<ENGR 121 (2.0)<BR /><FONT POINT-SIZE="10">Computation Lab I</FONT>> color=darkgreen]
+	"MATH 121" [label=<MATH 121 (4.0)<BR /><FONT POINT-SIZE="10">Calculus I</FONT>> color=darkgreen]
+	"UNIV 101" [label=<UNIV 101 (1.0)<BR /><FONT POINT-SIZE="10">The Drexel Experience</FONT>> color=darkgreen]
 	1.2 [label="1.2 (19.5)" shape=plaintext]
 	1.1 -> 1.2 [style=invis]
-	"CHEM 102" [label="CHEM 102 (4.5)" color=darkgreen]
+	"CHEM 102" [label=<CHEM 102 (4.5)<BR /><FONT POINT-SIZE="10">General Chemistry II</FONT>> color=darkgreen]
 	"CHEM 101" -> "CHEM 102"
-	"CIVC 101" [label="CIVC 101 (1.0)" color=darkgreen]
-	"ENGL 102" [label="ENGL 102 (3.0)" color=darkgreen]
+	"CIVC 101" [label=<CIVC 101 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Civic Engagement</FONT>> color=darkgreen]
+	"ENGL 102" [label=<ENGL 102 (3.0)<BR /><FONT POINT-SIZE="10">Composition and Rhetoric II</FONT>> color=darkgreen]
 	"ENGL 101" -> "ENGL 102"
-	"ENGR 102" [label="ENGR 102 (2.0)" color=darkgreen]
+	"ENGR 102" [label=<ENGR 102 (2.0)<BR /><FONT POINT-SIZE="10">Engineering Design Lab II</FONT>> color=darkgreen]
 	"ENGR 101" -> "ENGR 102"
-	"ENGR 122" [label="ENGR 122 (1.0)" color=darkgreen]
-	"MATH 122" [label="MATH 122 (4.0)" color=darkgreen]
+	"ENGR 122" [label=<ENGR 122 (1.0)<BR /><FONT POINT-SIZE="10">Computation Lab II</FONT>> color=darkgreen]
+	"MATH 122" [label=<MATH 122 (4.0)<BR /><FONT POINT-SIZE="10">Calculus II</FONT>> color=darkgreen]
 	"MATH 121" -> "MATH 122"
-	"PHYS 101" [label="PHYS 101 (4.0)" color=darkgreen]
+	"PHYS 101" [label=<PHYS 101 (4.0)<BR /><FONT POINT-SIZE="10">Fundamentals of Physics I</FONT>> color=darkgreen]
 	1.3 [label="1.3 (17.5)" shape=plaintext]
 	1.2 -> 1.3 [style=invis]
-	"BIO 141" [label="BIO 141 (4.5)" color=darkgreen]
+	"BIO 141" [label=<BIO 141 (4.5)<BR /><FONT POINT-SIZE="10">Essential Biology</FONT>> color=darkgreen]
 	"CHEM 101" -> "BIO 141"
-	"COOP 101" [label="COOP 101 (0)" color=darkgreen]
-	"ENGL 103" [label="ENGL 103 (3.0)" color=darkgreen]
+	"COOP 101" [label=<COOP 101 (0)<BR /><FONT POINT-SIZE="10">Career Mgmt/Profess Dev</FONT>> color=darkgreen]
+	"ENGL 103" [label=<ENGL 103 (3.0)<BR /><FONT POINT-SIZE="10">Composition and Rhetoric III</FONT>> color=darkgreen]
 	"ENGL 102" -> "ENGL 103"
-	"ENGR 103" [label="ENGR 103 (2.0)" color=darkgreen]
+	"ENGR 103" [label=<ENGR 103 (2.0)<BR /><FONT POINT-SIZE="10">Engineering Design Lab III</FONT>> color=darkgreen]
 	"ENGR 102" -> "ENGR 103"
-	"MATH 200" [label="MATH 200 (4.0)" color=darkgreen]
+	"MATH 200" [label=<MATH 200 (4.0)<BR /><FONT POINT-SIZE="10">Multivariate Calculus</FONT>> color=darkgreen]
 	"MATH 122" -> "MATH 200"
-	"PHYS 102" [label="PHYS 102 (4.0)" color=darkgreen]
+	"PHYS 102" [label=<PHYS 102 (4.0)<BR /><FONT POINT-SIZE="10">Fundamentals of Physics II</FONT>> color=darkgreen]
 	"PHYS 101" -> "PHYS 102"
 	2.1 [label="2.1 (20.0)" shape=plaintext]
 	1.3 -> 2.1 [style=invis]
-	"ECE 200" [label="ECE 200 (4.0)" color=darkgreen]
-	"ECE 203" [label="ECE 203 (3.0)" color=darkgreen]
-	"ENGR 201" [label="ENGR 201 (3.0)" color=darkgreen]
-	"ENGR 220" [label="ENGR 220 (4.0)" color=darkgreen]
+	"ECE 200" [label=<ECE 200 (4.0)<BR /><FONT POINT-SIZE="10">Digital Logic Design</FONT>> color=darkgreen]
+	"ECE 203" [label=<ECE 203 (3.0)<BR /><FONT POINT-SIZE="10">Programming for Engineers</FONT>> color=darkgreen]
+	"ENGR 201" [label=<ENGR 201 (3.0)<BR /><FONT POINT-SIZE="10">Eval &amp; Pres of Exper Data I</FONT>> color=darkgreen]
+	"ENGR 220" [label=<ENGR 220 (4.0)<BR /><FONT POINT-SIZE="10">Fundamentals of Materials</FONT>> color=darkgreen]
 	"CHEM 101" -> "ENGR 220"
 	"MATH 122" -> "ENGR 220"
 	"PHYS 101" -> "ENGR 220"
-	"ENGR 231" [label="ENGR 231 (3.0)" color=darkgreen]
+	"ENGR 231" [label=<ENGR 231 (3.0)<BR /><FONT POINT-SIZE="10">Linear Engineering Systems</FONT>> color=darkgreen]
 	"ENGR 121" -> "ENGR 231"
-	"PHIL 111" [label="PHIL 111 (3.0)" color=darkgreen]
+	"PHIL 111" [label=<PHIL 111 (3.0)<BR /><FONT POINT-SIZE="10">Symbolic Logic I</FONT>> color=darkgreen]
 	2.2 [label="2.2 (16.0)" shape=plaintext]
 	2.1 -> 2.2 [style=invis]
-	"ECE 201" [label="ECE 201 (4.0)" color=darkgreen]
+	"ECE 201" [label=<ECE 201 (4.0)<BR /><FONT POINT-SIZE="10">Foundations of Electric Circuits</FONT>> color=darkgreen]
 	"PHYS 102" -> "ECE 201"
-	"ECEC 201" [label="ECEC 201 (3.0)" color=darkgreen]
+	"ECEC 201" [label=<ECEC 201 (3.0)<BR /><FONT POINT-SIZE="10">Adv Programming for Engineers</FONT>> color=darkgreen]
 	"ECE 203" -> "ECEC 201"
-	"ENGR 202" [label="ENGR 202 (3.0)" color=darkgreen]
+	"ENGR 202" [label=<ENGR 202 (3.0)<BR /><FONT POINT-SIZE="10">	Eval &amp; Pres of Exper Data II</FONT>> color=darkgreen]
 	"ENGR 201" -> "ENGR 202"
-	"ENGR 232" [label="ENGR 232 (3.0)" color=darkgreen]
+	"ENGR 232" [label=<ENGR 232 (3.0)<BR /><FONT POINT-SIZE="10">Dynamic Engineering Systems</FONT>> color=darkgreen]
 	"ENGR 231" -> "ENGR 232"
-	"MATH 221" [label="MATH 221 (3.0)" color=darkgreen]
+	"MATH 221" [label=<MATH 221 (3.0)<BR /><FONT POINT-SIZE="10">Discrete Mathematics</FONT>> color=darkgreen]
 	"ECE 200" -> "MATH 221"
 	3.1 [label="3.1 (17.0)" shape=plaintext]
 	2.2 -> 3.1 [style=invis]
-	"CS 265" [label="CS 265 (3.0)" color=blue]
+	"CS 265" [label=<CS 265 (3.0)<BR /><FONT POINT-SIZE="10">Advanced Programming Tools and Techniques</FONT>> color=blue]
 	"ECEC 201" -> "CS 265"
-	"ECE 361" [label="ECE 361 (4.0)" color=blue]
-	"ECEC 302" [label="ECEC 302 (3.0)" color=blue]
+	"ECE 361" [label=<ECE 361 (4.0)<BR /><FONT POINT-SIZE="10">Probability for Engineers</FONT>> color=blue]
+	"ECEC 302" [label=<ECEC 302 (3.0)<BR /><FONT POINT-SIZE="10">Digital Systems Projects</FONT>> color=blue]
 	"ECE 203" -> "ECEC 302"
 	"ECE 200" -> "ECEC 302"
-	"ECEC 357" [label="ECEC 357 (3.0)" color=blue]
+	"ECEC 357" [label=<ECEC 357 (3.0)<BR /><FONT POINT-SIZE="10">Introduction to Computer Networks</FONT>> color=blue]
 	"ECE 203" -> "ECEC 357"
-	"ECES 301" [label="ECES 301 (4.0)" color=blue]
+	"ECES 301" [label=<ECES 301 (4.0)<BR /><FONT POINT-SIZE="10">Signals and Systems I</FONT>> color=blue]
 	"ECE 200" -> "ECES 301"
 	"ECE 201" -> "ECES 301"
 	"ENGR 103" -> "ECES 301"
 	3.2 [label="3.2 (19.0)" shape=plaintext]
 	3.1 -> 3.2 [style=invis]
-	"CS 260" [label="CS 260 (3.0)" color=orange]
+	"CS 260" [label=<CS 260 (3.0)<BR /><FONT POINT-SIZE="10">Data Structures</FONT>> color=orange]
 	"CS 265" -> "CS 260"
-	"ECE 303" [label="ECE 303 (3.0)" color=orange]
+	"ECE 303" [label=<ECE 303 (3.0)<BR /><FONT POINT-SIZE="10">ECE Laboratory</FONT>> color=orange]
 	"ECE 201" -> "ECE 303"
 	"ENGR 103" -> "ECE 303"
-	"ECEC 204" [label="ECEC 204 (3.0)" color=orange]
+	"ECEC 204" [label=<ECEC 204 (3.0)<BR /><FONT POINT-SIZE="10">Design with Microcontrollers</FONT>> color=orange]
 	"ECE 200" -> "ECEC 204"
 	"ECEC 201" -> "ECEC 204"
-	"ECEC 355" [label="ECEC 355 (3.0)" color=orange]
+	"ECEC 355" [label=<ECEC 355 (3.0)<BR /><FONT POINT-SIZE="10">Computer Architecture</FONT>> color=orange]
 	"ECEC 302" -> "ECEC 355"
-	"PHIL 315" [label="PHIL 315 (3.0)" color=orange]
-	"PHYS 201" [label="PHYS 201 (4.0)" color=orange]
+	"PHIL 315" [label=<PHIL 315 (3.0)<BR /><FONT POINT-SIZE="10">Engineering Ethics</FONT>> color=orange]
+	"PHYS 201" [label=<PHYS 201 (4.0)<BR /><FONT POINT-SIZE="10">Fundamentals of Physics III</FONT>> color=orange]
 	"PHYS 102" -> "PHYS 201"
 	"MATH 122" -> "PHYS 201"
 	4.1 [label="4.1 (13.0)" shape=plaintext]
 	3.2 -> 4.1 [style=invis]
-	"CS 361" [label="CS 361 (3.0)" color=orange]
+	"CS 361" [label=<CS 361 (3.0)<BR /><FONT POINT-SIZE="10">Concurrent Programming</FONT>> color=orange]
 	"CS 260" -> "CS 361"
 	"ECEC 355" -> "CS 361"
-	"ECE 391" [label="ECE 391 (1.0)" color=orange]
-	"ECEC 353" [label="ECEC 353 (3.0)" color=orange]
+	"ECE 391" [label=<ECE 391 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Engr Design Methods</FONT>> color=orange]
+	"ECEC 353" [label=<ECEC 353 (3.0)<BR /><FONT POINT-SIZE="10">Systems Programming</FONT>> color=orange]
 	"ECEC 201" -> "ECEC 353"
-	"ECEC 413" [label="ECEC 413 (3.0)" color=orange]
+	"ECEC 413" [label=<ECEC 413 (3.0)<BR /><FONT POINT-SIZE="10">Intro to Parallel Computer Architecture</FONT>> color=orange]
 	"ECEC 355" -> "ECEC 413"
-	"PHIL 207" [label="PHIL 207 (3.0)" color=orange]
+	"PHIL 207" [label=<PHIL 207 (3.0)<BR /><FONT POINT-SIZE="10">Symbolic Logic II</FONT>> color=orange]
 	"PHIL 111" -> "PHIL 207"
 	4.2 [label="4.2 (9.0)" shape=plaintext]
 	4.1 -> 4.2 [style=invis]
-	"CS 370" [label="CS 370 (3.0)" color=orange]
+	"CS 370" [label=<CS 370 (3.0)<BR /><FONT POINT-SIZE="10">Operating Systems</FONT>> color=orange]
 	"ECEC 353" -> "CS 370"
-	"CS 377" [label="CS 377 (3.0)" color=orange]
+	"CS 377" [label=<CS 377 (3.0)<BR /><FONT POINT-SIZE="10">Software Security</FONT>> color=orange]
 	"ECEC 353" -> "CS 377"
-	"ECEC 414" [label="ECEC 414 (3.0)" color=orange]
+	"ECEC 414" [label=<ECEC 414 (3.0)<BR /><FONT POINT-SIZE="10">High Performance Computing</FONT>> color=orange]
 	"ECEC 355" -> "ECEC 414"
 	5.1 [label="5.1 (2.0)" shape=plaintext]
 	4.2 -> 5.1 [style=invis]
-	"ECE 491" [label="ECE 491 (2.0)" color=orange]
+	"ECE 491" [label=<ECE 491 (2.0)<BR /><FONT POINT-SIZE="10">Senior Design Project I</FONT>> color=orange]
 	"ECE 391" -> "ECE 491"
 	"ECE 361" -> "ECE 491"
 	5.2 [label="5.2 (2.0)" shape=plaintext]
 	5.1 -> 5.2 [style=invis]
-	"ECE 492" [label="ECE 492 (2.0)" color=orange]
+	"ECE 492" [label=<ECE 492 (2.0)<BR /><FONT POINT-SIZE="10">Senior Design Project II</FONT>> color=orange]
 	"ECE 491" -> "ECE 492"
 	5.3 [label="5.3 (4.0)" shape=plaintext]
 	5.2 -> 5.3 [style=invis]
-	"ECE 493" [label="ECE 493 (4.0)" color=orange]
+	"ECE 493" [label=<ECE 493 (4.0)<BR /><FONT POINT-SIZE="10">Senior Design Project III</FONT>> color=orange]
 	"ECE 492" -> "ECE 493"
 	-1.0 [label="-1.0 (17.0)" shape=plaintext]
 	5.3 -> -1.0 [style=invis]
-	"TEMP GenEd" [label="TEMP GenEd (8.0)" color=red]
-	"TEMP ECEC 400" [label="TEMP ECEC 400 (3.0)" color=red]
-	"TEMP COE" [label="TEMP COE (6.0)" color=red]
+	"TEMP GenEd" [label=<TEMP GenEd (8.0)<BR /><FONT POINT-SIZE="10">General Education Electives</FONT>> color=red]
+	"TEMP ECEC 400" [label=<TEMP ECEC 400 (3.0)<BR /><FONT POINT-SIZE="10">ECEC 400 Level Electives</FONT>> color=red]
+	"TEMP COE" [label=<TEMP COE (6.0)<BR /><FONT POINT-SIZE="10">ECE/COE/BMES Electives</FONT>> color=red]
 	{rank=same; "0.0" "CS 190" "SPAN 101" "TGFE 099"}
 	{rank=same; "1.1" "CHEM 101" "ENGL 101" "ENGR 100" "ENGR 101" "ENGR 121" "MATH 121" "UNIV 101"}
 	{rank=same; "1.2" "CHEM 102" "CIVC 101" "ENGL 102" "ENGR 102" "ENGR 122" "MATH 122" "PHYS 101"}

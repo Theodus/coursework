@@ -115,7 +115,9 @@ for i, t in enumerate(terms):
   insert_ranks += '\t{{rank=same; "{}" {}}}\n'.format(t, same_rank)
 
   for c in cs:
-    node_label = "{} ({})".format(c.code, c.credits)
+    node_label = '<{} ({})<BR /><FONT POINT-SIZE="10">{}</FONT>>'.format(
+      c.code, c.credits, c.name.replace("&", "&amp;"))
+
     g.node(c.code, node_label, color=node_color)
     for p in c.prereqs:
       g.edge(p, c.code)
