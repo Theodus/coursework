@@ -106,10 +106,11 @@ digraph Classes {
 	"ECEC 355" -> "ECEC 413"
 	"PHIL 207" [label=<PHIL 207 (3.0)<BR /><FONT POINT-SIZE="10">Symbolic Logic II</FONT>> color=orange]
 	"PHIL 111" -> "PHIL 207"
-	4.2 [label="4.2 (7.0)" shape=plaintext]
+	4.2 [label="4.2 (10.0)" shape=plaintext]
 	4.1 -> 4.2 [style=invis]
 	"ECEC 414" [label=<ECEC 414 (3.0)<BR /><FONT POINT-SIZE="10">High Performance Computing</FONT>> color=orange]
 	"ECEC 355" -> "ECEC 414"
+	"MATH 220" [label=<MATH 220 (3.0)<BR /><FONT POINT-SIZE="10">Introduction to Mathematical Reasoning</FONT>> color=orange]
 	"PHYS 201" [label=<PHYS 201 (4.0)<BR /><FONT POINT-SIZE="10">Fundamentals of Physics III</FONT>> color=orange]
 	"PHYS 102" -> "PHYS 201"
 	"MATH 122" -> "PHYS 201"
@@ -140,7 +141,7 @@ digraph Classes {
 	{rank=same; "3.1" "CS 265" "ECE 361" "ECEC 302" "ECEC 357" "ECES 301"}
 	{rank=same; "3.2" "CS 260" "ECE 303" "ECEC 204" "ECEC 353" "ECEC 355" "PHIL 315"}
 	{rank=same; "4.1" "CS 361" "CS 370" "CS 377" "ECE 391" "ECEC 413" "PHIL 207"}
-	{rank=same; "4.2" "ECEC 414" "PHYS 201"}
+	{rank=same; "4.2" "ECEC 414" "MATH 220" "PHYS 201"}
 	{rank=same; "5.1" "ECE 491"}
 	{rank=same; "5.2" "ECE 492"}
 	{rank=same; "5.3" "ECE 493"}

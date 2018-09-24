@@ -71,6 +71,7 @@ classes = [
   Class("PHIL 207", "Symbolic Logic II", 3.0, 4.1, ["PHIL 111"]),
   # Junior 2
   Class("ECEC 414", "High Performance Computing", 3.0, 4.2, ["ECEC 355"]),
+  Class("MATH 220", "Introduction to Mathematical Reasoning", 3.0, 4.2, []),
   Class("PHYS 201", "Fundamentals of Physics III", 4.0, 4.2, ["PHYS 102", "MATH 122"]),
   # Senior 1
   Class("ECE 491", "Senior Design Project I", 2.0, 5.1, ["ECE 391", "ECE 361"]),
