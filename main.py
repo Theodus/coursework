@@ -104,9 +104,8 @@ for i, t in enumerate(terms):
 
   cs = filter(lambda c: c.term == t, classes)
 
-  mk_label = lambda a, b: "{} ({})".format(a, b)
-  credit_total = sum([c.credits for c in cs])
-  g.node(str(t), mk_label(t, credit_total), shape="plaintext")
+  term_label = "{} ({})".format(t, sum([c.credits for c in cs]))
+  g.node(str(t), term_label, shape="plaintext")
   if i > 0:
     g.edge(str(terms[i-1]), str(t), style="invis")
 
@@ -114,10 +113,10 @@ for i, t in enumerate(terms):
   insert_ranks += '\t{{rank=same; "{}" {}}}\n'.format(t, same_rank)
 
   for c in cs:
-    node_label = '<{} ({})<BR /><FONT POINT-SIZE="10">{}</FONT>>'.format(
+    class_label = '<{} ({})<BR /><FONT POINT-SIZE="10">{}</FONT>>'.format(
       c.code, c.credits, c.name.replace("&", "&amp;"))
 
-    g.node(c.code, node_label, color=node_color)
+    g.node(c.code, class_label, color=node_color)
     for p in c.prereqs:
       g.edge(p, c.code)
 
