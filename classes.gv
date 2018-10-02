@@ -106,8 +106,10 @@ digraph Classes {
 	"ECEC 355" -> "ECEC 413"
 	"PHIL 207" [label=<PHIL 207 (3.0)<BR /><FONT POINT-SIZE="10">Symbolic Logic II</FONT>> color=orange]
 	"PHIL 111" -> "PHIL 207"
-	4.2 [label="4.2 (10.0)" shape=plaintext]
+	4.2 [label="4.2 (13.0)" shape=plaintext]
 	4.1 -> 4.2 [style=invis]
+	"ECEC 412" [label=<ECEC 412 (3.0)<BR /><FONT POINT-SIZE="10">Modern Processor Design</FONT>> color=orange]
+	"ECEC 355" -> "ECEC 412"
 	"ECEC 414" [label=<ECEC 414 (3.0)<BR /><FONT POINT-SIZE="10">High Performance Computing</FONT>> color=orange]
 	"ECEC 355" -> "ECEC 414"
 	"MATH 220" [label=<MATH 220 (3.0)<BR /><FONT POINT-SIZE="10">Introduction to Mathematical Reasoning</FONT>> color=orange]
@@ -127,10 +129,9 @@ digraph Classes {
 	5.2 -> 5.3 [style=invis]
 	"ECE 493" [label=<ECE 493 (4.0)<BR /><FONT POINT-SIZE="10">Senior Design Project III</FONT>> color=orange]
 	"ECE 492" -> "ECE 493"
-	-1.0 [label="-1.0 (17.0)" shape=plaintext]
+	-1.0 [label="-1.0 (14.0)" shape=plaintext]
 	5.3 -> -1.0 [style=invis]
 	"TEMP GenEd" [label=<TEMP GenEd (8.0)<BR /><FONT POINT-SIZE="10">General Education Electives</FONT>> color=red]
-	"TEMP ECEC 400" [label=<TEMP ECEC 400 (3.0)<BR /><FONT POINT-SIZE="10">ECEC 400 Level Electives</FONT>> color=red]
 	"TEMP COE" [label=<TEMP COE (6.0)<BR /><FONT POINT-SIZE="10">ECE/COE/BMES Electives</FONT>> color=red]
 	{rank=same; "0.0" "CS 190" "SPAN 101" "TGFE 099"}
 	{rank=same; "1.1" "CHEM 101" "ENGL 101" "ENGR 100" "ENGR 101" "ENGR 121" "MATH 121" "UNIV 101"}
@@ -141,9 +142,9 @@ digraph Classes {
 	{rank=same; "3.1" "CS 265" "ECE 361" "ECEC 302" "ECEC 357" "ECES 301"}
 	{rank=same; "3.2" "CS 260" "ECE 303" "ECEC 204" "ECEC 353" "ECEC 355" "PHIL 315"}
 	{rank=same; "4.1" "CS 361" "CS 370" "CS 377" "ECE 391" "ECEC 413" "PHIL 207"}
-	{rank=same; "4.2" "ECEC 414" "MATH 220" "PHYS 201"}
+	{rank=same; "4.2" "ECEC 412" "ECEC 414" "MATH 220" "PHYS 201"}
 	{rank=same; "5.1" "ECE 491"}
 	{rank=same; "5.2" "ECE 492"}
 	{rank=same; "5.3" "ECE 493"}
-	{rank=same; "-1.0" "TEMP GenEd" "TEMP ECEC 400" "TEMP COE"}
+	{rank=same; "-1.0" "TEMP GenEd" "TEMP COE"}
 }
