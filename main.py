@@ -57,7 +57,7 @@ classes = [
   Class("ECES 301", "Signals and Systems I", 4.0, 3.1, ["ECE 200", "ECE 201", "ENGR 103"]),
   # Pre-Junior 2
   Class("CS 260", "Data Structures", 3.0, 3.2, ["CS 265"]),
-  Class("ECE 303", "ECE Laboratory", 3.0, 3.2, ["ECE 201", "ENGR 103"]),
+  Class("ECE 391", "Intro to Engr Design Methods", 1.0, 3.2, []),
   Class("ECEC 204", "Design with Microcontrollers", 3.0, 3.2, ["ECE 200", "ECEC 201"]),
   Class("ECEC 353", "Systems Programming", 3.0, 3.2, ["ECEC 201"]),
   Class("ECEC 355", "Computer Architecture", 3.0, 3.2, ["ECEC 302"]),
@@ -66,13 +66,13 @@ classes = [
   Class("CS 361", "Concurrent Programming", 3.0, 4.1, ["CS 260", "ECEC 355"]),
   Class("CS 370", "Operating Systems", 3.0, 4.1, ["ECEC 353"]),
   Class("CS 377", "Software Security", 3.0, 4.1, ["ECEC 353"]),
-  Class("ECE 391", "Intro to Engr Design Methods", 1.0, 4.1, []),
+  Class("ECE 303", "ECE Laboratory", 3.0, 4.1, ["ECE 201", "ENGR 103"]),
   Class("ECEC 413", "Intro to Parallel Computer Architecture", 3.0, 4.1, ["ECEC 355"]),
   Class("PHIL 207", "Symbolic Logic II", 3.0, 4.1, ["PHIL 111"]),
   # Junior 2
+  Class("CS 350 [WI]", "Software Design", 3.0, 4.2, ["CS 260", "CS 265"]),
   Class("ECEC 412", "Modern Processor Design", 3.0, 4.2, ["ECEC 355"]),
   Class("ECEC 414", "High Performance Computing", 3.0, 4.2, ["ECEC 355"]),
-  Class("MATH 220", "Introduction to Mathematical Reasoning", 3.0, 4.2, []),
   Class("PHYS 201", "Fundamentals of Physics III", 4.0, 4.2, ["PHYS 102", "MATH 122"]),
   # Senior 1
   Class("ECE 491", "Senior Design Project I", 2.0, 5.1, ["ECE 391", "ECE 361"]),
