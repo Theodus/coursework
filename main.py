@@ -83,7 +83,6 @@ classes = [
   # Incomplete
   Class("TEMP GenEd", "General Education Electives", 8.0, -1.0, []),
   Class("TEMP COE", "ECE/COE/BMES Electives", 6.0, -1.0, []),
-  # Class("FIN 150", "Financial Literacy", 4.0, -1.0, []),
   # Class("BLAW 360", "Intellectual Property and Cyber Law", 4.0, -1.0, []),
   # Class("ECON 201", "Principles of Microeconomics", 4.0, -1.0, []),
   # Class("ECON 202", "Principles of Macroeconomics", 4.0, -1.0, ["ECON 201"]),
@@ -93,15 +92,15 @@ g = Digraph(name="Classes")
 g.attr(newrank="true")
 
 terms = [0.0, 1.1, 1.2, 1.3, 2.1, 2.2, 3.1, 3.2, 4.1, 4.2, 5.1, 5.2, 5.3, -1.0]
-current_term = 3.1
+in_progress = [3.1, 3.2]
 
 insert_ranks = ""
 
 for i, t in enumerate(terms):
   node_color = "orange"
   if t == -1.0: node_color = "red"
-  elif t < current_term: node_color = "darkgreen"
-  elif t == current_term: node_color = "blue"
+  elif t < in_progress[0]: node_color = "darkgreen"
+  elif t in in_progress: node_color = "blue"
 
   cs = filter(lambda c: c.term == t, classes)
 

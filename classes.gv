@@ -79,17 +79,17 @@ digraph Classes {
 	"ENGR 103" -> "ECES 301"
 	3.2 [label="3.2 (16.0)" shape=plaintext]
 	3.1 -> 3.2 [style=invis]
-	"CS 260" [label=<CS 260 (3.0)<BR /><FONT POINT-SIZE="10">Data Structures</FONT>> color=orange]
+	"CS 260" [label=<CS 260 (3.0)<BR /><FONT POINT-SIZE="10">Data Structures</FONT>> color=blue]
 	"CS 265" -> "CS 260"
-	"ECE 391" [label=<ECE 391 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Engr Design Methods</FONT>> color=orange]
-	"ECEC 204" [label=<ECEC 204 (3.0)<BR /><FONT POINT-SIZE="10">Design with Microcontrollers</FONT>> color=orange]
+	"ECE 391" [label=<ECE 391 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Engr Design Methods</FONT>> color=blue]
+	"ECEC 204" [label=<ECEC 204 (3.0)<BR /><FONT POINT-SIZE="10">Design with Microcontrollers</FONT>> color=blue]
 	"ECE 200" -> "ECEC 204"
 	"ECEC 201" -> "ECEC 204"
-	"ECEC 353" [label=<ECEC 353 (3.0)<BR /><FONT POINT-SIZE="10">Systems Programming</FONT>> color=orange]
+	"ECEC 353" [label=<ECEC 353 (3.0)<BR /><FONT POINT-SIZE="10">Systems Programming</FONT>> color=blue]
 	"ECEC 201" -> "ECEC 353"
-	"ECEC 355" [label=<ECEC 355 (3.0)<BR /><FONT POINT-SIZE="10">Computer Architecture</FONT>> color=orange]
+	"ECEC 355" [label=<ECEC 355 (3.0)<BR /><FONT POINT-SIZE="10">Computer Architecture</FONT>> color=blue]
 	"ECEC 302" -> "ECEC 355"
-	"PHIL 315" [label=<PHIL 315 (3.0)<BR /><FONT POINT-SIZE="10">Engineering Ethics</FONT>> color=orange]
+	"PHIL 315" [label=<PHIL 315 (3.0)<BR /><FONT POINT-SIZE="10">Engineering Ethics</FONT>> color=blue]
 	4.1 [label="4.1 (18.0)" shape=plaintext]
 	3.2 -> 4.1 [style=invis]
 	"CS 361" [label=<CS 361 (3.0)<BR /><FONT POINT-SIZE="10">Concurrent Programming</FONT>> color=orange]

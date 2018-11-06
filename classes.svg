@@ -397,7 +397,7 @@
 <!-- ECEC 204 -->
 <g id="node50" class="node">
 <title>ECEC 204</title>
-<ellipse fill="none" stroke="#ffa500" cx="1649" cy="-510.1564" rx="112.36" ry="22.7556"/>
+<ellipse fill="none" stroke="#0000ff" cx="1649" cy="-510.1564" rx="112.36" ry="22.7556"/>
 <text text-anchor="start" x="1592.5" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 204 (3.0)</text>
 <text text-anchor="start" x="1577.5" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Design with Microcontrollers</text>
 </g>
@@ -539,7 +539,7 @@
 <!-- ECEC 353 -->
 <g id="node51" class="node">
 <title>ECEC 353</title>
-<ellipse fill="none" stroke="#ffa500" cx="2078" cy="-510.1564" rx="91.4341" ry="22.7556"/>
+<ellipse fill="none" stroke="#0000ff" cx="2078" cy="-510.1564" rx="91.4341" ry="22.7556"/>
 <text text-anchor="start" x="2021.5" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 353 (3.0)</text>
 <text text-anchor="start" x="2022" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Systems Programming</text>
 </g>
@@ -558,7 +558,7 @@
 <!-- CS 260 -->
 <g id="node48" class="node">
 <title>CS 260</title>
-<ellipse fill="none" stroke="#ffa500" cx="1855" cy="-510.1564" rx="75.8212" ry="22.7556"/>
+<ellipse fill="none" stroke="#0000ff" cx="1855" cy="-510.1564" rx="75.8212" ry="22.7556"/>
 <text text-anchor="start" x="1809.5" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">CS 260 (3.0)</text>
 <text text-anchor="start" x="1815.5" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Data Structures</text>
 </g>
@@ -604,7 +604,7 @@
 <!-- ECEC 355 -->
 <g id="node52" class="node">
 <title>ECEC 355</title>
-<ellipse fill="none" stroke="#ffa500" cx="1427" cy="-510.1564" rx="91.4341" ry="22.7556"/>
+<ellipse fill="none" stroke="#0000ff" cx="1427" cy="-510.1564" rx="91.4341" ry="22.7556"/>
 <text text-anchor="start" x="1370.5" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 355 (3.0)</text>
 <text text-anchor="start" x="1370.5" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Computer Architecture</text>
 </g>
@@ -642,7 +642,7 @@
 <!-- ECE 391 -->
 <g id="node49" class="node">
 <title>ECE 391</title>
-<ellipse fill="none" stroke="#ffa500" cx="3103" cy="-510.1564" rx="114.6026" ry="22.7556"/>
+<ellipse fill="none" stroke="#0000ff" cx="3103" cy="-510.1564" rx="114.6026" ry="22.7556"/>
 <text text-anchor="start" x="3052" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 391 (1.0)</text>
 <text text-anchor="start" x="3030" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Intro to Engr Design Methods</text>
 </g>
@@ -726,7 +726,7 @@
 <!-- PHIL 315 -->
 <g id="node53" class="node">
 <title>PHIL 315</title>
-<ellipse fill="none" stroke="#ffa500" cx="3323" cy="-510.1564" rx="87.8629" ry="22.7556"/>
+<ellipse fill="none" stroke="#0000ff" cx="3323" cy="-510.1564" rx="87.8629" ry="22.7556"/>
 <text text-anchor="start" x="3269" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">PHIL 315 (3.0)</text>
 <text text-anchor="start" x="3276.5" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Engineering Ethics</text>
 </g>
