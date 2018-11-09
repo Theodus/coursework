@@ -77,11 +77,10 @@ digraph Classes {
 	"ECE 200" -> "ECES 301"
 	"ECE 201" -> "ECES 301"
 	"ENGR 103" -> "ECES 301"
-	3.2 [label="3.2 (16.0)" shape=plaintext]
+	3.2 [label="3.2 (19.0)" shape=plaintext]
 	3.1 -> 3.2 [style=invis]
 	"CS 260" [label=<CS 260 (3.0)<BR /><FONT POINT-SIZE="10">Data Structures</FONT>> color=blue]
 	"CS 265" -> "CS 260"
-	"ECE 391" [label=<ECE 391 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Engr Design Methods</FONT>> color=blue]
 	"ECEC 204" [label=<ECEC 204 (3.0)<BR /><FONT POINT-SIZE="10">Design with Microcontrollers</FONT>> color=blue]
 	"ECE 200" -> "ECEC 204"
 	"ECEC 201" -> "ECEC 204"
@@ -89,8 +88,9 @@ digraph Classes {
 	"ECEC 201" -> "ECEC 353"
 	"ECEC 355" [label=<ECEC 355 (3.0)<BR /><FONT POINT-SIZE="10">Computer Architecture</FONT>> color=blue]
 	"ECEC 302" -> "ECEC 355"
+	"ECON 201" [label=<ECON 201 (4.0)<BR /><FONT POINT-SIZE="10">Principles of Microeconomics</FONT>> color=blue]
 	"PHIL 315" [label=<PHIL 315 (3.0)<BR /><FONT POINT-SIZE="10">Engineering Ethics</FONT>> color=blue]
-	4.1 [label="4.1 (18.0)" shape=plaintext]
+	4.1 [label="4.1 (19.0)" shape=plaintext]
 	3.2 -> 4.1 [style=invis]
 	"CS 361" [label=<CS 361 (3.0)<BR /><FONT POINT-SIZE="10">Concurrent Programming</FONT>> color=orange]
 	"CS 260" -> "CS 361"
@@ -102,6 +102,7 @@ digraph Classes {
 	"ECE 303" [label=<ECE 303 (3.0)<BR /><FONT POINT-SIZE="10">ECE Laboratory</FONT>> color=orange]
 	"ECE 201" -> "ECE 303"
 	"ENGR 103" -> "ECE 303"
+	"ECE 391" [label=<ECE 391 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Engr Design Methods</FONT>> color=orange]
 	"ECEC 413" [label=<ECEC 413 (3.0)<BR /><FONT POINT-SIZE="10">Intro to Parallel Computer Architecture</FONT>> color=orange]
 	"ECEC 355" -> "ECEC 413"
 	"PHIL 207" [label=<PHIL 207 (3.0)<BR /><FONT POINT-SIZE="10">Symbolic Logic II</FONT>> color=orange]
@@ -131,9 +132,9 @@ digraph Classes {
 	5.2 -> 5.3 [style=invis]
 	"ECE 493" [label=<ECE 493 (4.0)<BR /><FONT POINT-SIZE="10">Senior Design Project III</FONT>> color=orange]
 	"ECE 492" -> "ECE 493"
-	-1.0 [label="-1.0 (14.0)" shape=plaintext]
+	-1.0 [label="-1.0 (10.0)" shape=plaintext]
 	5.3 -> -1.0 [style=invis]
-	"TEMP GenEd" [label=<TEMP GenEd (8.0)<BR /><FONT POINT-SIZE="10">General Education Electives</FONT>> color=red]
+	"TEMP GenEd" [label=<TEMP GenEd (4.0)<BR /><FONT POINT-SIZE="10">General Education Electives</FONT>> color=red]
 	"TEMP COE" [label=<TEMP COE (6.0)<BR /><FONT POINT-SIZE="10">ECE/COE/BMES Electives</FONT>> color=red]
 	{rank=same; "0.0" "CS 190" "SPAN 101" "TGFE 099"}
 	{rank=same; "1.1" "CHEM 101" "ENGL 101" "ENGR 100" "ENGR 101" "ENGR 121" "MATH 121" "UNIV 101"}
@@ -142,8 +143,8 @@ digraph Classes {
 	{rank=same; "2.1" "ECE 200" "ECE 203" "ENGR 201" "ENGR 220" "ENGR 231" "PHIL 111"}
 	{rank=same; "2.2" "ECE 201" "ECEC 201" "ENGR 202" "ENGR 232" "MATH 221"}
 	{rank=same; "3.1" "CS 265" "ECE 361" "ECEC 302" "ECEC 357" "ECES 301"}
-	{rank=same; "3.2" "CS 260" "ECE 391" "ECEC 204" "ECEC 353" "ECEC 355" "PHIL 315"}
-	{rank=same; "4.1" "CS 361" "CS 370" "CS 377" "ECE 303" "ECEC 413" "PHIL 207"}
+	{rank=same; "3.2" "CS 260" "ECEC 204" "ECEC 353" "ECEC 355" "ECON 201" "PHIL 315"}
+	{rank=same; "4.1" "CS 361" "CS 370" "CS 377" "ECE 303" "ECE 391" "ECEC 413" "PHIL 207"}
 	{rank=same; "4.2" "CS 350 [WI]" "ECEC 412" "ECEC 414" "PHYS 201"}
 	{rank=same; "5.1" "ECE 491"}
 	{rank=same; "5.2" "ECE 492"}
