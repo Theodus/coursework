@@ -68,11 +68,10 @@ classes = [
   Class("CS 377", "Software Security", 3.0, 4.1, ["ECEC 353"]),
   Class("ECE 303", "ECE Laboratory", 3.0, 4.1, ["ECE 201", "ENGR 103"]),
   Class("ECE 391", "Intro to Engr Design Methods", 1.0, 4.1, []),
-  Class("ECEC 413", "Intro to Parallel Computer Architecture", 3.0, 4.1, ["ECEC 355"]),
-  Class("PHIL 207", "Symbolic Logic II", 3.0, 4.1, ["PHIL 111"]),
+  Class("ECEC 412", "Modern Processor Design", 3.0, 4.1, ["ECEC 355"]),
   # Junior 2
   Class("CS 350 [WI]", "Software Design", 3.0, 4.2, ["CS 260", "CS 265"]),
-  Class("ECEC 412", "Modern Processor Design", 3.0, 4.2, ["ECEC 355"]),
+  Class("ECEC 413", "Intro to Parallel Computer Architecture", 3.0, 4.2, ["ECEC 355"]),
   Class("ECEC 414", "High Performance Computing", 3.0, 4.2, ["ECEC 355"]),
   Class("PHYS 201", "Fundamentals of Physics III", 4.0, 4.2, ["PHYS 102", "MATH 122"]),
   # Senior 1
@@ -81,6 +80,7 @@ classes = [
   Class("ECE 492", "Senior Design Project II", 2.0, 5.2, ["ECE 491"]),
   # Senior 3
   Class("ECE 493", "Senior Design Project III", 4.0, 5.3, ["ECE 492"]),
+  Class("PHIL 207", "Symbolic Logic II", 3.0, 5.3, ["PHIL 111"]),
   # Incomplete
   Class("TEMP GenEd", "General Education Electives", 4.0, -1.0, []),
   Class("TEMP COE", "ECE/COE/BMES Electives", 6.0, -1.0, []),
