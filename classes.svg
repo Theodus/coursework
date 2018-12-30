@@ -307,7 +307,7 @@
 <!-- ECES 301 -->
 <g id="node46" class="node">
 <title>ECES 301</title>
-<ellipse fill="none" stroke="#0000ff" cx="1176" cy="-591.4113" rx="90.5193" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="1176" cy="-591.4113" rx="90.5193" ry="22.7556"/>
 <text text-anchor="start" x="1120" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">ECES 301 (4.0)</text>
 <text text-anchor="start" x="1121.5" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Signals and Systems I</text>
 </g>
@@ -378,7 +378,7 @@
 <!-- ECEC 302 -->
 <g id="node44" class="node">
 <title>ECEC 302</title>
-<ellipse fill="none" stroke="#0000ff" cx="1543" cy="-591.4113" rx="96.7474" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="1543" cy="-591.4113" rx="96.7474" ry="22.7556"/>
 <text text-anchor="start" x="1486.5" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 302 (3.0)</text>
 <text text-anchor="start" x="1482.5" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Digital Systems Projects</text>
 </g>
@@ -436,7 +436,7 @@
 <!-- ECEC 357 -->
 <g id="node45" class="node">
 <title>ECEC 357</title>
-<ellipse fill="none" stroke="#0000ff" cx="2230" cy="-591.4113" rx="135.5294" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="2230" cy="-591.4113" rx="135.5294" ry="22.7556"/>
 <text text-anchor="start" x="2173.5" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 357 (3.0)</text>
 <text text-anchor="start" x="2142" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Introduction to Computer Networks</text>
 </g>
@@ -520,7 +520,7 @@
 <!-- CS 265 -->
 <g id="node42" class="node">
 <title>CS 265</title>
-<ellipse fill="none" stroke="#0000ff" cx="1867" cy="-591.4113" rx="171.2398" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="1867" cy="-591.4113" rx="171.2398" ry="22.7556"/>
 <text text-anchor="start" x="1821.5" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">CS 265 (3.0)</text>
 <text text-anchor="start" x="1754" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Advanced Programming Tools and Techniques</text>
 </g>
@@ -584,7 +584,7 @@
 <!-- ECE 361 -->
 <g id="node43" class="node">
 <title>ECE 361</title>
-<ellipse fill="none" stroke="#0000ff" cx="2960" cy="-591.4113" rx="98.9899" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="2960" cy="-591.4113" rx="98.9899" ry="22.7556"/>
 <text text-anchor="start" x="2909" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 361 (4.0)</text>
 <text text-anchor="start" x="2898" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Probability for Engineers</text>
 </g>

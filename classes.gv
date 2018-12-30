@@ -65,15 +65,15 @@ digraph Classes {
 	"ECE 200" -> "MATH 221"
 	3.1 [label="3.1 (17.0)" shape=plaintext]
 	2.2 -> 3.1 [style=invis]
-	"CS 265" [label=<CS 265 (3.0)<BR /><FONT POINT-SIZE="10">Advanced Programming Tools and Techniques</FONT>> color=blue]
+	"CS 265" [label=<CS 265 (3.0)<BR /><FONT POINT-SIZE="10">Advanced Programming Tools and Techniques</FONT>> color=darkgreen]
 	"ECEC 201" -> "CS 265"
-	"ECE 361" [label=<ECE 361 (4.0)<BR /><FONT POINT-SIZE="10">Probability for Engineers</FONT>> color=blue]
-	"ECEC 302" [label=<ECEC 302 (3.0)<BR /><FONT POINT-SIZE="10">Digital Systems Projects</FONT>> color=blue]
+	"ECE 361" [label=<ECE 361 (4.0)<BR /><FONT POINT-SIZE="10">Probability for Engineers</FONT>> color=darkgreen]
+	"ECEC 302" [label=<ECEC 302 (3.0)<BR /><FONT POINT-SIZE="10">Digital Systems Projects</FONT>> color=darkgreen]
 	"ECE 203" -> "ECEC 302"
 	"ECE 200" -> "ECEC 302"
-	"ECEC 357" [label=<ECEC 357 (3.0)<BR /><FONT POINT-SIZE="10">Introduction to Computer Networks</FONT>> color=blue]
+	"ECEC 357" [label=<ECEC 357 (3.0)<BR /><FONT POINT-SIZE="10">Introduction to Computer Networks</FONT>> color=darkgreen]
 	"ECE 203" -> "ECEC 357"
-	"ECES 301" [label=<ECES 301 (4.0)<BR /><FONT POINT-SIZE="10">Signals and Systems I</FONT>> color=blue]
+	"ECES 301" [label=<ECES 301 (4.0)<BR /><FONT POINT-SIZE="10">Signals and Systems I</FONT>> color=darkgreen]
 	"ECE 200" -> "ECES 301"
 	"ECE 201" -> "ECES 301"
 	"ENGR 103" -> "ECES 301"
