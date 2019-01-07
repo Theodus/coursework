@@ -46,7 +46,7 @@ classes = [
   # Sophomore 2
   Class("ECE 201", "Foundations of Electric Circuits", 4.0, 2.2, ["PHYS 102"]),
   Class("ECEC 201", "Adv Programming for Engineers", 3.0, 2.2, ["ECE 203"]),
-  Class("ENGR 202", "	Eval & Pres of Exper Data II", 3.0, 2.2, ["ENGR 201"]),
+  Class("ENGR 202", "Eval & Pres of Exper Data II", 3.0, 2.2, ["ENGR 201"]),
   Class("ENGR 232", "Dynamic Engineering Systems", 3.0, 2.2, ["ENGR 231"]),
   Class("MATH 221", "Discrete Mathematics", 3.0, 2.2, ["ECE 200"]),
   # Pre-Junior 1
@@ -58,7 +58,7 @@ classes = [
   # Pre-Junior 2
   Class("CS 260", "Data Structures", 3.0, 3.2, ["CS 265"]),
   Class("ECEC 204", "Design with Microcontrollers", 3.0, 3.2, ["ECE 200", "ECEC 201"]),
-  Class("ECEC I399", "Independent Study", 3.0, 3.2, []),
+  Class("ECEC I399", "Vision Processing Hardware", 3.0, 3.2, []),
   Class("ECEC 353", "Systems Programming", 3.0, 3.2, ["ECEC 201"]),
   Class("ECEC 355", "Computer Architecture", 3.0, 3.2, ["ECEC 302"]),
   Class("PHIL 315", "Engineering Ethics", 3.0, 3.2, []),
@@ -84,7 +84,7 @@ classes = [
   Class("PHIL 207", "Symbolic Logic II", 3.0, 5.3, ["PHIL 111"]),
   # Incomplete
   Class("TEMP GenEd", "General Education Electives", 4.0, -1.0, []),
-  Class("TEMP COE", "ECE/COE/BMES Electives", 6.0, -1.0, []),
+  Class("TEMP COE", "ECE/COE/BMES Electives", 3.0, -1.0, []),
 
   # Class("ECEC 352", "Secure Computer Systems: Design Concepts", 4.0, -1.0, ["ECEC 302"]),
   # Class("CS 270", "Mathematical Foundations of Computer Science", 3.0, -1.0, ["CS 265"]),

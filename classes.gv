@@ -57,7 +57,7 @@ digraph Classes {
 	"PHYS 102" -> "ECE 201"
 	"ECEC 201" [label=<ECEC 201 (3.0)<BR /><FONT POINT-SIZE="10">Adv Programming for Engineers</FONT>> color=darkgreen]
 	"ECE 203" -> "ECEC 201"
-	"ENGR 202" [label=<ENGR 202 (3.0)<BR /><FONT POINT-SIZE="10">	Eval &amp; Pres of Exper Data II</FONT>> color=darkgreen]
+	"ENGR 202" [label=<ENGR 202 (3.0)<BR /><FONT POINT-SIZE="10">Eval &amp; Pres of Exper Data II</FONT>> color=darkgreen]
 	"ENGR 201" -> "ENGR 202"
 	"ENGR 232" [label=<ENGR 232 (3.0)<BR /><FONT POINT-SIZE="10">Dynamic Engineering Systems</FONT>> color=darkgreen]
 	"ENGR 231" -> "ENGR 232"
@@ -84,7 +84,7 @@ digraph Classes {
 	"ECEC 204" [label=<ECEC 204 (3.0)<BR /><FONT POINT-SIZE="10">Design with Microcontrollers</FONT>> color=blue]
 	"ECE 200" -> "ECEC 204"
 	"ECEC 201" -> "ECEC 204"
-	"ECEC I399" [label=<ECEC I399 (3.0)<BR /><FONT POINT-SIZE="10">Independent Study</FONT>> color=blue]
+	"ECEC I399" [label=<ECEC I399 (3.0)<BR /><FONT POINT-SIZE="10">Vision Processing Hardware</FONT>> color=blue]
 	"ECEC 353" [label=<ECEC 353 (3.0)<BR /><FONT POINT-SIZE="10">Systems Programming</FONT>> color=blue]
 	"ECEC 201" -> "ECEC 353"
 	"ECEC 355" [label=<ECEC 355 (3.0)<BR /><FONT POINT-SIZE="10">Computer Architecture</FONT>> color=blue]
@@ -133,10 +133,10 @@ digraph Classes {
 	"ECE 492" -> "ECE 493"
 	"PHIL 207" [label=<PHIL 207 (3.0)<BR /><FONT POINT-SIZE="10">Symbolic Logic II</FONT>> color=orange]
 	"PHIL 111" -> "PHIL 207"
-	-1.0 [label="-1.0 (10.0)" shape=plaintext]
+	-1.0 [label="-1.0 (7.0)" shape=plaintext]
 	5.3 -> -1.0 [style=invis]
 	"TEMP GenEd" [label=<TEMP GenEd (4.0)<BR /><FONT POINT-SIZE="10">General Education Electives</FONT>> color=red]
-	"TEMP COE" [label=<TEMP COE (6.0)<BR /><FONT POINT-SIZE="10">ECE/COE/BMES Electives</FONT>> color=red]
+	"TEMP COE" [label=<TEMP COE (3.0)<BR /><FONT POINT-SIZE="10">ECE/COE/BMES Electives</FONT>> color=red]
 	{rank=same; "0.0" "CS 190" "SPAN 101" "TGFE 099"}
 	{rank=same; "1.1" "CHEM 101" "ENGL 101" "ENGR 100" "ENGR 101" "ENGR 121" "MATH 121" "UNIV 101"}
 	{rank=same; "1.2" "CHEM 102" "CIVC 101" "ENGL 102" "ENGR 102" "ENGR 122" "MATH 122" "PHYS 101"}
