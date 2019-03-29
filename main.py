@@ -97,7 +97,7 @@ g = Digraph(name="Classes")
 g.attr(newrank="true")
 
 terms = [0.0, 1.1, 1.2, 1.3, 2.1, 2.2, 3.1, 3.2, 4.1, 4.2, 5.1, 5.2, 5.3, -1.0]
-in_progress = [3.2]
+in_progress = [4.0]
 
 insert_ranks = ""
 
@@ -107,7 +107,7 @@ for i, t in enumerate(terms):
   elif t < in_progress[0]: node_color = "darkgreen"
   elif t in in_progress: node_color = "blue"
 
-  cs = filter(lambda c: c.term == t, classes)
+  cs = [c for c in classes if c.term == t]
 
   term_label = "{} ({})".format(t, sum([c.credits for c in cs]))
   g.node(str(t), term_label, shape="plaintext")
@@ -120,10 +120,10 @@ for i, t in enumerate(terms):
   for c in cs:
     class_label = '<{} ({})<BR /><FONT POINT-SIZE="10">{}</FONT>>'.format(
       c.code, c.credits, c.name.replace("&", "&amp;"))
-
     g.node(c.code, class_label, color=node_color)
     for p in c.prereqs:
       g.edge(p, c.code)
 
 src = g.source
 print(src[:-1] + insert_ranks + src[-1:])
+

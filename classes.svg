@@ -123,22 +123,22 @@
 <!-- ENGR 101 -->
 <g id="node9" class="node">
 <title>ENGR 101</title>
-<ellipse fill="none" stroke="#006400" cx="1135" cy="-997.6854" rx="99.9045" ry="22.7556"/>
-<text text-anchor="start" x="1077.5" y="-999.4854" font-family="Times,serif" font-size="14.00" fill="#000000">ENGR 101 (2.0)</text>
-<text text-anchor="start" x="1072.5" y="-988.6854" font-family="Times,serif" font-size="10.00" fill="#000000">Engineering Design Lab I</text>
+<ellipse fill="none" stroke="#006400" cx="1136" cy="-997.6854" rx="99.9045" ry="22.7556"/>
+<text text-anchor="start" x="1078.5" y="-999.4854" font-family="Times,serif" font-size="14.00" fill="#000000">ENGR 101 (2.0)</text>
+<text text-anchor="start" x="1073.5" y="-988.6854" font-family="Times,serif" font-size="10.00" fill="#000000">Engineering Design Lab I</text>
 </g>
 <!-- ENGR 102 -->
 <g id="node17" class="node">
 <title>ENGR 102</title>
-<ellipse fill="none" stroke="#006400" cx="1135" cy="-916.4306" rx="102.561" ry="22.7556"/>
-<text text-anchor="start" x="1077.5" y="-918.2306" font-family="Times,serif" font-size="14.00" fill="#000000">ENGR 102 (2.0)</text>
-<text text-anchor="start" x="1070.5" y="-907.4306" font-family="Times,serif" font-size="10.00" fill="#000000">Engineering Design Lab II</text>
+<ellipse fill="none" stroke="#006400" cx="1136" cy="-916.4306" rx="102.561" ry="22.7556"/>
+<text text-anchor="start" x="1078.5" y="-918.2306" font-family="Times,serif" font-size="14.00" fill="#000000">ENGR 102 (2.0)</text>
+<text text-anchor="start" x="1071.5" y="-907.4306" font-family="Times,serif" font-size="10.00" fill="#000000">Engineering Design Lab II</text>
 </g>
 <!-- ENGR 101&#45;&gt;ENGR 102 -->
 <g id="edge5" class="edge">
 <title>ENGR 101&#45;&gt;ENGR 102</title>
-<path fill="none" stroke="#000000" d="M1135,-975.0514C1135,-967.1059 1135,-958.0098 1135,-949.3913"/>
-<polygon fill="#000000" stroke="#000000" points="1138.5001,-949.225 1135,-939.225 1131.5001,-949.2251 1138.5001,-949.225"/>
+<path fill="none" stroke="#000000" d="M1136,-975.0514C1136,-967.1059 1136,-958.0098 1136,-949.3913"/>
+<polygon fill="#000000" stroke="#000000" points="1139.5001,-949.225 1136,-939.225 1132.5001,-949.2251 1139.5001,-949.225"/>
 </g>
 <!-- ENGR 121 -->
 <g id="node10" class="node">
@@ -163,15 +163,15 @@
 <!-- MATH 121 -->
 <g id="node11" class="node">
 <title>MATH 121</title>
-<ellipse fill="none" stroke="#006400" cx="552" cy="-997.6854" rx="93.1765" ry="22.7556"/>
-<text text-anchor="start" x="494" y="-999.4854" font-family="Times,serif" font-size="14.00" fill="#000000">MATH 121 (4.0)</text>
+<ellipse fill="none" stroke="#006400" cx="552" cy="-997.6854" rx="92.7622" ry="22.7556"/>
+<text text-anchor="start" x="494.5" y="-999.4854" font-family="Times,serif" font-size="14.00" fill="#000000">MATH 121 (4.0)</text>
 <text text-anchor="start" x="527.5" y="-988.6854" font-family="Times,serif" font-size="10.00" fill="#000000">Calculus I</text>
 </g>
 <!-- MATH 122 -->
 <g id="node19" class="node">
 <title>MATH 122</title>
-<ellipse fill="none" stroke="#006400" cx="552" cy="-916.4306" rx="93.1765" ry="22.7556"/>
-<text text-anchor="start" x="494" y="-918.2306" font-family="Times,serif" font-size="14.00" fill="#000000">MATH 122 (4.0)</text>
+<ellipse fill="none" stroke="#006400" cx="552" cy="-916.4306" rx="92.7622" ry="22.7556"/>
+<text text-anchor="start" x="494.5" y="-918.2306" font-family="Times,serif" font-size="14.00" fill="#000000">MATH 122 (4.0)</text>
 <text text-anchor="start" x="525.5" y="-907.4306" font-family="Times,serif" font-size="10.00" fill="#000000">Calculus II</text>
 </g>
 <!-- MATH 121&#45;&gt;MATH 122 -->
@@ -216,15 +216,15 @@
 <!-- ENGR 103 -->
 <g id="node25" class="node">
 <title>ENGR 103</title>
-<ellipse fill="none" stroke="#006400" cx="1135" cy="-835.1758" rx="105.218" ry="22.7556"/>
-<text text-anchor="start" x="1077.5" y="-836.9758" font-family="Times,serif" font-size="14.00" fill="#000000">ENGR 103 (2.0)</text>
-<text text-anchor="start" x="1068.5" y="-826.1758" font-family="Times,serif" font-size="10.00" fill="#000000">Engineering Design Lab III</text>
+<ellipse fill="none" stroke="#006400" cx="1136" cy="-835.1758" rx="105.218" ry="22.7556"/>
+<text text-anchor="start" x="1078.5" y="-836.9758" font-family="Times,serif" font-size="14.00" fill="#000000">ENGR 103 (2.0)</text>
+<text text-anchor="start" x="1069.5" y="-826.1758" font-family="Times,serif" font-size="10.00" fill="#000000">Engineering Design Lab III</text>
 </g>
 <!-- ENGR 102&#45;&gt;ENGR 103 -->
 <g id="edge10" class="edge">
 <title>ENGR 102&#45;&gt;ENGR 103</title>
-<path fill="none" stroke="#000000" d="M1135,-893.7966C1135,-885.8511 1135,-876.755 1135,-868.1365"/>
-<polygon fill="#000000" stroke="#000000" points="1138.5001,-867.9702 1135,-857.9702 1131.5001,-867.9702 1138.5001,-867.9702"/>
+<path fill="none" stroke="#000000" d="M1136,-893.7966C1136,-885.8511 1136,-876.755 1136,-868.1365"/>
+<polygon fill="#000000" stroke="#000000" points="1139.5001,-867.9702 1136,-857.9702 1132.5001,-867.9702 1139.5001,-867.9702"/>
 </g>
 <!-- ENGR 122 -->
 <g id="node18" class="node">
@@ -236,8 +236,8 @@
 <!-- MATH 200 -->
 <g id="node26" class="node">
 <title>MATH 200</title>
-<ellipse fill="none" stroke="#006400" cx="651" cy="-835.1758" rx="93.1765" ry="22.7556"/>
-<text text-anchor="start" x="593" y="-836.9758" font-family="Times,serif" font-size="14.00" fill="#000000">MATH 200 (4.0)</text>
+<ellipse fill="none" stroke="#006400" cx="651" cy="-835.1758" rx="92.7622" ry="22.7556"/>
+<text text-anchor="start" x="593.5" y="-836.9758" font-family="Times,serif" font-size="14.00" fill="#000000">MATH 200 (4.0)</text>
 <text text-anchor="start" x="598" y="-826.1758" font-family="Times,serif" font-size="10.00" fill="#000000">Multivariate Calculus</text>
 </g>
 <!-- MATH 122&#45;&gt;MATH 200 -->
@@ -268,9 +268,9 @@
 <!-- PHYS 101 -->
 <g id="node20" class="node">
 <title>PHYS 101</title>
-<ellipse fill="none" stroke="#006400" cx="848" cy="-916.4306" rx="103.4757" ry="22.7556"/>
-<text text-anchor="start" x="792" y="-918.2306" font-family="Times,serif" font-size="14.00" fill="#000000">PHYS 101 (4.0)</text>
-<text text-anchor="start" x="783" y="-907.4306" font-family="Times,serif" font-size="10.00" fill="#000000">Fundamentals of Physics I</text>
+<ellipse fill="none" stroke="#006400" cx="847" cy="-916.4306" rx="103.4757" ry="22.7556"/>
+<text text-anchor="start" x="791" y="-918.2306" font-family="Times,serif" font-size="14.00" fill="#000000">PHYS 101 (4.0)</text>
+<text text-anchor="start" x="782" y="-907.4306" font-family="Times,serif" font-size="10.00" fill="#000000">Fundamentals of Physics I</text>
 </g>
 <!-- PHYS 102 -->
 <g id="node27" class="node">
@@ -282,13 +282,13 @@
 <!-- PHYS 101&#45;&gt;PHYS 102 -->
 <g id="edge12" class="edge">
 <title>PHYS 101&#45;&gt;PHYS 102</title>
-<path fill="none" stroke="#000000" d="M863.8777,-893.7966C869.9306,-885.168 876.9354,-875.1824 883.4293,-865.9253"/>
-<polygon fill="#000000" stroke="#000000" points="886.3299,-867.885 889.2075,-857.6884 880.5993,-863.8649 886.3299,-867.885"/>
+<path fill="none" stroke="#000000" d="M863.1562,-893.7966C869.3154,-885.168 876.4431,-875.1824 883.0509,-865.9253"/>
+<polygon fill="#000000" stroke="#000000" points="885.9693,-867.861 888.9304,-857.6884 880.2719,-863.7941 885.9693,-867.861"/>
 </g>
 <!-- PHYS 101&#45;&gt;ENGR 220 -->
 <g id="edge16" class="edge">
 <title>PHYS 101&#45;&gt;ENGR 220</title>
-<path fill="none" stroke="#000000" d="M825.6851,-894.246C814.9999,-883.4305 802.1368,-870.1256 791,-857.8032 773.3899,-838.3183 773.9169,-828.4311 753,-812.5483 734.0561,-798.1637 711.0196,-786.2816 689.6845,-777.0636"/>
+<path fill="none" stroke="#000000" d="M825.1179,-894.1966C814.6296,-883.3698 801.9881,-870.0697 791,-857.8032 773.4762,-838.2406 773.9169,-828.4311 753,-812.5483 734.0561,-798.1637 711.0196,-786.2816 689.6845,-777.0636"/>
 <polygon fill="#000000" stroke="#000000" points="690.919,-773.7861 680.3434,-773.1469 688.2122,-780.2416 690.919,-773.7861"/>
 </g>
 <!-- 2.1 -->
@@ -307,41 +307,41 @@
 <!-- ECES 301 -->
 <g id="node46" class="node">
 <title>ECES 301</title>
-<ellipse fill="none" stroke="#006400" cx="1174" cy="-591.4113" rx="90.5193" ry="22.7556"/>
-<text text-anchor="start" x="1118" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">ECES 301 (4.0)</text>
-<text text-anchor="start" x="1119.5" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Signals and Systems I</text>
+<ellipse fill="none" stroke="#006400" cx="1176" cy="-591.4113" rx="90.5193" ry="22.7556"/>
+<text text-anchor="start" x="1120" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">ECES 301 (4.0)</text>
+<text text-anchor="start" x="1121.5" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Signals and Systems I</text>
 </g>
 <!-- ENGR 103&#45;&gt;ECES 301 -->
 <g id="edge31" class="edge">
 <title>ENGR 103&#45;&gt;ECES 301</title>
-<path fill="none" stroke="#000000" d="M1138.669,-812.243C1145.6262,-768.758 1160.7556,-674.1938 1168.772,-624.0883"/>
-<polygon fill="#000000" stroke="#000000" points="1172.2453,-624.5329 1170.3691,-614.1055 1165.3332,-623.427 1172.2453,-624.5329"/>
+<path fill="none" stroke="#000000" d="M1139.7631,-812.243C1146.8987,-768.758 1162.416,-674.1938 1170.6379,-624.0883"/>
+<polygon fill="#000000" stroke="#000000" points="1174.1105,-624.5403 1172.276,-614.1055 1167.2029,-623.4068 1174.1105,-624.5403"/>
 </g>
 <!-- ECE 303 -->
 <g id="node58" class="node">
 <title>ECE 303</title>
-<ellipse fill="none" stroke="#ffa500" cx="1008" cy="-428.9016" rx="83.3772" ry="22.7556"/>
-<text text-anchor="start" x="957" y="-430.7016" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 303 (3.0)</text>
-<text text-anchor="start" x="968.5" y="-419.9016" font-family="Times,serif" font-size="10.00" fill="#000000">ECE Laboratory</text>
+<ellipse fill="none" stroke="#ffa500" cx="1038" cy="-428.9016" rx="83.3772" ry="22.7556"/>
+<text text-anchor="start" x="987" y="-430.7016" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 303 (3.0)</text>
+<text text-anchor="start" x="998.5" y="-419.9016" font-family="Times,serif" font-size="10.00" fill="#000000">ECE Laboratory</text>
 </g>
 <!-- ENGR 103&#45;&gt;ECE 303 -->
 <g id="edge44" class="edge">
 <title>ENGR 103&#45;&gt;ECE 303</title>
-<path fill="none" stroke="#000000" d="M1115.6342,-812.6787C1091.958,-782.7949 1055,-727.3835 1055,-672.6661 1055,-672.6661 1055,-672.6661 1055,-591.4113 1055,-544.5665 1036.7552,-493.0105 1023.0003,-460.7984"/>
-<polygon fill="#000000" stroke="#000000" points="1026.1221,-459.202 1018.9009,-451.4493 1019.7113,-462.0131 1026.1221,-459.202"/>
+<path fill="none" stroke="#000000" d="M1117.0775,-812.8953C1093.7061,-783.0286 1057,-727.4076 1057,-672.6661 1057,-672.6661 1057,-672.6661 1057,-591.4113 1057,-546.1714 1049.6463,-494.3237 1044.0887,-461.5995"/>
+<polygon fill="#000000" stroke="#000000" points="1047.5248,-460.9295 1042.359,-451.6793 1040.6288,-462.1319 1047.5248,-460.9295"/>
 </g>
 <!-- ECE 201 -->
 <g id="node36" class="node">
 <title>ECE 201</title>
-<ellipse fill="none" stroke="#006400" cx="906" cy="-672.6661" rx="120.8306" ry="22.7556"/>
-<text text-anchor="start" x="855" y="-674.4661" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 201 (4.0)</text>
-<text text-anchor="start" x="828.5" y="-663.6661" font-family="Times,serif" font-size="10.00" fill="#000000">Foundations of Electric Circuits</text>
+<ellipse fill="none" stroke="#006400" cx="907" cy="-672.6661" rx="121.7449" ry="22.7556"/>
+<text text-anchor="start" x="856" y="-674.4661" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 201 (4.0)</text>
+<text text-anchor="start" x="829" y="-663.6661" font-family="Times,serif" font-size="10.00" fill="#000000">Foundations of Electric Circuits</text>
 </g>
 <!-- PHYS 102&#45;&gt;ECE 201 -->
 <g id="edge19" class="edge">
 <title>PHYS 102&#45;&gt;ECE 201</title>
-<path fill="none" stroke="#000000" d="M905.1412,-812.2368C905.3124,-784.4102 905.6023,-737.2983 905.7974,-705.598"/>
-<polygon fill="#000000" stroke="#000000" points="909.2979,-705.5098 905.8596,-695.4884 902.298,-705.4666 909.2979,-705.5098"/>
+<path fill="none" stroke="#000000" d="M905.2823,-812.2368C905.6248,-784.4102 906.2046,-737.2983 906.5947,-705.598"/>
+<polygon fill="#000000" stroke="#000000" points="910.0957,-705.5307 906.7191,-695.4884 903.0962,-705.4445 910.0957,-705.5307"/>
 </g>
 <!-- PHYS 102&#45;&gt;PHYS 201 -->
 <g id="edge51" class="edge">
@@ -358,80 +358,80 @@
 <!-- ECE 200 -->
 <g id="node29" class="node">
 <title>ECE 200</title>
-<ellipse fill="none" stroke="#006400" cx="1355" cy="-753.9209" rx="83.3772" ry="22.7556"/>
-<text text-anchor="start" x="1304" y="-755.7209" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 200 (4.0)</text>
-<text text-anchor="start" x="1305" y="-744.9209" font-family="Times,serif" font-size="10.00" fill="#000000">Digital Logic Design</text>
+<ellipse fill="none" stroke="#006400" cx="1357" cy="-753.9209" rx="83.3772" ry="22.7556"/>
+<text text-anchor="start" x="1306" y="-755.7209" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 200 (4.0)</text>
+<text text-anchor="start" x="1307" y="-744.9209" font-family="Times,serif" font-size="10.00" fill="#000000">Digital Logic Design</text>
 </g>
 <!-- MATH 221 -->
 <g id="node40" class="node">
 <title>MATH 221</title>
-<ellipse fill="none" stroke="#006400" cx="1295" cy="-672.6661" rx="93.1765" ry="22.7556"/>
-<text text-anchor="start" x="1237" y="-674.4661" font-family="Times,serif" font-size="14.00" fill="#000000">MATH 221 (3.0)</text>
-<text text-anchor="start" x="1240.5" y="-663.6661" font-family="Times,serif" font-size="10.00" fill="#000000">Discrete Mathematics</text>
+<ellipse fill="none" stroke="#006400" cx="1297" cy="-672.6661" rx="92.7622" ry="22.7556"/>
+<text text-anchor="start" x="1239.5" y="-674.4661" font-family="Times,serif" font-size="14.00" fill="#000000">MATH 221 (3.0)</text>
+<text text-anchor="start" x="1242.5" y="-663.6661" font-family="Times,serif" font-size="10.00" fill="#000000">Discrete Mathematics</text>
 </g>
 <!-- ECE 200&#45;&gt;MATH 221 -->
 <g id="edge23" class="edge">
 <title>ECE 200&#45;&gt;MATH 221</title>
-<path fill="none" stroke="#000000" d="M1338.6047,-731.7177C1332.1104,-722.9228 1324.537,-712.6664 1317.5413,-703.1925"/>
-<polygon fill="#000000" stroke="#000000" points="1320.3397,-701.0903 1311.5839,-695.1248 1314.7086,-705.2484 1320.3397,-701.0903"/>
+<path fill="none" stroke="#000000" d="M1340.6047,-731.7177C1334.1104,-722.9228 1326.537,-712.6664 1319.5413,-703.1925"/>
+<polygon fill="#000000" stroke="#000000" points="1322.3397,-701.0903 1313.5839,-695.1248 1316.7086,-705.2484 1322.3397,-701.0903"/>
 </g>
 <!-- ECEC 302 -->
 <g id="node44" class="node">
 <title>ECEC 302</title>
-<ellipse fill="none" stroke="#006400" cx="1541" cy="-591.4113" rx="96.7474" ry="22.7556"/>
-<text text-anchor="start" x="1484.5" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 302 (3.0)</text>
-<text text-anchor="start" x="1480.5" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Digital Systems Projects</text>
+<ellipse fill="none" stroke="#006400" cx="1543" cy="-591.4113" rx="96.7474" ry="22.7556"/>
+<text text-anchor="start" x="1486.5" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 302 (3.0)</text>
+<text text-anchor="start" x="1482.5" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Digital Systems Projects</text>
 </g>
 <!-- ECE 200&#45;&gt;ECEC 302 -->
 <g id="edge27" class="edge">
 <title>ECE 200&#45;&gt;ECEC 302</title>
-<path fill="none" stroke="#000000" d="M1383.6108,-732.5079C1397.8015,-721.649 1415.0581,-708.0816 1430,-695.2935 1458.3412,-671.0375 1489.222,-641.9006 1511.1996,-620.6656"/>
-<polygon fill="#000000" stroke="#000000" points="1513.8412,-622.9794 1518.5833,-613.5051 1508.968,-617.9543 1513.8412,-622.9794"/>
+<path fill="none" stroke="#000000" d="M1385.6108,-732.5079C1399.8015,-721.649 1417.0581,-708.0816 1432,-695.2935 1460.3412,-671.0375 1491.222,-641.9006 1513.1996,-620.6656"/>
+<polygon fill="#000000" stroke="#000000" points="1515.8412,-622.9794 1520.5833,-613.5051 1510.968,-617.9543 1515.8412,-622.9794"/>
 </g>
 <!-- ECE 200&#45;&gt;ECES 301 -->
 <g id="edge29" class="edge">
 <title>ECE 200&#45;&gt;ECES 301</title>
-<path fill="none" stroke="#000000" d="M1280.2626,-743.6306C1248.9535,-735.5419 1214.8312,-721.0953 1193,-695.2935 1176.5403,-675.8401 1172.3527,-646.8892 1171.9634,-624.4878"/>
-<polygon fill="#000000" stroke="#000000" points="1175.4638,-624.4243 1172.0306,-614.4012 1168.464,-624.3776 1175.4638,-624.4243"/>
+<path fill="none" stroke="#000000" d="M1282.2626,-743.6306C1250.9535,-735.5419 1216.8312,-721.0953 1195,-695.2935 1178.5403,-675.8401 1174.3527,-646.8892 1173.9634,-624.4878"/>
+<polygon fill="#000000" stroke="#000000" points="1177.4638,-624.4243 1174.0306,-614.4012 1170.464,-624.3776 1177.4638,-624.4243"/>
 </g>
 <!-- ECEC 204 -->
 <g id="node49" class="node">
 <title>ECEC 204</title>
-<ellipse fill="none" stroke="#0000ff" cx="1647" cy="-510.1564" rx="112.36" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="1647" cy="-510.1564" rx="112.36" ry="22.7556"/>
 <text text-anchor="start" x="1590.5" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 204 (3.0)</text>
 <text text-anchor="start" x="1575.5" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Design with Microcontrollers</text>
 </g>
 <!-- ECE 200&#45;&gt;ECEC 204 -->
 <g id="edge34" class="edge">
 <title>ECE 200&#45;&gt;ECEC 204</title>
-<path fill="none" stroke="#000000" d="M1373.6213,-731.6417C1381.688,-721.1313 1390.7053,-708.1041 1397,-695.2935 1422.8907,-642.6026 1393.033,-609.8377 1435,-568.7838 1452.2383,-551.9206 1504.068,-537.4266 1552.1616,-527.0687"/>
-<polygon fill="#000000" stroke="#000000" points="1552.9728,-530.4747 1562.0359,-524.9873 1551.529,-523.6252 1552.9728,-530.4747"/>
+<path fill="none" stroke="#000000" d="M1375.6213,-731.6417C1383.688,-721.1313 1392.7053,-708.1041 1399,-695.2935 1424.8907,-642.6026 1395.0832,-609.889 1437,-568.7838 1453.9997,-552.1133 1505.0038,-537.6693 1552.4868,-527.2892"/>
+<polygon fill="#000000" stroke="#000000" points="1553.5054,-530.6506 1562.5522,-525.1365 1552.0414,-523.8054 1553.5054,-530.6506"/>
 </g>
 <!-- ECE 203 -->
 <g id="node30" class="node">
 <title>ECE 203</title>
-<ellipse fill="none" stroke="#006400" cx="1865" cy="-753.9209" rx="108.375" ry="22.7556"/>
-<text text-anchor="start" x="1814" y="-755.7209" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 203 (3.0)</text>
-<text text-anchor="start" x="1796.5" y="-744.9209" font-family="Times,serif" font-size="10.00" fill="#000000">Programming for Engineers</text>
+<ellipse fill="none" stroke="#006400" cx="1866" cy="-753.9209" rx="108.375" ry="22.7556"/>
+<text text-anchor="start" x="1815" y="-755.7209" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 203 (3.0)</text>
+<text text-anchor="start" x="1797.5" y="-744.9209" font-family="Times,serif" font-size="10.00" fill="#000000">Programming for Engineers</text>
 </g>
 <!-- ECEC 201 -->
 <g id="node37" class="node">
 <title>ECEC 201</title>
-<ellipse fill="none" stroke="#006400" cx="1865" cy="-672.6661" rx="123.0732" ry="22.7556"/>
-<text text-anchor="start" x="1808.5" y="-674.4661" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 201 (3.0)</text>
-<text text-anchor="start" x="1786" y="-663.6661" font-family="Times,serif" font-size="10.00" fill="#000000">Adv Programming for Engineers</text>
+<ellipse fill="none" stroke="#006400" cx="1866" cy="-672.6661" rx="123.0732" ry="22.7556"/>
+<text text-anchor="start" x="1809.5" y="-674.4661" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 201 (3.0)</text>
+<text text-anchor="start" x="1787" y="-663.6661" font-family="Times,serif" font-size="10.00" fill="#000000">Adv Programming for Engineers</text>
 </g>
 <!-- ECE 203&#45;&gt;ECEC 201 -->
 <g id="edge20" class="edge">
 <title>ECE 203&#45;&gt;ECEC 201</title>
-<path fill="none" stroke="#000000" d="M1865,-731.2869C1865,-723.3414 1865,-714.2453 1865,-705.6268"/>
-<polygon fill="#000000" stroke="#000000" points="1868.5001,-705.4605 1865,-695.4605 1861.5001,-705.4606 1868.5001,-705.4605"/>
+<path fill="none" stroke="#000000" d="M1866,-731.2869C1866,-723.3414 1866,-714.2453 1866,-705.6268"/>
+<polygon fill="#000000" stroke="#000000" points="1869.5001,-705.4605 1866,-695.4605 1862.5001,-705.4606 1869.5001,-705.4605"/>
 </g>
 <!-- ECE 203&#45;&gt;ECEC 302 -->
 <g id="edge26" class="edge">
 <title>ECE 203&#45;&gt;ECEC 302</title>
-<path fill="none" stroke="#000000" d="M1816.9281,-733.6423C1791.7187,-722.7391 1760.4531,-708.7914 1733,-695.2935 1682.149,-670.2915 1625.2046,-639.0595 1586.6296,-617.4028"/>
-<polygon fill="#000000" stroke="#000000" points="1588.15,-614.2422 1577.7189,-612.387 1584.7163,-620.3422 1588.15,-614.2422"/>
+<path fill="none" stroke="#000000" d="M1817.6057,-733.5329C1792.447,-722.6562 1761.3259,-708.766 1734,-695.2935 1683.381,-670.3368 1626.7387,-639.0972 1588.3749,-617.4263"/>
+<polygon fill="#000000" stroke="#000000" points="1589.9393,-614.2899 1579.5131,-612.4069 1586.4894,-620.3808 1589.9393,-614.2899"/>
 </g>
 <!-- ECEC 357 -->
 <g id="node45" class="node">
@@ -443,8 +443,8 @@
 <!-- ECE 203&#45;&gt;ECEC 357 -->
 <g id="edge28" class="edge">
 <title>ECE 203&#45;&gt;ECEC 357</title>
-<path fill="none" stroke="#000000" d="M1911.4508,-733.3528C1936.7558,-722.1321 1968.6127,-707.9805 1997,-695.2935 2056.5299,-668.6881 2124.5998,-638.0504 2171.3432,-616.9782"/>
-<polygon fill="#000000" stroke="#000000" points="2173.0131,-620.0646 2180.6908,-612.7636 2170.1359,-613.6833 2173.0131,-620.0646"/>
+<path fill="none" stroke="#000000" d="M1912.459,-733.3712C1937.7665,-722.1559 1969.623,-708.0036 1998,-695.2935 2057.2941,-668.7357 2125.0658,-638.0905 2171.6001,-617.0034"/>
+<polygon fill="#000000" stroke="#000000" points="2173.2425,-620.1018 2180.9057,-612.7857 2170.3527,-613.7261 2173.2425,-620.1018"/>
 </g>
 <!-- ENGR 201 -->
 <g id="node31" class="node">
@@ -508,46 +508,46 @@
 <!-- ECE 201&#45;&gt;ECES 301 -->
 <g id="edge30" class="edge">
 <title>ECE 201&#45;&gt;ECES 301</title>
-<path fill="none" stroke="#000000" d="M969.5123,-653.4098C1010.726,-640.9143 1064.3759,-624.6481 1106.3816,-611.9124"/>
-<polygon fill="#000000" stroke="#000000" points="1107.4201,-615.255 1115.9744,-609.004 1105.389,-608.5561 1107.4201,-615.255"/>
+<path fill="none" stroke="#000000" d="M971.0904,-653.3068C1012.4671,-640.8084 1066.2246,-624.5703 1108.296,-611.8621"/>
+<polygon fill="#000000" stroke="#000000" points="1109.3426,-615.2022 1117.9034,-608.9601 1107.3185,-608.5012 1109.3426,-615.2022"/>
 </g>
 <!-- ECE 201&#45;&gt;ECE 303 -->
 <g id="edge43" class="edge">
 <title>ECE 201&#45;&gt;ECE 303</title>
-<path fill="none" stroke="#000000" d="M915.5959,-649.7333C933.8677,-606.0664 973.6923,-510.8919 994.5889,-460.952"/>
-<polygon fill="#000000" stroke="#000000" points="997.8725,-462.1718 998.5039,-451.5958 991.415,-459.4698 997.8725,-462.1718"/>
+<path fill="none" stroke="#000000" d="M919.3242,-649.7333C942.8398,-605.9754 994.1513,-510.4951 1020.9434,-460.6405"/>
+<polygon fill="#000000" stroke="#000000" points="1024.1532,-462.0613 1025.804,-451.5958 1017.9872,-458.7476 1024.1532,-462.0613"/>
 </g>
 <!-- CS 265 -->
 <g id="node42" class="node">
 <title>CS 265</title>
-<ellipse fill="none" stroke="#006400" cx="1865" cy="-591.4113" rx="171.2398" ry="22.7556"/>
-<text text-anchor="start" x="1819.5" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">CS 265 (3.0)</text>
-<text text-anchor="start" x="1752" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Advanced Programming Tools and Techniques</text>
+<ellipse fill="none" stroke="#006400" cx="1866" cy="-591.4113" rx="170.3255" ry="22.7556"/>
+<text text-anchor="start" x="1820.5" y="-593.2113" font-family="Times,serif" font-size="14.00" fill="#000000">CS 265 (3.0)</text>
+<text text-anchor="start" x="1753.5" y="-582.4113" font-family="Times,serif" font-size="10.00" fill="#000000">Advanced Programming Tools and Techniques</text>
 </g>
 <!-- ECEC 201&#45;&gt;CS 265 -->
 <g id="edge25" class="edge">
 <title>ECEC 201&#45;&gt;CS 265</title>
-<path fill="none" stroke="#000000" d="M1865,-650.0321C1865,-642.0866 1865,-632.9905 1865,-624.372"/>
-<polygon fill="#000000" stroke="#000000" points="1868.5001,-624.2057 1865,-614.2057 1861.5001,-624.2057 1868.5001,-624.2057"/>
+<path fill="none" stroke="#000000" d="M1866,-650.0321C1866,-642.0866 1866,-632.9905 1866,-624.372"/>
+<polygon fill="#000000" stroke="#000000" points="1869.5001,-624.2057 1866,-614.2057 1862.5001,-624.2057 1869.5001,-624.2057"/>
 </g>
 <!-- ECEC 201&#45;&gt;ECEC 204 -->
 <g id="edge35" class="edge">
 <title>ECEC 201&#45;&gt;ECEC 204</title>
-<path fill="none" stroke="#000000" d="M1769.0282,-658.395C1739.0179,-649.8097 1707.8242,-636.0598 1685,-614.0387 1665.5849,-595.3066 1656.035,-565.85 1651.3697,-543.0804"/>
-<polygon fill="#000000" stroke="#000000" points="1654.7957,-542.358 1649.552,-533.1518 1647.9101,-543.6187 1654.7957,-542.358"/>
+<path fill="none" stroke="#000000" d="M1771.2326,-658.1975C1741.2622,-649.5972 1709.9943,-635.8883 1687,-614.0387 1667.3185,-595.3369 1657.1923,-565.8773 1652.0612,-543.0989"/>
+<polygon fill="#000000" stroke="#000000" points="1655.4636,-542.2666 1650.0387,-533.166 1648.6043,-543.6633 1655.4636,-542.2666"/>
 </g>
 <!-- ECEC 353 -->
 <g id="node51" class="node">
 <title>ECEC 353</title>
-<ellipse fill="none" stroke="#0000ff" cx="2076" cy="-510.1564" rx="91.4341" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="2076" cy="-510.1564" rx="91.4341" ry="22.7556"/>
 <text text-anchor="start" x="2019.5" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 353 (3.0)</text>
 <text text-anchor="start" x="2020" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Systems Programming</text>
 </g>
 <!-- ECEC 201&#45;&gt;ECEC 353 -->
 <g id="edge36" class="edge">
 <title>ECEC 201&#45;&gt;ECEC 353</title>
-<path fill="none" stroke="#000000" d="M1942.5332,-655.0266C1984.2539,-644.0962 2030.1406,-629.2723 2045,-614.0387 2063.3792,-595.1966 2070.9291,-565.9387 2073.9966,-543.2685"/>
-<polygon fill="#000000" stroke="#000000" points="2077.5049,-543.3887 2075.1419,-533.0607 2070.5486,-542.6081 2077.5049,-543.3887"/>
+<path fill="none" stroke="#000000" d="M1943.1057,-654.9795C1984.5958,-644.0326 2030.2277,-629.2079 2045,-614.0387 2063.3637,-595.1815 2070.915,-565.925 2073.987,-543.2591"/>
+<polygon fill="#000000" stroke="#000000" points="2077.4951,-543.3822 2075.1346,-533.0537 2070.539,-542.5999 2077.4951,-543.3822"/>
 </g>
 <!-- 3.2 -->
 <g id="node47" class="node">
@@ -558,28 +558,28 @@
 <!-- CS 260 -->
 <g id="node48" class="node">
 <title>CS 260</title>
-<ellipse fill="none" stroke="#0000ff" cx="1853" cy="-510.1564" rx="75.8212" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="1853" cy="-510.1564" rx="75.8212" ry="22.7556"/>
 <text text-anchor="start" x="1807.5" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">CS 260 (3.0)</text>
 <text text-anchor="start" x="1813.5" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Data Structures</text>
 </g>
 <!-- CS 265&#45;&gt;CS 260 -->
 <g id="edge33" class="edge">
 <title>CS 265&#45;&gt;CS 260</title>
-<path fill="none" stroke="#000000" d="M1861.6573,-568.7773C1860.4839,-560.8318 1859.1406,-551.7356 1857.8678,-543.1172"/>
-<polygon fill="#000000" stroke="#000000" points="1861.2899,-542.3322 1856.3664,-532.9509 1854.365,-543.3549 1861.2899,-542.3322"/>
+<path fill="none" stroke="#000000" d="M1862.3788,-568.7773C1861.0936,-560.7445 1859.6203,-551.5356 1858.228,-542.8332"/>
+<polygon fill="#000000" stroke="#000000" points="1861.6828,-542.2723 1856.6469,-532.9509 1854.7707,-543.3782 1861.6828,-542.2723"/>
 </g>
 <!-- CS 350 [WI] -->
 <g id="node62" class="node">
 <title>CS 350 [WI]</title>
-<ellipse fill="none" stroke="#ffa500" cx="1931" cy="-347.6468" rx="101.2327" ry="22.7556"/>
-<text text-anchor="start" x="1867.5" y="-349.4468" font-family="Times,serif" font-size="14.00" fill="#000000">CS 350 [WI] (3.0)</text>
-<text text-anchor="start" x="1890" y="-338.6468" font-family="Times,serif" font-size="10.00" fill="#000000">Software Design</text>
+<ellipse fill="none" stroke="#ffa500" cx="1930" cy="-347.6468" rx="101.2327" ry="22.7556"/>
+<text text-anchor="start" x="1866.5" y="-349.4468" font-family="Times,serif" font-size="14.00" fill="#000000">CS 350 [WI] (3.0)</text>
+<text text-anchor="start" x="1889" y="-338.6468" font-family="Times,serif" font-size="10.00" fill="#000000">Software Design</text>
 </g>
 <!-- CS 265&#45;&gt;CS 350 [WI] -->
 <g id="edge48" class="edge">
 <title>CS 265&#45;&gt;CS 350 [WI]</title>
-<path fill="none" stroke="#000000" d="M1905.0716,-569.2409C1918.0422,-559.8359 1930.9022,-547.5876 1938,-532.7838 1961.4516,-483.8711 1950.9671,-419.0578 1941.081,-380.5204"/>
-<polygon fill="#000000" stroke="#000000" points="1944.3283,-379.121 1938.3373,-370.3827 1937.5714,-380.9498 1944.3283,-379.121"/>
+<path fill="none" stroke="#000000" d="M1905.535,-569.1317C1918.3292,-559.7157 1931.0107,-547.4883 1938,-532.7838 1961.3912,-483.5722 1950.3304,-418.4427 1940.1652,-379.9968"/>
+<polygon fill="#000000" stroke="#000000" points="1943.5368,-379.0573 1937.4867,-370.3597 1936.7925,-380.9318 1943.5368,-379.0573"/>
 </g>
 <!-- ECE 361 -->
 <g id="node43" class="node">
@@ -591,28 +591,28 @@
 <!-- ECE 491 -->
 <g id="node68" class="node">
 <title>ECE 491</title>
-<ellipse fill="none" stroke="#ffa500" cx="3034" cy="-266.3919" rx="92.7622" ry="22.7556"/>
-<text text-anchor="start" x="2983" y="-268.1919" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 491 (2.0)</text>
-<text text-anchor="start" x="2976.5" y="-257.3919" font-family="Times,serif" font-size="10.00" fill="#000000">Senior Design Project I</text>
+<ellipse fill="none" stroke="#ffa500" cx="3086" cy="-266.3919" rx="92.7622" ry="22.7556"/>
+<text text-anchor="start" x="3035" y="-268.1919" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 491 (2.0)</text>
+<text text-anchor="start" x="3028.5" y="-257.3919" font-family="Times,serif" font-size="10.00" fill="#000000">Senior Design Project I</text>
 </g>
 <!-- ECE 361&#45;&gt;ECE 491 -->
 <g id="edge55" class="edge">
 <title>ECE 361&#45;&gt;ECE 491</title>
-<path fill="none" stroke="#000000" d="M2998.1002,-568.5832C3001.373,-533.6063 3008.0399,-464.6663 3015,-406.2742 3019.3726,-369.5898 3025.1836,-327.6064 3029.2228,-299.2841"/>
-<polygon fill="#000000" stroke="#000000" points="3032.7228,-299.5332 3030.6775,-289.1377 3025.7937,-298.5398 3032.7228,-299.5332"/>
+<path fill="none" stroke="#000000" d="M2995.6849,-568.6723C2995.7782,-533.2317 2998.3202,-463.0013 3015,-406.2742 3026.596,-366.8369 3049.1996,-325.2771 3065.7995,-297.8071"/>
+<polygon fill="#000000" stroke="#000000" points="3068.9238,-299.4078 3071.1743,-289.0548 3062.9587,-295.7447 3068.9238,-299.4078"/>
 </g>
 <!-- ECEC 355 -->
 <g id="node52" class="node">
 <title>ECEC 355</title>
-<ellipse fill="none" stroke="#0000ff" cx="1425" cy="-510.1564" rx="91.4341" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="1425" cy="-510.1564" rx="91.4341" ry="22.7556"/>
 <text text-anchor="start" x="1368.5" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 355 (3.0)</text>
 <text text-anchor="start" x="1368.5" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Computer Architecture</text>
 </g>
 <!-- ECEC 302&#45;&gt;ECEC 355 -->
 <g id="edge37" class="edge">
 <title>ECEC 302&#45;&gt;ECEC 355</title>
-<path fill="none" stroke="#000000" d="M1510.2187,-569.8498C1496.0794,-559.9456 1479.149,-548.0863 1464.1179,-537.5574"/>
-<polygon fill="#000000" stroke="#000000" points="1465.7212,-534.4073 1455.5227,-531.5367 1461.7051,-540.1407 1465.7212,-534.4073"/>
+<path fill="none" stroke="#000000" d="M1511.688,-569.8498C1497.1705,-559.853 1479.7605,-547.8645 1464.3641,-537.2626"/>
+<polygon fill="#000000" stroke="#000000" points="1466.2701,-534.3255 1456.0489,-531.5367 1462.3001,-540.0909 1466.2701,-534.3255"/>
 </g>
 <!-- 4.1 -->
 <g id="node54" class="node">
@@ -636,41 +636,41 @@
 <!-- CS 260&#45;&gt;CS 350 [WI] -->
 <g id="edge47" class="edge">
 <title>CS 260&#45;&gt;CS 350 [WI]</title>
-<path fill="none" stroke="#000000" d="M1873.9662,-488.2101C1883.0191,-477.7669 1893.0946,-464.7003 1900,-451.529 1911.7911,-429.0388 1919.7643,-401.3997 1924.6688,-380.2861"/>
-<polygon fill="#000000" stroke="#000000" points="1928.0918,-381.0164 1926.8332,-370.4966 1921.2569,-379.5052 1928.0918,-381.0164"/>
+<path fill="none" stroke="#000000" d="M1874.0201,-488.2383C1883.0839,-477.8007 1893.153,-464.7307 1900,-451.529 1911.661,-429.0454 1919.3635,-401.4059 1924.041,-380.2905"/>
+<polygon fill="#000000" stroke="#000000" points="1927.467,-381.0061 1926.0983,-370.5 1920.6166,-379.5665 1927.467,-381.0061"/>
 </g>
 <!-- ECEC I399 -->
 <g id="node50" class="node">
 <title>ECEC I399</title>
-<ellipse fill="none" stroke="#0000ff" cx="3134" cy="-510.1564" rx="110.1176" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="3134" cy="-510.1564" rx="110.1176" ry="22.7556"/>
 <text text-anchor="start" x="3074.5" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC I399 (3.0)</text>
 <text text-anchor="start" x="3064" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Vision Processing Hardware</text>
 </g>
 <!-- CS 370 -->
 <g id="node56" class="node">
 <title>CS 370</title>
-<ellipse fill="none" stroke="#ffa500" cx="2240" cy="-428.9016" rx="77.5641" ry="22.7556"/>
-<text text-anchor="start" x="2194.5" y="-430.7016" font-family="Times,serif" font-size="14.00" fill="#000000">CS 370 (3.0)</text>
-<text text-anchor="start" x="2193" y="-419.9016" font-family="Times,serif" font-size="10.00" fill="#000000">Operating Systems</text>
+<ellipse fill="none" stroke="#ffa500" cx="2239" cy="-428.9016" rx="77.5641" ry="22.7556"/>
+<text text-anchor="start" x="2193.5" y="-430.7016" font-family="Times,serif" font-size="14.00" fill="#000000">CS 370 (3.0)</text>
+<text text-anchor="start" x="2192" y="-419.9016" font-family="Times,serif" font-size="10.00" fill="#000000">Operating Systems</text>
 </g>
 <!-- ECEC 353&#45;&gt;CS 370 -->
 <g id="edge41" class="edge">
 <title>ECEC 353&#45;&gt;CS 370</title>
-<path fill="none" stroke="#000000" d="M2116.9611,-489.862C2139.4915,-478.6992 2167.5911,-464.777 2191.2468,-453.0567"/>
-<polygon fill="#000000" stroke="#000000" points="2193.0022,-456.0931 2200.4088,-448.5173 2189.8945,-449.8207 2193.0022,-456.0931"/>
+<path fill="none" stroke="#000000" d="M2116.7113,-489.862C2139.1044,-478.6992 2167.0327,-464.777 2190.5441,-453.0567"/>
+<polygon fill="#000000" stroke="#000000" points="2192.2621,-456.1111 2199.6502,-448.5173 2189.1391,-449.8463 2192.2621,-456.1111"/>
 </g>
 <!-- CS 377 -->
 <g id="node57" class="node">
 <title>CS 377</title>
-<ellipse fill="none" stroke="#ffa500" cx="2069" cy="-428.9016" rx="75.8212" ry="22.7556"/>
-<text text-anchor="start" x="2023.5" y="-430.7016" font-family="Times,serif" font-size="14.00" fill="#000000">CS 377 (3.0)</text>
-<text text-anchor="start" x="2024.5" y="-419.9016" font-family="Times,serif" font-size="10.00" fill="#000000">Software Security</text>
+<ellipse fill="none" stroke="#ffa500" cx="2068" cy="-428.9016" rx="75.8212" ry="22.7556"/>
+<text text-anchor="start" x="2022.5" y="-430.7016" font-family="Times,serif" font-size="14.00" fill="#000000">CS 377 (3.0)</text>
+<text text-anchor="start" x="2023.5" y="-419.9016" font-family="Times,serif" font-size="10.00" fill="#000000">Software Security</text>
 </g>
 <!-- ECEC 353&#45;&gt;CS 377 -->
 <g id="edge42" class="edge">
 <title>ECEC 353&#45;&gt;CS 377</title>
-<path fill="none" stroke="#000000" d="M2074.0501,-487.5224C2073.3656,-479.5769 2072.582,-470.4808 2071.8395,-461.8623"/>
-<polygon fill="#000000" stroke="#000000" points="2075.3092,-461.3587 2070.9637,-451.696 2068.335,-461.9596 2075.3092,-461.3587"/>
+<path fill="none" stroke="#000000" d="M2073.7716,-487.5224C2072.9893,-479.5769 2072.0937,-470.4808 2071.2452,-461.8623"/>
+<polygon fill="#000000" stroke="#000000" points="2074.7073,-461.3049 2070.2442,-451.696 2067.741,-461.9909 2074.7073,-461.3049"/>
 </g>
 <!-- ECEC 355&#45;&gt;CS 361 -->
 <g id="edge40" class="edge">
@@ -681,22 +681,22 @@
 <!-- ECEC 412 -->
 <g id="node60" class="node">
 <title>ECEC 412</title>
-<ellipse fill="none" stroke="#ffa500" cx="1283" cy="-428.9016" rx="101.6471" ry="22.7556"/>
-<text text-anchor="start" x="1226.5" y="-430.7016" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 412 (3.0)</text>
-<text text-anchor="start" x="1219" y="-419.9016" font-family="Times,serif" font-size="10.00" fill="#000000">Modern Processor Design</text>
+<ellipse fill="none" stroke="#ffa500" cx="1284" cy="-428.9016" rx="101.6471" ry="22.7556"/>
+<text text-anchor="start" x="1227.5" y="-430.7016" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 412 (3.0)</text>
+<text text-anchor="start" x="1220" y="-419.9016" font-family="Times,serif" font-size="10.00" fill="#000000">Modern Processor Design</text>
 </g>
 <!-- ECEC 355&#45;&gt;ECEC 412 -->
 <g id="edge45" class="edge">
 <title>ECEC 355&#45;&gt;ECEC 412</title>
-<path fill="none" stroke="#000000" d="M1388.4315,-489.2313C1370.2708,-478.8394 1348.1446,-466.1784 1328.8598,-455.1433"/>
-<polygon fill="#000000" stroke="#000000" points="1330.3559,-451.967 1319.9381,-450.0382 1326.8793,-458.0426 1330.3559,-451.967"/>
+<path fill="none" stroke="#000000" d="M1388.689,-489.2313C1370.6562,-478.8394 1348.6858,-466.1784 1329.5368,-455.1433"/>
+<polygon fill="#000000" stroke="#000000" points="1331.0899,-451.9988 1320.678,-450.0382 1327.5947,-458.0638 1331.0899,-451.9988"/>
 </g>
 <!-- ECEC 413 -->
 <g id="node63" class="node">
 <title>ECEC 413</title>
-<ellipse fill="none" stroke="#ffa500" cx="1403" cy="-347.6468" rx="147.5709" ry="22.7556"/>
+<ellipse fill="none" stroke="#ffa500" cx="1403" cy="-347.6468" rx="148.4848" ry="22.7556"/>
 <text text-anchor="start" x="1346.5" y="-349.4468" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 413 (3.0)</text>
-<text text-anchor="start" x="1306.5" y="-338.6468" font-family="Times,serif" font-size="10.00" fill="#000000">Intro to Parallel Computer Architecture</text>
+<text text-anchor="start" x="1306" y="-338.6468" font-family="Times,serif" font-size="10.00" fill="#000000">Intro to Parallel Computer Architecture</text>
 </g>
 <!-- ECEC 355&#45;&gt;ECEC 413 -->
 <g id="edge49" class="edge">
@@ -707,20 +707,20 @@
 <!-- ECEC 414 -->
 <g id="node64" class="node">
 <title>ECEC 414</title>
-<ellipse fill="none" stroke="#ffa500" cx="1683" cy="-347.6468" rx="114.6026" ry="22.7556"/>
-<text text-anchor="start" x="1626.5" y="-349.4468" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 414 (3.0)</text>
-<text text-anchor="start" x="1610" y="-338.6468" font-family="Times,serif" font-size="10.00" fill="#000000">High Performance Computing</text>
+<ellipse fill="none" stroke="#ffa500" cx="1685" cy="-347.6468" rx="115.0173" ry="22.7556"/>
+<text text-anchor="start" x="1628.5" y="-349.4468" font-family="Times,serif" font-size="14.00" fill="#000000">ECEC 414 (3.0)</text>
+<text text-anchor="start" x="1611.5" y="-338.6468" font-family="Times,serif" font-size="10.00" fill="#000000">High Performance Computing</text>
 </g>
 <!-- ECEC 355&#45;&gt;ECEC 414 -->
 <g id="edge50" class="edge">
 <title>ECEC 355&#45;&gt;ECEC 414</title>
-<path fill="none" stroke="#000000" d="M1458.4645,-489.0777C1504.8643,-459.8513 1588.7803,-406.9941 1639.8415,-374.8316"/>
-<polygon fill="#000000" stroke="#000000" points="1641.7639,-377.7572 1648.3598,-369.466 1638.0331,-371.8342 1641.7639,-377.7572"/>
+<path fill="none" stroke="#000000" d="M1458.7239,-489.0777C1505.4834,-459.8513 1590.0499,-406.9941 1641.5069,-374.8316"/>
+<polygon fill="#000000" stroke="#000000" points="1643.4665,-377.7342 1650.0913,-369.466 1639.7564,-371.7983 1643.4665,-377.7342"/>
 </g>
 <!-- PHIL 315 -->
 <g id="node53" class="node">
 <title>PHIL 315</title>
-<ellipse fill="none" stroke="#0000ff" cx="3350" cy="-510.1564" rx="87.8629" ry="22.7556"/>
+<ellipse fill="none" stroke="#006400" cx="3350" cy="-510.1564" rx="87.8629" ry="22.7556"/>
 <text text-anchor="start" x="3296" y="-511.9564" font-family="Times,serif" font-size="14.00" fill="#000000">PHIL 315 (3.0)</text>
 <text text-anchor="start" x="3303.5" y="-501.1564" font-family="Times,serif" font-size="10.00" fill="#000000">Engineering Ethics</text>
 </g>
@@ -740,8 +740,8 @@
 <!-- ECE 391&#45;&gt;ECE 491 -->
 <g id="edge54" class="edge">
 <title>ECE 391&#45;&gt;ECE 491</title>
-<path fill="none" stroke="#000000" d="M3124.4002,-406.3053C3106.0636,-377.9256 3074.5192,-329.1039 3053.9624,-297.2879"/>
-<polygon fill="#000000" stroke="#000000" points="3056.8425,-295.2962 3048.4758,-288.7963 3050.963,-299.095 3056.8425,-295.2962"/>
+<path fill="none" stroke="#000000" d="M3131.6306,-406.3053C3122.5193,-378.3681 3106.9475,-330.6215 3096.5657,-298.7886"/>
+<polygon fill="#000000" stroke="#000000" points="3099.8203,-297.4796 3093.3921,-289.0576 3093.1652,-299.6501 3099.8203,-297.4796"/>
 </g>
 <!-- 5.1 -->
 <g id="node67" class="node">
@@ -765,15 +765,15 @@
 <!-- ECE 492 -->
 <g id="node70" class="node">
 <title>ECE 492</title>
-<ellipse fill="none" stroke="#ffa500" cx="3034" cy="-185.1371" rx="94.5053" ry="22.7556"/>
-<text text-anchor="start" x="2983" y="-186.9371" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 492 (2.0)</text>
-<text text-anchor="start" x="2975" y="-176.1371" font-family="Times,serif" font-size="10.00" fill="#000000">Senior Design Project II</text>
+<ellipse fill="none" stroke="#ffa500" cx="3086" cy="-185.1371" rx="94.5053" ry="22.7556"/>
+<text text-anchor="start" x="3035" y="-186.9371" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 492 (2.0)</text>
+<text text-anchor="start" x="3027" y="-176.1371" font-family="Times,serif" font-size="10.00" fill="#000000">Senior Design Project II</text>
 </g>
 <!-- ECE 491&#45;&gt;ECE 492 -->
 <g id="edge57" class="edge">
 <title>ECE 491&#45;&gt;ECE 492</title>
-<path fill="none" stroke="#000000" d="M3034,-243.7579C3034,-235.8124 3034,-226.7163 3034,-218.0978"/>
-<polygon fill="#000000" stroke="#000000" points="3037.5001,-217.9315 3034,-207.9315 3030.5001,-217.9316 3037.5001,-217.9315"/>
+<path fill="none" stroke="#000000" d="M3086,-243.7579C3086,-235.8124 3086,-226.7163 3086,-218.0978"/>
+<polygon fill="#000000" stroke="#000000" points="3089.5001,-217.9315 3086,-207.9315 3082.5001,-217.9316 3089.5001,-217.9315"/>
 </g>
 <!-- 5.3 -->
 <g id="node71" class="node">
@@ -784,15 +784,15 @@
 <!-- ECE 493 -->
 <g id="node72" class="node">
 <title>ECE 493</title>
-<ellipse fill="none" stroke="#ffa500" cx="3034" cy="-103.8823" rx="97.6615" ry="22.7556"/>
-<text text-anchor="start" x="2983" y="-105.6823" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 493 (4.0)</text>
-<text text-anchor="start" x="2973" y="-94.8823" font-family="Times,serif" font-size="10.00" fill="#000000">Senior Design Project III</text>
+<ellipse fill="none" stroke="#ffa500" cx="3086" cy="-103.8823" rx="97.6615" ry="22.7556"/>
+<text text-anchor="start" x="3035" y="-105.6823" font-family="Times,serif" font-size="14.00" fill="#000000">ECE 493 (4.0)</text>
+<text text-anchor="start" x="3025" y="-94.8823" font-family="Times,serif" font-size="10.00" fill="#000000">Senior Design Project III</text>
 </g>
 <!-- ECE 492&#45;&gt;ECE 493 -->
 <g id="edge59" class="edge">
 <title>ECE 492&#45;&gt;ECE 493</title>
-<path fill="none" stroke="#000000" d="M3034,-162.5031C3034,-154.5576 3034,-145.4615 3034,-136.843"/>
-<polygon fill="#000000" stroke="#000000" points="3037.5001,-136.6767 3034,-126.6767 3030.5001,-136.6767 3037.5001,-136.6767"/>
+<path fill="none" stroke="#000000" d="M3086,-162.5031C3086,-154.5576 3086,-145.4615 3086,-136.843"/>
+<polygon fill="#000000" stroke="#000000" points="3089.5001,-136.6767 3086,-126.6767 3082.5001,-136.6767 3089.5001,-136.6767"/>
 </g>
 <!-- &#45;1.0 -->
 <g id="node74" class="node">
