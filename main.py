@@ -51,7 +51,7 @@ classes = [
   Class("MATH 221", "Discrete Mathematics", 3.0, 2.2, ["ECE 200"]),
   # Pre-Junior 1
   Class("CS 265", "Advanced Programming Tools and Techniques", 3.0, 3.1, ["ECEC 201"]),
-  Class("ECE 361", "Probability for Engineers", 4.0, 3.1, []),
+  Class("ECE 361", "Probability for Engineers", 4.0, 3.1, ["ENGR 232"]),
   Class("ECEC 302", "Digital Systems Projects", 3.0, 3.1, ["ECE 203", "ECE 200"]),
   Class("ECEC 357", "Introduction to Computer Networks", 3.0, 3.1, ["ECE 203"]),
   Class("ECES 301", "Signals and Systems I", 4.0, 3.1, ["ECE 200", "ECE 201", "ENGR 103"]),
@@ -71,12 +71,11 @@ classes = [
   Class("ECEC 412", "Modern Processor Design", 3.0, 4.1, ["ECEC 355"]),
   # Junior 2
   Class("CS 350 [WI]", "Software Design", 3.0, 4.2, ["CS 260", "CS 265"]),
-  Class("ECEC 413", "Intro to Parallel Computer Architecture", 3.0, 4.2, ["ECEC 355"]),
-  Class("ECEC 414", "High Performance Computing", 3.0, 4.2, ["ECEC 355"]),
+  Class("ECEC-T 480", "ST: Advanced Topics in Computer Architecture", 3.0, 4.2, ["ECEC 355"]),
   Class("ECON 201", "Principles of Microeconomics", 4.0, 4.2, []),
-  Class("PHYS 201", "Fundamentals of Physics III", 4.0, 4.2, ["PHYS 102", "MATH 122"]),
   # Senior 1
   Class("ECE 491", "Senior Design Project I", 2.0, 5.1, ["ECE 391", "ECE 361"]),
+  Class("PHYS 201", "Fundamentals of Physics III", 4.0, 5.1, ["PHYS 102", "MATH 122"]),
   # Senior 2
   Class("ECE 492", "Senior Design Project II", 2.0, 5.2, ["ECE 491"]),
   # Senior 3
@@ -86,7 +85,9 @@ classes = [
   Class("TEMP GenEd", "General Education Electives", 4.0, -1.0, []),
   Class("TEMP COE", "ECE/COE/BMES Electives", 3.0, -1.0, []),
 
-  Class("ECEC-T 480", "ST: Advanced Topics in Computer Architecture", 3.0, -1.0, ["ECEC 355"]),
+  Class("ECEC 402", "Digital System Projects Embedded Design", 3.0, -1.0, ["ECEC 355"]),
+  Class("ECEC 413", "Intro to Parallel Computer Architecture", 3.0, -1.0, ["ECEC 355"]),
+  Class("ECEC 414", "High Performance Computing", 3.0, -1.0, ["ECEC 355"]),
 
   # Class("ECEC 352", "Secure Computer Systems: Design Concepts", 4.0, -1.0, ["ECEC 302"]),
   # Class("CS 270", "Mathematical Foundations of Computer Science", 3.0, -1.0, ["CS 265"]),
@@ -128,4 +129,3 @@ for i, t in enumerate(terms):
 
 src = g.source
 print(src[:-1] + insert_ranks + src[-1:])
-
