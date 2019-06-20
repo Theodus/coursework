@@ -86,6 +86,8 @@ classes = [
   Class("TEMP GenEd", "General Education Electives", 4.0, -1.0, []),
   Class("TEMP COE", "ECE/COE/BMES Electives", 3.0, -1.0, []),
 
+  Class("ECEC-T 480", "ST: Advanced Topics in Computer Architecture", 3.0, -1.0, ["ECEC 355"]),
+
   # Class("ECEC 352", "Secure Computer Systems: Design Concepts", 4.0, -1.0, ["ECEC 302"]),
   # Class("CS 270", "Mathematical Foundations of Computer Science", 3.0, -1.0, ["CS 265"]),
   # Class("ECE 302", "Design with Embedded Processors", 3.0, -1.0, ["ECE 203"]),

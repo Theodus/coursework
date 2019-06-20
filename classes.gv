@@ -133,10 +133,12 @@ digraph Classes {
 	"ECE 492" -> "ECE 493"
 	"PHIL 207" [label=<PHIL 207 (3.0)<BR /><FONT POINT-SIZE="10">Symbolic Logic II</FONT>> color=orange]
 	"PHIL 111" -> "PHIL 207"
-	-1.0 [label="-1.0 (7.0)" shape=plaintext]
+	-1.0 [label="-1.0 (10.0)" shape=plaintext]
 	5.3 -> -1.0 [style=invis]
 	"TEMP GenEd" [label=<TEMP GenEd (4.0)<BR /><FONT POINT-SIZE="10">General Education Electives</FONT>> color=red]
 	"TEMP COE" [label=<TEMP COE (3.0)<BR /><FONT POINT-SIZE="10">ECE/COE/BMES Electives</FONT>> color=red]
+	"ECEC-T 480" [label=<ECEC-T 480 (3.0)<BR /><FONT POINT-SIZE="10">ST: Advanced Topics in Computer Architecture</FONT>> color=red]
+	"ECEC 355" -> "ECEC-T 480"
 	{rank=same; "0.0" "CS 190" "SPAN 101" "TGFE 099"}
 	{rank=same; "1.1" "CHEM 101" "ENGL 101" "ENGR 100" "ENGR 101" "ENGR 121" "MATH 121" "UNIV 101"}
 	{rank=same; "1.2" "CHEM 102" "CIVC 101" "ENGL 102" "ENGR 102" "ENGR 122" "MATH 122" "PHYS 101"}
@@ -150,5 +152,5 @@ digraph Classes {
 	{rank=same; "5.1" "ECE 491"}
 	{rank=same; "5.2" "ECE 492"}
 	{rank=same; "5.3" "ECE 493" "PHIL 207"}
-	{rank=same; "-1.0" "TEMP GenEd" "TEMP COE"}
+	{rank=same; "-1.0" "TEMP GenEd" "TEMP COE" "ECEC-T 480"}
 }
