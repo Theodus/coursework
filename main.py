@@ -67,15 +67,14 @@ classes = [
   Class("CS 370", "Operating Systems", 3.0, 4.1, ["ECEC 353"]),
   Class("CS 377", "Software Security", 3.0, 4.1, ["ECEC 353"]),
   Class("ECE 303", "ECE Laboratory", 3.0, 4.1, ["ECE 201", "ENGR 103"]),
-  Class("ECE 391", "Intro to Engr Design Methods", 1.0, 4.1, []),
   Class("ECEC 412", "Modern Processor Design", 3.0, 4.1, ["ECEC 355"]),
+  Class("PHYS 201", "Fundamentals of Physics III", 4.0, 4.1, ["PHYS 102", "MATH 122"]),
   # Junior 2
-  Class("CS 350 [WI]", "Software Design", 3.0, 4.2, ["CS 260", "CS 265"]),
+  Class("ECE 391", "Intro to Engr Design Methods", 1.0, 4.2, []),
   Class("ECEC-T 480", "ST: Advanced Topics in Computer Architecture", 3.0, 4.2, ["ECEC 355"]),
   Class("ECON 201", "Principles of Microeconomics", 4.0, 4.2, []),
   # Senior 1
   Class("ECE 491", "Senior Design Project I", 2.0, 5.1, ["ECE 391", "ECE 361"]),
-  Class("PHYS 201", "Fundamentals of Physics III", 4.0, 5.1, ["PHYS 102", "MATH 122"]),
   # Senior 2
   Class("ECE 492", "Senior Design Project II", 2.0, 5.2, ["ECE 491"]),
   # Senior 3

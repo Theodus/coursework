@@ -91,7 +91,7 @@ digraph Classes {
 	"ECEC 355" [label=<ECEC 355 (3.0)<BR /><FONT POINT-SIZE="10">Computer Architecture</FONT>> color=darkgreen]
 	"ECEC 302" -> "ECEC 355"
 	"PHIL 315" [label=<PHIL 315 (3.0)<BR /><FONT POINT-SIZE="10">Engineering Ethics</FONT>> color=darkgreen]
-	4.1 [label="4.1 (16.0)" shape=plaintext]
+	4.1 [label="4.1 (19.0)" shape=plaintext]
 	3.2 -> 4.1 [style=invis]
 	"CS 361" [label=<CS 361 (3.0)<BR /><FONT POINT-SIZE="10">Concurrent Programming</FONT>> color=orange]
 	"CS 260" -> "CS 361"
@@ -103,25 +103,22 @@ digraph Classes {
 	"ECE 303" [label=<ECE 303 (3.0)<BR /><FONT POINT-SIZE="10">ECE Laboratory</FONT>> color=orange]
 	"ECE 201" -> "ECE 303"
 	"ENGR 103" -> "ECE 303"
-	"ECE 391" [label=<ECE 391 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Engr Design Methods</FONT>> color=orange]
 	"ECEC 412" [label=<ECEC 412 (3.0)<BR /><FONT POINT-SIZE="10">Modern Processor Design</FONT>> color=orange]
 	"ECEC 355" -> "ECEC 412"
-	4.2 [label="4.2 (10.0)" shape=plaintext]
+	"PHYS 201" [label=<PHYS 201 (4.0)<BR /><FONT POINT-SIZE="10">Fundamentals of Physics III</FONT>> color=orange]
+	"PHYS 102" -> "PHYS 201"
+	"MATH 122" -> "PHYS 201"
+	4.2 [label="4.2 (8.0)" shape=plaintext]
 	4.1 -> 4.2 [style=invis]
-	"CS 350 [WI]" [label=<CS 350 [WI] (3.0)<BR /><FONT POINT-SIZE="10">Software Design</FONT>> color=orange]
-	"CS 260" -> "CS 350 [WI]"
-	"CS 265" -> "CS 350 [WI]"
+	"ECE 391" [label=<ECE 391 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Engr Design Methods</FONT>> color=orange]
 	"ECEC-T 480" [label=<ECEC-T 480 (3.0)<BR /><FONT POINT-SIZE="10">ST: Advanced Topics in Computer Architecture</FONT>> color=orange]
 	"ECEC 355" -> "ECEC-T 480"
 	"ECON 201" [label=<ECON 201 (4.0)<BR /><FONT POINT-SIZE="10">Principles of Microeconomics</FONT>> color=orange]
-	5.1 [label="5.1 (6.0)" shape=plaintext]
+	5.1 [label="5.1 (2.0)" shape=plaintext]
 	4.2 -> 5.1 [style=invis]
 	"ECE 491" [label=<ECE 491 (2.0)<BR /><FONT POINT-SIZE="10">Senior Design Project I</FONT>> color=orange]
 	"ECE 391" -> "ECE 491"
 	"ECE 361" -> "ECE 491"
-	"PHYS 201" [label=<PHYS 201 (4.0)<BR /><FONT POINT-SIZE="10">Fundamentals of Physics III</FONT>> color=orange]
-	"PHYS 102" -> "PHYS 201"
-	"MATH 122" -> "PHYS 201"
 	5.2 [label="5.2 (2.0)" shape=plaintext]
 	5.1 -> 5.2 [style=invis]
 	"ECE 492" [label=<ECE 492 (2.0)<BR /><FONT POINT-SIZE="10">Senior Design Project II</FONT>> color=orange]
@@ -150,9 +147,9 @@ digraph Classes {
 	{rank=same; "2.2" "ECE 201" "ECEC 201" "ENGR 202" "ENGR 232" "MATH 221"}
 	{rank=same; "3.1" "CS 265" "ECE 361" "ECEC 302" "ECEC 357" "ECES 301"}
 	{rank=same; "3.2" "CS 260" "ECEC 204" "ECEC I399" "ECEC 353" "ECEC 355" "PHIL 315"}
-	{rank=same; "4.1" "CS 361" "CS 370" "CS 377" "ECE 303" "ECE 391" "ECEC 412"}
-	{rank=same; "4.2" "CS 350 [WI]" "ECEC-T 480" "ECON 201"}
-	{rank=same; "5.1" "ECE 491" "PHYS 201"}
+	{rank=same; "4.1" "CS 361" "CS 370" "CS 377" "ECE 303" "ECEC 412" "PHYS 201"}
+	{rank=same; "4.2" "ECE 391" "ECEC-T 480" "ECON 201"}
+	{rank=same; "5.1" "ECE 491"}
 	{rank=same; "5.2" "ECE 492"}
 	{rank=same; "5.3" "ECE 493" "PHIL 207"}
 	{rank=same; "-1.0" "TEMP GenEd" "TEMP COE" "ECEC 402" "ECEC 413" "ECEC 414"}
