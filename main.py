@@ -63,16 +63,18 @@ classes = [
   Class("ECEC 355", "Computer Architecture", 3.0, 3.2, ["ECEC 302"]),
   Class("PHIL 315", "Engineering Ethics", 3.0, 3.2, []),
   # Junior 1
-  Class("CS 361", "Concurrent Programming", 3.0, 4.1, ["CS 260", "ECEC 355"]),
-  Class("CS 370", "Operating Systems", 3.0, 4.1, ["ECEC 353"]),
-  Class("CS 377", "Software Security", 3.0, 4.1, ["ECEC 353"]),
   Class("ECE 303", "ECE Laboratory", 3.0, 4.1, ["ECE 201", "ENGR 103"]),
   Class("ECEC 412", "Modern Processor Design", 3.0, 4.1, ["ECEC 355"]),
+  Class("ECON 201", "Principles of Microeconomics", 4.0, 4.1, []),
   Class("PHYS 201", "Fundamentals of Physics III", 4.0, 4.1, ["PHYS 102", "MATH 122"]),
+  Class("PSY 101 ", "General Psychology I", 3.0, 4.1, []),
   # Junior 2
+  Class("CS 303", "Algorithmic Number Theory and Cryptography", 3.0, 4.2, ["CS 260", "MATH 221", "ENGR 231"]),
+  Class("CS 361", "Concurrent Programming", 3.0, 4.2, ["CS 260", "ECEC 355"]),
+  Class("CS 370", "Operating Systems", 3.0, 4.2, ["ECEC 353"]),
+  Class("CS 377", "Software Security", 3.0, 4.2, ["ECEC 353"]),
   Class("ECE 391", "Intro to Engr Design Methods", 1.0, 4.2, []),
   Class("ECEC-T 480", "ST: Advanced Topics in Computer Architecture", 3.0, 4.2, ["ECEC 355"]),
-  Class("ECON 201", "Principles of Microeconomics", 4.0, 4.2, []),
   # Senior 1
   Class("ECE 491", "Senior Design Project I", 2.0, 5.1, ["ECE 391", "ECE 361"]),
   # Senior 2
