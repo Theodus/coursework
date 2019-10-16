@@ -70,12 +70,12 @@ classes = [
   Class("PSY 101 ", "General Psychology I", 3.0, 4.1, []),
   # Junior 2
   Class("CS 303", "Algorithmic Number Theory and Cryptography", 3.0, 4.2, ["CS 260", "MATH 221", "ENGR 231"]),
-  Class("CS 361", "Concurrent Programming", 3.0, 4.2, ["CS 260", "ECEC 355"]),
   Class("CS 370", "Operating Systems", 3.0, 4.2, ["ECEC 353"]),
-  Class("CS 377", "Software Security", 3.0, 4.2, ["ECEC 353"]),
   Class("ECE 391", "Intro to Engr Design Methods", 1.0, 4.2, []),
   Class("ECEC-T 480", "ST: Advanced Topics in Computer Architecture", 3.0, 4.2, ["ECEC 355"]),
   # Senior 1
+  # Class("CS 361", "Concurrent Programming", 3.0, 5.1, ["CS 260", "ECEC 355"]),
+  # Class("CS 377", "Software Security", 3.0, 5.1, ["ECEC 353"]),
   Class("ECE 491", "Senior Design Project I", 2.0, 5.1, ["ECE 391", "ECE 361"]),
   # Senior 2
   Class("ECE 492", "Senior Design Project II", 2.0, 5.2, ["ECE 491"]),
@@ -85,10 +85,6 @@ classes = [
   # Incomplete
   Class("TEMP GenEd", "General Education Electives", 4.0, -1.0, []),
   Class("TEMP COE", "ECE/COE/BMES Electives", 3.0, -1.0, []),
-
-  Class("ECEC 402", "Digital System Projects Embedded Design", 3.0, -1.0, ["ECEC 355"]),
-  Class("ECEC 413", "Intro to Parallel Computer Architecture", 3.0, -1.0, ["ECEC 355"]),
-  Class("ECEC 414", "High Performance Computing", 3.0, -1.0, ["ECEC 355"]),
 
   # Class("ECEC 352", "Secure Computer Systems: Design Concepts", 4.0, -1.0, ["ECEC 302"]),
   # Class("CS 270", "Mathematical Foundations of Computer Science", 3.0, -1.0, ["CS 265"]),
