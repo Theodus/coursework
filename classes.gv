@@ -93,16 +93,16 @@ digraph Classes {
 	"PHIL 315" [label=<PHIL 315 (3.0)<BR /><FONT POINT-SIZE="10">Engineering Ethics</FONT>> color=darkgreen]
 	4.1 [label="4.1 (17.0)" shape=plaintext]
 	3.2 -> 4.1 [style=invis]
-	"ECE 303" [label=<ECE 303 (3.0)<BR /><FONT POINT-SIZE="10">ECE Laboratory</FONT>> color=blue]
+	"ECE 303" [label=<ECE 303 (3.0)<BR /><FONT POINT-SIZE="10">ECE Laboratory</FONT>> color=darkgreen]
 	"ECE 201" -> "ECE 303"
 	"ENGR 103" -> "ECE 303"
-	"ECEC 412" [label=<ECEC 412 (3.0)<BR /><FONT POINT-SIZE="10">Modern Processor Design</FONT>> color=blue]
+	"ECEC 412" [label=<ECEC 412 (3.0)<BR /><FONT POINT-SIZE="10">Modern Processor Design</FONT>> color=darkgreen]
 	"ECEC 355" -> "ECEC 412"
-	"ECON 201" [label=<ECON 201 (4.0)<BR /><FONT POINT-SIZE="10">Principles of Microeconomics</FONT>> color=blue]
-	"PHYS 201" [label=<PHYS 201 (4.0)<BR /><FONT POINT-SIZE="10">Fundamentals of Physics III</FONT>> color=blue]
+	"ECON 201" [label=<ECON 201 (4.0)<BR /><FONT POINT-SIZE="10">Principles of Microeconomics</FONT>> color=darkgreen]
+	"PHYS 201" [label=<PHYS 201 (4.0)<BR /><FONT POINT-SIZE="10">Fundamentals of Physics III</FONT>> color=darkgreen]
 	"PHYS 102" -> "PHYS 201"
 	"MATH 122" -> "PHYS 201"
-	"PSY 101 " [label=<PSY 101  (3.0)<BR /><FONT POINT-SIZE="10">General Psychology I</FONT>> color=blue]
+	"PSY 101 " [label=<PSY 101  (3.0)<BR /><FONT POINT-SIZE="10">General Psychology I</FONT>> color=darkgreen]
 	4.2 [label="4.2 (10.0)" shape=plaintext]
 	4.1 -> 4.2 [style=invis]
 	"ECE 391" [label=<ECE 391 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Engr Design Methods</FONT>> color=blue]
