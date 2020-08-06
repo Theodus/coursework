@@ -74,31 +74,30 @@ classes = [
   Class("ECEC 474", "ASIC Design I", 3.0, 4.2, ["ECE 200", "ECEC 355"]),
   Class("CS 383", "Machine Learning", 3.0, 4.2, ["CS 260", "ENGR 231", "MATH 221", "ECE 361"]),
   # Senior 1
-  # Class("CS 303", "Algorithmic Number Theory and Cryptography", 3.0, 5.1, ["CS 260", "MATH 221", "ENGR 231"]),
-  # Class("CS 370", "Operating Systems", 3.0, 5.1, ["ECEC 353"]),
-  # Class("CS 361", "Concurrent Programming", 3.0, 5.1, ["CS 260", "ECEC 355"]),
-  # Class("CS 377", "Software Security", 3.0, 5.1, ["ECEC 353"]),
-  Class("ECE 491", "Senior Design Project I", 2.0, 5.1, ["ECE 391", "ECE 361"]),
+  Class("ECE 491", "Senior Design Project I", 3.0, 5.1, ["ECE 391", "ECE 361"]),
+  Class("ECE 370", "Electronic Devices", 3.0, 5.1, ["ECE 200"]),
   # Senior 2
-  Class("ECE 492", "Senior Design Project II", 2.0, 5.2, ["ECE 491"]),
+  Class("ECE 492", "Senior Design Project II", 3.0, 5.2, ["ECE 491"]),
   # Senior 3
   Class("ECE 493", "Senior Design Project III", 4.0, 5.3, ["ECE 492"]),
   Class("PHIL 207", "Symbolic Logic II", 3.0, 5.3, ["PHIL 111"]),
   # Incomplete
-  Class("TEMP COE", "ECE/COE/BMES Electives", 9.0, -1.0, []),
+  Class("TEMP COE", "ECE/COE/BMES Electives", 6.0, -1.0, []),
 
-  # Class("ECEC 352", "Secure Computer Systems: Design Concepts", 4.0, -1.0, ["ECEC 302"]),
-  # Class("CS 270", "Mathematical Foundations of Computer Science", 3.0, -1.0, ["CS 265"]),
-  # Class("ECE 302", "Design with Embedded Processors", 3.0, -1.0, ["ECE 203"]),
-  # Class("BLAW 360", "Intellectual Property and Cyber Law", 4.0, -1.0, []),
-  # Class("ECON 202", "Principles of Macroeconomics", 4.0, -1.0, ["ECON 201"]),
+  # CS 303, Algorithmic Number Theory and Cryptography
+  # CS 361, Concurrent Programming
+  # CS 370, Operating Systems
+  # CS 377, Software Security
+  # ECEC 352, Secure Computer Systems: Design Concepts
+  # BLAW 360, Intellectual Property and Cyber Law
+  # ECON 202, Principles of Macroeconomics
 ]
 
 g = Digraph(name="Classes")
 g.attr(newrank="true")
 
 terms = [0.0, 1.1, 1.2, 1.3, 2.1, 2.2, 3.1, 3.2, 4.1, 4.2, 5.1, 5.2, 5.3, -1.0]
-in_progress = [4.2]
+in_progress = [5.1]
 
 insert_ranks = ""
 

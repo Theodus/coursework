@@ -105,25 +105,27 @@ digraph Classes {
 	"PSY 101 " [label=<PSY 101  (3.0)<BR /><FONT POINT-SIZE="10">General Psychology I</FONT>> color=darkgreen]
 	4.2 [label="4.2 (10.0)" shape=plaintext]
 	4.1 -> 4.2 [style=invis]
-	"ECE 391" [label=<ECE 391 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Engr Design Methods</FONT>> color=blue]
-	"ECEC-T 480" [label=<ECEC-T 480 (3.0)<BR /><FONT POINT-SIZE="10">Advanced Topics in Computer Architecture</FONT>> color=blue]
+	"ECE 391" [label=<ECE 391 (1.0)<BR /><FONT POINT-SIZE="10">Intro to Engr Design Methods</FONT>> color=darkgreen]
+	"ECEC-T 480" [label=<ECEC-T 480 (3.0)<BR /><FONT POINT-SIZE="10">Advanced Topics in Computer Architecture</FONT>> color=darkgreen]
 	"ECEC 355" -> "ECEC-T 480"
-	"ECEC 474" [label=<ECEC 474 (3.0)<BR /><FONT POINT-SIZE="10">ASIC Design I</FONT>> color=blue]
+	"ECEC 474" [label=<ECEC 474 (3.0)<BR /><FONT POINT-SIZE="10">ASIC Design I</FONT>> color=darkgreen]
 	"ECE 200" -> "ECEC 474"
 	"ECEC 355" -> "ECEC 474"
-	"CS 383" [label=<CS 383 (3.0)<BR /><FONT POINT-SIZE="10">Machine Learning</FONT>> color=blue]
+	"CS 383" [label=<CS 383 (3.0)<BR /><FONT POINT-SIZE="10">Machine Learning</FONT>> color=darkgreen]
 	"CS 260" -> "CS 383"
 	"ENGR 231" -> "CS 383"
 	"MATH 221" -> "CS 383"
 	"ECE 361" -> "CS 383"
-	5.1 [label="5.1 (2.0)" shape=plaintext]
+	5.1 [label="5.1 (6.0)" shape=plaintext]
 	4.2 -> 5.1 [style=invis]
-	"ECE 491" [label=<ECE 491 (2.0)<BR /><FONT POINT-SIZE="10">Senior Design Project I</FONT>> color=orange]
+	"ECE 491" [label=<ECE 491 (3.0)<BR /><FONT POINT-SIZE="10">Senior Design Project I</FONT>> color=blue]
 	"ECE 391" -> "ECE 491"
 	"ECE 361" -> "ECE 491"
-	5.2 [label="5.2 (2.0)" shape=plaintext]
+	"ECE 370" [label=<ECE 370 (3.0)<BR /><FONT POINT-SIZE="10">Electronic Devices</FONT>> color=blue]
+	"ECE 200" -> "ECE 370"
+	5.2 [label="5.2 (3.0)" shape=plaintext]
 	5.1 -> 5.2 [style=invis]
-	"ECE 492" [label=<ECE 492 (2.0)<BR /><FONT POINT-SIZE="10">Senior Design Project II</FONT>> color=orange]
+	"ECE 492" [label=<ECE 492 (3.0)<BR /><FONT POINT-SIZE="10">Senior Design Project II</FONT>> color=orange]
 	"ECE 491" -> "ECE 492"
 	5.3 [label="5.3 (7.0)" shape=plaintext]
 	5.2 -> 5.3 [style=invis]
@@ -131,9 +133,9 @@ digraph Classes {
 	"ECE 492" -> "ECE 493"
 	"PHIL 207" [label=<PHIL 207 (3.0)<BR /><FONT POINT-SIZE="10">Symbolic Logic II</FONT>> color=orange]
 	"PHIL 111" -> "PHIL 207"
-	-1.0 [label="-1.0 (9.0)" shape=plaintext]
+	-1.0 [label="-1.0 (6.0)" shape=plaintext]
 	5.3 -> -1.0 [style=invis]
-	"TEMP COE" [label=<TEMP COE (9.0)<BR /><FONT POINT-SIZE="10">ECE/COE/BMES Electives</FONT>> color=red]
+	"TEMP COE" [label=<TEMP COE (6.0)<BR /><FONT POINT-SIZE="10">ECE/COE/BMES Electives</FONT>> color=red]
 	{rank=same; "0.0" "CS 190" "SPAN 101" "TGFE 099"}
 	{rank=same; "1.1" "CHEM 101" "ENGL 101" "ENGR 100" "ENGR 101" "ENGR 121" "MATH 121" "UNIV 101"}
 	{rank=same; "1.2" "CHEM 102" "CIVC 101" "ENGL 102" "ENGR 102" "ENGR 122" "MATH 122" "PHYS 101"}
@@ -144,7 +146,7 @@ digraph Classes {
 	{rank=same; "3.2" "CS 260" "ECEC 204" "ECEC I399" "ECEC 353" "ECEC 355" "PHIL 315"}
 	{rank=same; "4.1" "ECE 303" "ECEC 412" "ECON 201" "PHYS 201" "PSY 101 "}
 	{rank=same; "4.2" "ECE 391" "ECEC-T 480" "ECEC 474" "CS 383"}
-	{rank=same; "5.1" "ECE 491"}
+	{rank=same; "5.1" "ECE 491" "ECE 370"}
 	{rank=same; "5.2" "ECE 492"}
 	{rank=same; "5.3" "ECE 493" "PHIL 207"}
 	{rank=same; "-1.0" "TEMP COE"}
